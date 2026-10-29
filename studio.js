@@ -15,9 +15,8 @@ async function preview(r){
  const full=node('a','Tamamını '+r.platform+' üzerinde '+(r.platform==='Spotify'?'dinle':'izle')+' ↗');full.className='btn';full.href=r.url;full.target='_blank';full.rel='noopener noreferrer';full.style.marginTop='16px';
  dialog.append(close,title,note,host,full);dialog.showModal();
  let finished=false;
- const sound=node('button','🔊 Sesli başlat');sound.className='btn secondary';sound.style.margin='12px 8px 0 0';sound.hidden=true;dialog.insertBefore(sound,full);
 
- const finish=(message)=>{if(version!==generation||finished)return;finished=true;sound.hidden=true;note.textContent=message||'30 saniyelik tanıtım bitti. Tamamı için aşağıdaki platform bağlantısını kullanın.';full.focus()};
+ const finish=(message)=>{if(version!==generation||finished)return;finished=true;note.textContent=message||'30 saniyelik tanıtım bitti. Tamamı için aşağıdaki platform bağlantısını kullanın.';full.focus()};
  function frame(src,height){const f=node('iframe');f.src=src;f.title=r.platform+' — '+r.title;f.width='100%';f.height=String(height);f.style.cssText='border:0;border-radius:10px';f.allow='autoplay; encrypted-media; fullscreen; picture-in-picture';f.allowFullscreen=true;host.append(f);return f}
  try{
  const u=new URL(r.url);
@@ -29,16 +28,16 @@ async function preview(r){
   if(!/^[\w-]{11}$/.test(id||''))throw Error();
   const api=await getYT();if(version!==generation)return;
   const mount=node('div');host.append(mount);
-  const p=new api.Player(mount,{width:'100%',height:320,videoId:id,playerVars:{playsinline:1,autoplay:1,origin:location.origin},events:{onReady:e=>{if(version===generation&&!finished){e.target.unMute();e.target.setVolume(80);e.target.playVideo()}},onAutoplayBlocked:()=>{if(version===generation){sound.hidden=false;note.textContent='Sesli oynatmayı başlatmak için Sesli başlat düğmesine basın.'}},onStateChange:e=>{if(version!==generation)return;if(!finished&&e.data===1){if(p.isMuted()){p.pauseVideo();sound.hidden=false;note.textContent='Sesli oynatmak için Sesli başlat düğmesine basın.'}else{sound.hidden=true;note.textContent='30 saniyelik tanıtım oynatılıyor.'}}if(finished&&e.data===1)p.pauseVideo();if(e.data===0)finish('Tanıtım sona erdi. Tamamı için YouTube bağlantısını kullanın.')},onError:()=>{note.textContent='Bu video burada oynatılamıyor. YouTube bağlantısından açabilirsiniz.'}}});
-  sound.onclick=()=>{if(version===generation&&!finished){p.unMute();p.setVolume(80);p.playVideo();sound.hidden=true}};
+  const p=new api.Player(mount,{width:'100%',height:320,videoId:id,playerVars:{playsinline:1,autoplay:1,origin:location.origin},events:{onReady:e=>{if(version===generation&&!finished){e.target.unMute();e.target.setVolume(80);e.target.playVideo()}},onAutoplayBlocked:()=>{if(version===generation){note.textContent='Başlatmak için oynatıcının ▶ düğmesini kullanın.'}},onStateChange:e=>{if(version!==generation)return;if(!finished&&e.data===1){if(p.isMuted()){note.textContent='Sesi açmak için videodaki hoparlör simgesini kullanın.'}else{note.textContent='30 saniyelik tanıtım oynatılıyor.'}}if(finished&&e.data===1)p.pauseVideo();if(e.data===0)finish('Tanıtım sona erdi. Tamamı için YouTube bağlantısını kullanın.')},onError:()=>{note.textContent='Bu video burada oynatılamıyor. YouTube bağlantısından açabilirsiniz.'}}});
+  
   const timer=setInterval(()=>{if(version===generation&&!finished&&p.getCurrentTime&&p.getCurrentTime()>=30){p.pauseVideo();finish()}},200);
   cleanup=()=>{clearInterval(timer);p.destroy()};
  }else if(r.platform==='TikTok'){
   const id=u.pathname.match(/\/video\/(\d+)/)?.[1];if(!id)throw Error();
   const f=frame('https://www.tiktok.com/player/v1/'+id+'?autoplay=1&muted=0&loop=0',480);
-  const send=type=>f.contentWindow?.postMessage({'x-tiktok-player':true,type},'https://www.tiktok.com');sound.onclick=()=>{if(version===generation&&!finished){send('unMute');send('play');sound.hidden=true;note.textContent='30 saniyelik tanıtım başlatılıyor.'}};
+  const send=type=>f.contentWindow?.postMessage({'x-tiktok-player':true,type},'https://www.tiktok.com');
   const pause=()=>f.contentWindow?.postMessage({'x-tiktok-player':true,type:'pause'},'https://www.tiktok.com');
-  const listener=e=>{if(version!==generation||e.origin!=='https://www.tiktok.com'||e.source!==f.contentWindow||!e.data?.['x-tiktok-player'])return;const m=e.data;if(m.type==='onPlayerReady'&&!finished){send('unMute');send('play');sound.hidden=false}if(m.type==='onMute'&&!finished){if(m.value===true){pause();sound.hidden=false;note.textContent='Sesli oynatmak için Sesli başlat düğmesine basın.'}else{sound.hidden=true}}if(m.type==='onCurrentTime'&&Number(m.value?.currentTime)>=30){pause();finish()}if(m.type==='onStateChange'&&m.value===1&&finished)pause();if(m.type==='onStateChange'&&m.value===0)finish('Tanıtım sona erdi. Tamamı için TikTok bağlantısını kullanın.');if(m.type==='onPlayerError')note.textContent='Video burada oynatılamıyor. TikTok bağlantısından açabilirsiniz.'};
+  const listener=e=>{if(version!==generation||e.origin!=='https://www.tiktok.com'||e.source!==f.contentWindow||!e.data?.['x-tiktok-player'])return;const m=e.data;if(m.type==='onPlayerReady'&&!finished){send('unMute');send('play');}if(m.type==='onMute'&&!finished){if(m.value===true){note.textContent='Sesi açmak için videodaki hoparlör simgesini kullanın.'}else{}}if(m.type==='onCurrentTime'&&Number(m.value?.currentTime)>=30){pause();finish()}if(m.type==='onStateChange'&&m.value===1&&finished)pause();if(m.type==='onStateChange'&&m.value===0)finish('Tanıtım sona erdi. Tamamı için TikTok bağlantısını kullanın.');if(m.type==='onPlayerError')note.textContent='Video burada oynatılamıyor. TikTok bağlantısından açabilirsiniz.'};
   window.addEventListener('message',listener);cleanup=()=>{window.removeEventListener('message',listener);f.remove()};
  }else if(r.platform==='Instagram'){
   const path=u.pathname.match(/^\/(?:reel|p|tv)\/([A-Za-z0-9_-]+)\/?$/);if(!path)throw Error();
