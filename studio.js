@@ -1,1 +1,39 @@
-(()=>{'use strict';const list=document.getElementById('library-list'),panel=document.getElementById('spotlight-content');function node(tag,text){const e=document.createElement(tag);if(text)e.textContent=text;return e}function valid(r){try{const u=new URL(r.url);return u.protocol==='https:'&&['open.spotify.com','www.youtube.com','youtube.com','youtu.be','www.tiktok.com','www.instagram.com'].includes(u.hostname)}catch{return false}}function picture(r){const s=String(r.image||'');return /^assets\/(instagram|tiktok)\/[a-z0-9-]+\.(jpg|png|webp)$/.test(s)||/^https:\/\/(i.scdn.co|i.ytimg.com)\//.test(s)?s:''}function select(r){panel.replaceChildren();const src=picture(r);if(src){const im=node('img');im.src=src;im.alt=r.title;panel.append(im)}panel.append(node('h3',r.title),node('p','EoTeN AI Music Production · '+r.platform));const a=node('a',r.platform+' üzerinde aç ↗');a.className='btn';a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';panel.append(a)}document.querySelectorAll('[data-platform]').forEach(b=>b.addEventListener('click',()=>{const p=document.getElementById('catalog-platform');if(![...p.options].some(o=>o.value===b.dataset.platform))return;p.value=b.dataset.platform;p.dispatchEvent(new Event('change'));document.querySelectorAll('[data-platform]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))}));fetch('catalog.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{const items=d.items.filter(valid),albums=items.filter(r=>r.platform==='Spotify');select(albums.find(r=>r.title==='Seninle Tamam')||items[0]);for(const r of albums.slice(0,12)){const b=node('button');b.className='library-item';const src=picture(r);if(src){const i=node('img');i.src=src;i.alt='';i.loading='lazy';b.append(i)}const t=node('span',r.title);t.append(node('small','Albüm / Single · EoTeN'));b.append(t);b.addEventListener('click',()=>{select(r);if(innerWidth<=1200)window.open(r.url,'_blank','noopener,noreferrer')});list.append(b)}const grid=document.getElementById('catalog-grid');grid.addEventListener('click',e=>{const a=e.target.closest('a');if(a){const r=items.find(r=>r.url===a.href);if(r)select(r)}})}).catch(()=>{panel.textContent='Yayın ayrıntıları şu anda yüklenemedi.'})})();
+(()=>{'use strict';const list=document.getElementById('library-list'),panel=document.getElementById('spotlight-content');function node(tag,text){const e=document.createElement(tag);if(text)e.textContent=text;return e}function valid(r){try{const u=new URL(r.url);return u.protocol==='https:'&&['open.spotify.com','www.youtube.com','youtube.com','youtu.be','www.tiktok.com','www.instagram.com'].includes(u.hostname)}catch{return false}}function picture(r){const s=String(r.image||'');return /^assets\/(instagram|tiktok)\/[a-z0-9-]+\.(jpg|png|webp)$/.test(s)||/^https:\/\/(i.scdn.co|i.ytimg.com)\//.test(s)?s:''}
+let spotifyAPI, apiPromise, controller, generation=0;
+function getAPI(){
+ if(spotifyAPI)return Promise.resolve(spotifyAPI);
+ if(apiPromise)return apiPromise;
+ apiPromise=new Promise((resolve,reject)=>{
+  const timer=setTimeout(()=>reject(Error('Spotify oynatıcısı yüklenemedi.')),15000);
+  window.onSpotifyIframeApiReady=api=>{clearTimeout(timer);spotifyAPI=api;resolve(api)};
+  const s=document.createElement('script');s.src='https://open.spotify.com/embed/iframe-api/v1';s.onerror=()=>{clearTimeout(timer);reject(Error('Spotify bağlantısı kurulamadı.'))};document.body.append(s);
+ });return apiPromise;
+}
+const dialog=node('dialog');dialog.setAttribute('aria-label','Spotify şarkı tanıtımı');
+dialog.style.cssText='background:#181818;color:white;border:1px solid #555;border-radius:16px;width:min(92vw,520px);padding:24px;box-shadow:0 20px 80px #000b';
+document.body.append(dialog);
+function stopPreview(){generation++;if(controller){controller.destroy();controller=null}dialog.close()}
+dialog.addEventListener('cancel',e=>{e.preventDefault();stopPreview()});
+async function preview(r){
+ stopPreview();const version=generation;dialog.replaceChildren();
+ const close=node('button','Kapat ×');close.className='btn secondary';close.style.float='right';close.onclick=stopPreview;
+ const title=node('h2',r.title);title.style.cssText='font-size:22px;padding-top:52px';
+ const note=node('p','15 saniyelik tanıtım · Başlatmak için Spotify oynatıcısındaki ▶ düğmesine basın.');note.setAttribute('role','status');
+ const host=node('div');
+ const full=node('a','Tamamını Spotify’da dinle ↗');full.className='btn';full.href=r.url;full.target='_blank';full.rel='noopener noreferrer';full.style.marginTop='16px';
+ dialog.append(close,title,note,host,full);dialog.showModal();
+ try{
+  const api=await getAPI();if(version!==generation)return;
+  api.createController(host,{url:r.url,width:'100%',height:152},c=>{
+   if(version!==generation){c.destroy();return}controller=c;let finished=false;
+   c.addListener('playback_update',event=>{
+    if(version!==generation)return;
+    const state=event.data;
+    if(finished){if(!state.isPaused)c.pause();return}
+    if(state.position>=15000){finished=true;c.pause();note.textContent='15 saniyelik tanıtım bitti. Şarkının tamamını dinlemek için Spotify’da açın.';full.focus()}
+   });
+  });
+ }catch(err){if(version===generation)note.textContent='Oynatıcı yüklenemedi. Aşağıdaki bağlantıyla Spotify’da dinleyebilirsiniz.'}
+}
+
+function select(r){panel.replaceChildren();const src=picture(r);if(src){const im=node('img');im.src=src;im.alt=r.title;panel.append(im)}panel.append(node('h3',r.title),node('p','EoTeN AI Music Production · '+r.platform));const a=node('a',r.platform+' üzerinde aç ↗');a.className='btn';a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';panel.append(a);if(r.platform==='Spotify'){const play=node('button','▶ 15 saniye dinle');play.className='btn';play.style.marginRight='8px';play.onclick=()=>preview(r);panel.insertBefore(play,a)}}document.querySelectorAll('[data-platform]').forEach(b=>b.addEventListener('click',()=>{const p=document.getElementById('catalog-platform');if(![...p.options].some(o=>o.value===b.dataset.platform))return;p.value=b.dataset.platform;p.dispatchEvent(new Event('change'));document.querySelectorAll('[data-platform]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))}));fetch('catalog.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{const items=d.items.filter(valid),albums=items.filter(r=>r.platform==='Spotify');select(albums.find(r=>r.title==='Seninle Tamam')||items[0]);for(const r of albums.slice(0,12)){const b=node('button');b.className='library-item';const src=picture(r);if(src){const i=node('img');i.src=src;i.alt='';i.loading='lazy';b.append(i)}const t=node('span',r.title);t.append(node('small','Albüm / Single · EoTeN'));b.append(t);b.addEventListener('click',()=>{select(r);if(r.platform==='Spotify')preview(r)});list.append(b)}const grid=document.getElementById('catalog-grid');grid.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;const r=items.find(r=>r.url===a.href);if(r&&r.platform==='Spotify'){e.preventDefault();e.stopImmediatePropagation();select(r);preview(r)}},true);grid.addEventListener('click',e=>{const a=e.target.closest('a');if(a){const r=items.find(r=>r.url===a.href);if(r)select(r)}})}).catch(()=>{panel.textContent='Yayın ayrıntıları şu anda yüklenemedi.'})})();
