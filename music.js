@@ -42,17 +42,19 @@
   function safeImage(url, p) {
     try {
       const u = new URL(url);
-      if (u.protocol !== 'https:' || u.username || u.password ||
-          /(?:access_token|refresh_token|client_secret)=/i.test(u.search)) return '';
+      if (u.protocol !== 'https:' || u.username || u.password || u.port) return '';
       const host = u.hostname.toLowerCase();
+      const tikTokCdn = /^p\d{1,3}(?:-[a-z0-9-]+)?\.tiktokcdn(?:-[a-z0-9-]+)?\.com$/.test(host);
+      // TikTok CDN image links may contain a *signed CDN* parameter named
+      // refresh_token. It is not an OAuth credential. Only allow it on TikTok CDN.
+      for (const [key, val] of u.searchParams) {
+        const name = key.toLowerCase();
+        if (['access_token', 'client_secret', 'auth_token', 'authorization', 'id_token'].includes(name)) return '';
+        if (name === 'refresh_token' && (!tikTokCdn || /^rft[._]/i.test(val))) return '';
+      }
       if (p === 'Spotify' && host === 'i.scdn.co' && u.pathname.startsWith('/image/')) return u.toString();
       if (p === 'YouTube' && host === 'i.ytimg.com' && u.pathname.startsWith('/vi/')) return u.toString();
-      // TikTok's authenticated Display API returns short-lived covers from changing CDN hosts.
-      // Only permit public HTTPS image hosts; never private/local hosts or token parameters.
-      if (p === 'TikTok' && host.includes('.') && /^[a-z0-9.-]+$/.test(host) &&
-          !host.includes('..') && !/^(?:[0-9.]+|localhost)$/.test(host) &&
-          !/(?:\.localhost|\.local|\.internal|\.test|\.invalid|\.onion)$/.test(host) &&
-          !/^\[/.test(host) && !/:[0-9]+$/.test(u.host)) return u.toString();
+      if (p === 'TikTok' && tikTokCdn) return u.toString();
     } catch (_) { /* Image unavailable: keep the platform icon. */ }
     return '';
   }
