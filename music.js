@@ -40,6 +40,7 @@
   }
   // Cover URLs are produced by the local exporter. No access tokens in browser code.
   function safeImage(url, p) {
+    if (p === 'Instagram' && /^assets\/instagram\/instagram-[0-9a-f]{14,64}\.(?:jpg|png|webp)$/i.test(String(url || ''))) return url;
     try {
       const u = new URL(url);
       if (u.protocol !== 'https:' || u.username || u.password || u.port) return '';
@@ -54,7 +55,6 @@
       }
       if (p === 'Spotify' && host === 'i.scdn.co' && u.pathname.startsWith('/image/')) return u.toString();
       if (p === 'YouTube' && host === 'i.ytimg.com' && u.pathname.startsWith('/vi/')) return u.toString();
-      if (p === 'Instagram' && host === 'scontent.cdninstagram.com' && u.pathname.startsWith('/v/')) return u.toString();
       if (p === 'TikTok' && tikTokCdn) return u.toString();
     } catch (_) { /* Image unavailable: keep the platform icon. */ }
     return '';
