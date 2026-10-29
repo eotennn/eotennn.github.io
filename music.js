@@ -41,6 +41,7 @@
   // Cover URLs are produced by the local exporter. No access tokens in browser code.
   function safeImage(url, p) {
     if (p === 'Instagram' && /^assets\/instagram\/instagram-[0-9a-f]{14,64}\.(?:jpg|png|webp)$/i.test(String(url || ''))) return url;
+    if (p === 'TikTok' && /^assets\/tiktok\/tiktok-[0-9a-f]{14,64}\.jpg$/i.test(String(url || ''))) return url;
     try {
       const u = new URL(url);
       if (u.protocol !== 'https:' || u.username || u.password || u.port) return '';
