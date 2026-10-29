@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-29T21:40:42+00:00",
+  "generatedAt": "2026-10-29T22:35:18+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
     {
@@ -24,6 +24,17 @@
       "image": "assets/tiktok/tiktok-fdecce9fe835baa02c0a8b3b.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-e45889394248211f95",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Seni Çok Özlüyorum (Acoustic Solo Guitar)",
+      "date": "2026-10-22",
+      "url": "https://music.youtube.com/watch?v=-EF6fJ1SS08",
+      "image": "https://i.ytimg.com/vi/-EF6fJ1SS08/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-9e48c358eee13907ac",
@@ -303,6 +314,17 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-43360392159b802a8a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Seninle Tamam",
+      "date": "2026-09-24",
+      "url": "https://music.youtube.com/watch?v=GUie3Zk9eqg",
+      "image": "https://i.ytimg.com/vi/GUie3Zk9eqg/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-5c3fae6b48a489b3dd",
       "platform": "TikTok",
       "type": "video",
@@ -336,6 +358,28 @@
       "image": "assets/tiktok/tiktok-998ea439b9a2e6b5febee702.jpg",
       "songCandidate": "Seninle Tamam",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-b7332b6689cb3d8e2a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Sevmek Yetmedi (Female Vokal)",
+      "date": "2026-09-22",
+      "url": "https://music.youtube.com/watch?v=Mh9SPMyiIYM",
+      "image": "https://i.ytimg.com/vi/Mh9SPMyiIYM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-c38023592fe69b0862",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Sevmek Yetmedi",
+      "date": "2026-09-22",
+      "url": "https://music.youtube.com/watch?v=YY7czmI2NcM",
+      "image": "https://i.ytimg.com/vi/YY7czmI2NcM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-1375a9c9a49cf1096d",
@@ -386,6 +430,17 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-df96c707ca1e7ddc80",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Ben Öyle Demek İstemedim",
+      "date": "2026-09-21",
+      "url": "https://music.youtube.com/watch?v=xZsumHFWEGU",
+      "image": "https://i.ytimg.com/vi/xZsumHFWEGU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "youtube-97808501c050c24b21",
       "platform": "YouTube",
       "type": "video",
@@ -432,6 +487,28 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-14ad498bcab38ea763",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Remix Version)",
+      "date": "2026-09-19",
+      "url": "https://music.youtube.com/watch?v=sydAr98C4E8",
+      "image": "https://i.ytimg.com/vi/sydAr98C4E8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-e72e788e07201ace3f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Adını Fısıldayan Rüzgâr",
+      "date": "2026-09-18",
+      "url": "https://music.youtube.com/watch?v=2jaAF4fxpks",
+      "image": "https://i.ytimg.com/vi/2jaAF4fxpks/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-b19e542fb49f1b0432",
       "platform": "TikTok",
       "type": "video",
@@ -441,6 +518,17 @@
       "image": "assets/tiktok/tiktok-b19e542fb49f1b0432f3c1a7.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-ef5cc26ce8809aefd5",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Anatolian Rock Version)",
+      "date": "2026-09-17",
+      "url": "https://music.youtube.com/watch?v=2ngis65tStU",
+      "image": "https://i.ytimg.com/vi/2ngis65tStU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "spotify-album-2P3Aygtofvp3AOfOCrviq1",
@@ -511,6 +599,17 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-976560959e4d0bc7b2",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Rock Version)",
+      "date": "2026-09-09",
+      "url": "https://music.youtube.com/watch?v=PvKkZyHwZGw",
+      "image": "https://i.ytimg.com/vi/PvKkZyHwZGw/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "instagram-64ff1e28de8cf92ae6",
       "platform": "Instagram",
       "type": "video",
@@ -520,6 +619,17 @@
       "image": "assets/instagram/instagram-64ff1e28de8cf92ae6.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-2d86732fa962cea89b",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Seviyorsan İncitme",
+      "date": "2026-09-06",
+      "url": "https://music.youtube.com/watch?v=Grep1CytzKs",
+      "image": "https://i.ytimg.com/vi/Grep1CytzKs/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-1e7124f84d52856b05",
@@ -577,6 +687,72 @@
       "image": "assets/tiktok/tiktok-d561e4bbef0f88f2c42b7df4.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-f0353740731407cee5",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Sev De Geçme",
+      "date": "2026-09-04",
+      "url": "https://music.youtube.com/watch?v=70aQSAKlkzQ",
+      "image": "https://i.ytimg.com/vi/70aQSAKlkzQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-bd8df3794dccc6b54a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Sana Geç Kaldım",
+      "date": "2026-09-04",
+      "url": "https://music.youtube.com/watch?v=uEfuH5LTJAE",
+      "image": "https://i.ytimg.com/vi/uEfuH5LTJAE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-21a5fd86952f1775a7",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Kaderin De Suçu Var",
+      "date": "2026-09-04",
+      "url": "https://music.youtube.com/watch?v=TsU_GGfxl9I",
+      "image": "https://i.ytimg.com/vi/TsU_GGfxl9I/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-dd111022cd745a6431",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Biraz Kaldın İçimde",
+      "date": "2026-09-04",
+      "url": "https://music.youtube.com/watch?v=5JYtVuT9rCI",
+      "image": "https://i.ytimg.com/vi/5JYtVuT9rCI/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-902cca97d79092fe45",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Beni Böyle Bırakma",
+      "date": "2026-09-04",
+      "url": "https://music.youtube.com/watch?v=HxV4BD23NLA",
+      "image": "https://i.ytimg.com/vi/HxV4BD23NLA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-e0928a53b2435d3f3e",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Benden Sonra",
+      "date": "2026-09-04",
+      "url": "https://music.youtube.com/watch?v=CwjnAmwLkT4",
+      "image": "https://i.ytimg.com/vi/CwjnAmwLkT4/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-ea7f7ef401d6326d61",
@@ -672,6 +848,17 @@
       "image": "assets/tiktok/tiktok-9864569adf8e64000453063f.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-8744dd600d1550bb1b",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Anatolian Rock Version)",
+      "date": "2026-09-02",
+      "url": "https://music.youtube.com/watch?v=eRW67mm678c",
+      "image": "https://i.ytimg.com/vi/eRW67mm678c/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-d67cae68f57a3c5b27",
@@ -795,6 +982,39 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-fb2e36feddf7c18867",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yarına Sen Varsın (Acoustic Version v2)",
+      "date": "2026-08-31",
+      "url": "https://music.youtube.com/watch?v=d3Y3TCpg3XM",
+      "image": "https://i.ytimg.com/vi/d3Y3TCpg3XM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-cf47d5cce5dbbe0ee9",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Dance Türkü Version)",
+      "date": "2026-08-26",
+      "url": "https://music.youtube.com/watch?v=jAQl_G6bN5I",
+      "image": "https://i.ytimg.com/vi/jAQl_G6bN5I/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-5b47711fdec96eff41",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi",
+      "date": "2026-08-24",
+      "url": "https://music.youtube.com/watch?v=WI0-bgaW6Sg",
+      "image": "https://i.ytimg.com/vi/WI0-bgaW6Sg/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-f1ffedb74f6c1a41ea",
       "platform": "TikTok",
       "type": "video",
@@ -815,6 +1035,72 @@
       "image": "assets/instagram/instagram-9b3853b4f0d94747b1.jpg",
       "songCandidate": "Seviyorsan İncitme",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-53107be6579f2d6eeb",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Vakit Varken",
+      "date": "2026-08-18",
+      "url": "https://music.youtube.com/watch?v=EaCPnwot1w4",
+      "image": "https://i.ytimg.com/vi/EaCPnwot1w4/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-5f61be8161f397c6a6",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Taşı Atmadan Önce",
+      "date": "2026-08-18",
+      "url": "https://music.youtube.com/watch?v=t95HA_mzI9I",
+      "image": "https://i.ytimg.com/vi/t95HA_mzI9I/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-4166319402cbde7099",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Seviyorsan İncitme",
+      "date": "2026-08-18",
+      "url": "https://music.youtube.com/watch?v=Xm8YP8-gA6M",
+      "image": "https://i.ytimg.com/vi/Xm8YP8-gA6M/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-f1748fd564e6578bb7",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "El Ne Derse Desin",
+      "date": "2026-08-18",
+      "url": "https://music.youtube.com/watch?v=h0ZNDqfjc-E",
+      "image": "https://i.ytimg.com/vi/h0ZNDqfjc-E/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-7b487ca5d2999de0da",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Gün Sen De Anlarsın",
+      "date": "2026-08-18",
+      "url": "https://music.youtube.com/watch?v=5RcVlCDp8J0",
+      "image": "https://i.ytimg.com/vi/5RcVlCDp8J0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-929840bdac6e2b9120",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Adamlık Cebe Sığmaz",
+      "date": "2026-08-18",
+      "url": "https://music.youtube.com/watch?v=CS4JPr0gARM",
+      "image": "https://i.ytimg.com/vi/CS4JPr0gARM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-5c9a5c5d1a0dee8103",
@@ -923,6 +1209,50 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-01db8ae172df25697d",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Folk Version)",
+      "date": "2026-08-14",
+      "url": "https://music.youtube.com/watch?v=GZa1dJMwa2M",
+      "image": "https://i.ytimg.com/vi/GZa1dJMwa2M/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-17e2c3849313f5b222",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yarına Sen Varsın (Anatolian Rock Duet Version)",
+      "date": "2026-08-13",
+      "url": "https://music.youtube.com/watch?v=D4AQH4BoXNM",
+      "image": "https://i.ytimg.com/vi/D4AQH4BoXNM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-e60181c8d2287c0e87",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Anatolian Psychedelic Rock Version)",
+      "date": "2026-08-13",
+      "url": "https://music.youtube.com/watch?v=kgtxE1mfNH8",
+      "image": "https://i.ytimg.com/vi/kgtxE1mfNH8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-696b21c008b84a32f0",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Demir Dövülür",
+      "date": "2026-08-13",
+      "url": "https://music.youtube.com/watch?v=9hdCA-Oql_Y",
+      "image": "https://i.ytimg.com/vi/9hdCA-Oql_Y/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-2469a100f39e4e1cd7",
       "platform": "TikTok",
       "type": "video",
@@ -967,6 +1297,116 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-233e2ab46fc6314c43",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yarım Kalan Ne Varsa",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=hAzEuH8pYKo",
+      "image": "https://i.ytimg.com/vi/hAzEuH8pYKo/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-b2b17447230625ccdd",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yak Gel Bu Gece",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=jTY1L_Y-U7k",
+      "image": "https://i.ytimg.com/vi/jTY1L_Y-U7k/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-a40e7eaba36781dd4d",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Sana Çıkıyor Yollar",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=3ZISPTEIugU",
+      "image": "https://i.ytimg.com/vi/3ZISPTEIugU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-06e45226d0a03f8475",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Lacivert Gece",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=57uO-7YA4Ac",
+      "image": "https://i.ytimg.com/vi/57uO-7YA4Ac/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-4855f636b0c859b000",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Kırık Pusula",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=iMZeTjM2rQ0",
+      "image": "https://i.ytimg.com/vi/iMZeTjM2rQ0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-81545518a40e559e4a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Kır Beni, Yine Severim",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=pyNTpEQd2Tc",
+      "image": "https://i.ytimg.com/vi/pyNTpEQd2Tc/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-a0ea660e902321b775",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "İçimde Sonsuz",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=hRid1GyOKZ8",
+      "image": "https://i.ytimg.com/vi/hRid1GyOKZ8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-51423a3d58aa3844fb",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Gece Bizi Hatırlar",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=sJmnNIYGcqA",
+      "image": "https://i.ytimg.com/vi/sJmnNIYGcqA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-8e269d4f34b6421a29",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bu Kalp Vazgeçmiyor",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=xFb-6tIAL9A",
+      "image": "https://i.ytimg.com/vi/xFb-6tIAL9A/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-5cc0247adac773d0a1",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Alev Alır Suskunluk",
+      "date": "2026-08-12",
+      "url": "https://music.youtube.com/watch?v=-bSz5ku1mdU",
+      "image": "https://i.ytimg.com/vi/-bSz5ku1mdU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-637dc683247921f98f",
       "platform": "TikTok",
       "type": "video",
@@ -976,6 +1416,17 @@
       "image": "assets/tiktok/tiktok-637dc683247921f98f27095d.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-35052ecf5af47d5bc0",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Anatolian Psychedelic Rock Male Version)",
+      "date": "2026-08-11",
+      "url": "https://music.youtube.com/watch?v=o59a3dosB6Y",
+      "image": "https://i.ytimg.com/vi/o59a3dosB6Y/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "spotify-album-0q6B2QUQtKu8dIRYM7i8Uf",
@@ -1022,6 +1473,72 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-d9be93c2a9dc94ff0a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Ömür Dediğin",
+      "date": "2026-08-07",
+      "url": "https://music.youtube.com/watch?v=Qm3bWemM0So",
+      "image": "https://i.ytimg.com/vi/Qm3bWemM0So/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-1267d625f4f213521a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rüzgâr Benden Önce",
+      "date": "2026-08-07",
+      "url": "https://music.youtube.com/watch?v=dFljTIAbeJk",
+      "image": "https://i.ytimg.com/vi/dFljTIAbeJk/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-6e3149387cbbecf87b",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Gecenin Öte Yanı",
+      "date": "2026-08-07",
+      "url": "https://music.youtube.com/watch?v=ARffewdQrvo",
+      "image": "https://i.ytimg.com/vi/ARffewdQrvo/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-2206ea7e6a515c2fad",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Benden Geçen Zaman (Solo Version)",
+      "date": "2026-08-07",
+      "url": "https://music.youtube.com/watch?v=rBiwpj1TcrI",
+      "image": "https://i.ytimg.com/vi/rBiwpj1TcrI/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-86e374f0cc0e08775f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Benden Geçen Zaman",
+      "date": "2026-08-07",
+      "url": "https://music.youtube.com/watch?v=pJAcm1PgWFY",
+      "image": "https://i.ytimg.com/vi/pJAcm1PgWFY/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-8171cc8ba55487e69e",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Benden Evvel",
+      "date": "2026-08-07",
+      "url": "https://music.youtube.com/watch?v=BS0qAbVADOQ",
+      "image": "https://i.ytimg.com/vi/BS0qAbVADOQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "spotify-album-3Ze67WjGWGTXwR3qTpbJ0E",
       "platform": "Spotify",
       "type": "album",
@@ -1040,6 +1557,17 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-e989305e9dae991b25",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geri Dönüş Yok (Glam Punk Rock Version)",
+      "date": "2026-08-02",
+      "url": "https://music.youtube.com/watch?v=5-79_urvRbE",
+      "image": "https://i.ytimg.com/vi/5-79_urvRbE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-c91f1fc481f5fa4030",
       "platform": "TikTok",
       "type": "video",
@@ -1049,6 +1577,39 @@
       "image": "assets/tiktok/tiktok-c91f1fc481f5fa4030226f3f.jpg",
       "songCandidate": "Alev Alır Suskunluk",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-27da5a0337ced163b6",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Sözüm Sana",
+      "date": "2026-08-01",
+      "url": "https://music.youtube.com/watch?v=a2NL3dbog9Y",
+      "image": "https://i.ytimg.com/vi/a2NL3dbog9Y/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-9d9956e8fec73520f9",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Hâlâ Sen",
+      "date": "2026-08-01",
+      "url": "https://music.youtube.com/watch?v=LnEdEUQ7OKc",
+      "image": "https://i.ytimg.com/vi/LnEdEUQ7OKc/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-b01b2be64ffe1dec80",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Alev Alır Suskunluk",
+      "date": "2026-08-01",
+      "url": "https://music.youtube.com/watch?v=rX8UL0K6a_U",
+      "image": "https://i.ytimg.com/vi/rX8UL0K6a_U/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "spotify-album-11J5aK8uRM6PUcd6MhLDDY",
@@ -1114,6 +1675,17 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-414777969033b5914c",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Daha Baştan (Club Mix Version)",
+      "date": "2026-07-26",
+      "url": "https://music.youtube.com/watch?v=7au9iosU1b8",
+      "image": "https://i.ytimg.com/vi/7au9iosU1b8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-1cb83e2d11dbd6690b",
       "platform": "TikTok",
       "type": "video",
@@ -1136,6 +1708,94 @@
         "Bir Daha Baştan - Club Mix Version"
       ],
       "kind": "Müzik yayını"
+    },
+    {
+      "id": "youtube music-a8b79dab60a15ed83a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yine Sana Çıktı Yolum (Anatolian Rock Version)",
+      "date": "2026-07-20",
+      "url": "https://music.youtube.com/watch?v=iAjC9BpFaHM",
+      "image": "https://i.ytimg.com/vi/iAjC9BpFaHM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-895b10310901567500",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yine Sana Çıktı Yolum (Acoustic Version)",
+      "date": "2026-07-20",
+      "url": "https://music.youtube.com/watch?v=9Mk48uBSYwo",
+      "image": "https://i.ytimg.com/vi/9Mk48uBSYwo/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-7d37c6c73b8097ef8b",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Original Version)",
+      "date": "2026-07-20",
+      "url": "https://music.youtube.com/watch?v=nxb6XiOSkyk",
+      "image": "https://i.ytimg.com/vi/nxb6XiOSkyk/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-3797fba3fa015b123d",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Anatolian Psychedelic Rock Female Version)",
+      "date": "2026-07-20",
+      "url": "https://music.youtube.com/watch?v=rLjxdNqU2MU",
+      "image": "https://i.ytimg.com/vi/rLjxdNqU2MU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-2c64a8aef82430b06f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Anatolian Psychedelic Rock Duet Version)",
+      "date": "2026-07-20",
+      "url": "https://music.youtube.com/watch?v=BMND-yTja5w",
+      "image": "https://i.ytimg.com/vi/BMND-yTja5w/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-7c8cf78ea499e201b0",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Anatolian Psychedelic Rock Concert Version)",
+      "date": "2026-07-20",
+      "url": "https://music.youtube.com/watch?v=v6XZEteYU_E",
+      "image": "https://i.ytimg.com/vi/v6XZEteYU_E/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-3d17d912eb388bb938",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Anatolian Psychedelic Rock Concert Female Version)",
+      "date": "2026-07-20",
+      "url": "https://music.youtube.com/watch?v=EF_iW1IkjYo",
+      "image": "https://i.ytimg.com/vi/EF_iW1IkjYo/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-5fd34807bc08af341d",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (70s Anatolian Rock Version)",
+      "date": "2026-07-20",
+      "url": "https://music.youtube.com/watch?v=dWCgbRbkcV0",
+      "image": "https://i.ytimg.com/vi/dWCgbRbkcV0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-f407e1d6ee6485d806",
@@ -1169,6 +1829,72 @@
       "image": "assets/tiktok/tiktok-632f1a757f92c7ce48ef0a93.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-0bb62885adcb097902",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yarına Sen Varsın (Duet Concert Version)",
+      "date": "2026-07-19",
+      "url": "https://music.youtube.com/watch?v=_R725BQA5Tw",
+      "image": "https://i.ytimg.com/vi/_R725BQA5Tw/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-9c042a7bb265d279e2",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yarına Sen Varsın (Concert Version)",
+      "date": "2026-07-19",
+      "url": "https://music.youtube.com/watch?v=cejSZ7C6Z_s",
+      "image": "https://i.ytimg.com/vi/cejSZ7C6Z_s/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-f58041e47c7bc326ec",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yarına Sen Varsın (Concert Version v2)",
+      "date": "2026-07-19",
+      "url": "https://music.youtube.com/watch?v=uCUMpAvR39c",
+      "image": "https://i.ytimg.com/vi/uCUMpAvR39c/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-68a406976cb305a011",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yarına Sen Varsın (Anatolian Acoustic Version)",
+      "date": "2026-07-19",
+      "url": "https://music.youtube.com/watch?v=jXLozXXHtP0",
+      "image": "https://i.ytimg.com/vi/jXLozXXHtP0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-4b2749358a327a85f4",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yarına Sen Varsın (Acoustic Version)",
+      "date": "2026-07-19",
+      "url": "https://music.youtube.com/watch?v=wHg2gHDHY-E",
+      "image": "https://i.ytimg.com/vi/wHg2gHDHY-E/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-18e456d5f3c9cb8888",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yarına Sen Varsın",
+      "date": "2026-07-19",
+      "url": "https://music.youtube.com/watch?v=jxkIyqhhjLU",
+      "image": "https://i.ytimg.com/vi/jxkIyqhhjLU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-4799b5f9845e06175c",
@@ -1416,6 +2142,193 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-9551ecf856ce25180f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bize Kaldı (Remix Version)",
+      "date": "2026-07-13",
+      "url": "https://music.youtube.com/watch?v=AW52fTp_Muk",
+      "image": "https://i.ytimg.com/vi/AW52fTp_Muk/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-1d2efd186135486095",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bize Kaldı (Female Vocal Version)",
+      "date": "2026-07-13",
+      "url": "https://music.youtube.com/watch?v=LJrrqzL9eZw",
+      "image": "https://i.ytimg.com/vi/LJrrqzL9eZw/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-f861265d75de1c96ee",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bize Kaldı (Duet Version)",
+      "date": "2026-07-13",
+      "url": "https://music.youtube.com/watch?v=ZuA_TVkyBhA",
+      "image": "https://i.ytimg.com/vi/ZuA_TVkyBhA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-1f61b017618982dda1",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bize Kaldı (Disco Mix)",
+      "date": "2026-07-13",
+      "url": "https://music.youtube.com/watch?v=YdIyg0huHLs",
+      "image": "https://i.ytimg.com/vi/YdIyg0huHLs/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-eeb8f952cfb70547dc",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bize Kaldı",
+      "date": "2026-07-13",
+      "url": "https://music.youtube.com/watch?v=HdNbgGbwDXA",
+      "image": "https://i.ytimg.com/vi/HdNbgGbwDXA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-44ce4b419fa9d43adc",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Gece Daha",
+      "date": "2026-07-13",
+      "url": "https://music.youtube.com/watch?v=9l18QZKeR5s",
+      "image": "https://i.ytimg.com/vi/9l18QZKeR5s/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-78adc45ec873a33c18",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Dance Türkü Versiyon)",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=gJO79jYLSig",
+      "image": "https://i.ytimg.com/vi/gJO79jYLSig/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-90f6128049c87e5bca",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bize Kaldı (Acoustic Duet Version)",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=HCvDs3k1f6U",
+      "image": "https://i.ytimg.com/vi/HCvDs3k1f6U/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-457dc174233fd0f702",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Son Trende Sen Vardın",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=rC-lZJYrZlA",
+      "image": "https://i.ytimg.com/vi/rC-lZJYrZlA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-d8eaa204c78d10c5f5",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Son Defa Sarıl Bana (Studio Version)",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=-QtNtiSshyo",
+      "image": "https://i.ytimg.com/vi/-QtNtiSshyo/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-83363ac9a66516979e",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Son Defa Sarıl Bana (Male Vocal Version)",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=XYskw1jUQfI",
+      "image": "https://i.ytimg.com/vi/XYskw1jUQfI/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-b8736e49bce22a446f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Son Defa Sarıl Bana (Concert Duet Version)",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=ZdVzQ8Qlaw4",
+      "image": "https://i.ytimg.com/vi/ZdVzQ8Qlaw4/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-111f0e81a0e6ddf095",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Son Defa Sarıl Bana (Acoustic Version)",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=foGb1Xe91Eo",
+      "image": "https://i.ytimg.com/vi/foGb1Xe91Eo/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-56724443179fed06b9",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Meydanda Gençlik",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=9LXMCYN94uU",
+      "image": "https://i.ytimg.com/vi/9LXMCYN94uU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-d0afa5e281423a2247",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Gülüşünü Borç Bıraktın (Club Version)",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=Zce39pEplKE",
+      "image": "https://i.ytimg.com/vi/Zce39pEplKE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-14b3f47031da585b3f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Gülüşünü Borç Bıraktın",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=f73P2A1YBBY",
+      "image": "https://i.ytimg.com/vi/f73P2A1YBBY/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-373bd0b72e67e8069b",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Canlar Meydana",
+      "date": "2026-07-12",
+      "url": "https://music.youtube.com/watch?v=Xij007so2YA",
+      "image": "https://i.ytimg.com/vi/Xij007so2YA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "spotify-album-69N6WPoiHPznLLuokmQ92V",
       "platform": "Spotify",
       "type": "album",
@@ -1637,6 +2550,17 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-40c6cfdfca0c0314cc",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bahar Kokusu (Acoustic Duet Version)",
+      "date": "2026-07-10",
+      "url": "https://music.youtube.com/watch?v=LmOXv5MfZQ0",
+      "image": "https://i.ytimg.com/vi/LmOXv5MfZQ0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "spotify-album-6R5aZbxMdH7gI0HF2tgykE",
       "platform": "Spotify",
       "type": "album",
@@ -1648,6 +2572,83 @@
         "Bahar Kokusu - Acoustic Duet Version"
       ],
       "kind": "Müzik yayını"
+    },
+    {
+      "id": "youtube music-5e83bc7cb1b0e6fc32",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Özgün Duet Version)",
+      "date": "2026-07-08",
+      "url": "https://music.youtube.com/watch?v=EcsLCjrYIY8",
+      "image": "https://i.ytimg.com/vi/EcsLCjrYIY8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-afe0df92bb8e3abdb3",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Male Version)",
+      "date": "2026-07-08",
+      "url": "https://music.youtube.com/watch?v=J9YoMlx4Y0g",
+      "image": "https://i.ytimg.com/vi/J9YoMlx4Y0g/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-71377857ae97c51579",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Concert Version)",
+      "date": "2026-07-08",
+      "url": "https://music.youtube.com/watch?v=qY_IImvUFCI",
+      "image": "https://i.ytimg.com/vi/qY_IImvUFCI/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-642ffd684f21d2b984",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Sen Gülünce Yaz Gelir",
+      "date": "2026-07-08",
+      "url": "https://music.youtube.com/watch?v=tptRdnve1nM",
+      "image": "https://i.ytimg.com/vi/tptRdnve1nM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-7faefc6b9ccc320069",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Şehir Sen Kokar (Anatolian Rock Düet Version)",
+      "date": "2026-07-08",
+      "url": "https://music.youtube.com/watch?v=dMwAmkW7BM8",
+      "image": "https://i.ytimg.com/vi/dMwAmkW7BM8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-50da41e77c375e0bb9",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Lokma Aşk",
+      "date": "2026-07-08",
+      "url": "https://music.youtube.com/watch?v=3tHLL4Zq3UM",
+      "image": "https://i.ytimg.com/vi/3tHLL4Zq3UM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-7b944a268aefbce071",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Aynı Göğün Altında (Acoustic Version)",
+      "date": "2026-07-08",
+      "url": "https://music.youtube.com/watch?v=KUmyRH1PayQ",
+      "image": "https://i.ytimg.com/vi/KUmyRH1PayQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-d02d2dcc6c0730ab9f",
@@ -1683,6 +2684,28 @@
         "Yol Ateşi - Dance Türkü Version"
       ],
       "kind": "Müzik yayını"
+    },
+    {
+      "id": "youtube music-8de059a968a5bcdf56",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Türkü Version)",
+      "date": "2026-07-07",
+      "url": "https://music.youtube.com/watch?v=uxaOFe-K7Es",
+      "image": "https://i.ytimg.com/vi/uxaOFe-K7Es/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-f564b3ba8317c3e66b",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Cana Değer Yol",
+      "date": "2026-07-07",
+      "url": "https://music.youtube.com/watch?v=pswBrT-EFIo",
+      "image": "https://i.ytimg.com/vi/pswBrT-EFIo/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-34a43a91b616fee58a",
@@ -1878,6 +2901,83 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-a9061e9283e9606615",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yol Ateşi (Akustic Version)",
+      "date": "2026-07-06",
+      "url": "https://music.youtube.com/watch?v=ZuaDOgTzpwI",
+      "image": "https://i.ytimg.com/vi/ZuaDOgTzpwI/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-2cca71167b42a1d570",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oyna (Acoustic Duet Version)",
+      "date": "2026-07-06",
+      "url": "https://music.youtube.com/watch?v=gziWcd5Gv7c",
+      "image": "https://i.ytimg.com/vi/gziWcd5Gv7c/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-f53fc82ba2c817e051",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Gönül Ateşi",
+      "date": "2026-07-06",
+      "url": "https://music.youtube.com/watch?v=plMy4pBPcG8",
+      "image": "https://i.ytimg.com/vi/plMy4pBPcG8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-ed5e0930a73e6b272f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Dünya Dursa Sen Bitmezsin (Düet Version)",
+      "date": "2026-07-06",
+      "url": "https://music.youtube.com/watch?v=X-19OgYxavU",
+      "image": "https://i.ytimg.com/vi/X-19OgYxavU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-5578874a14c75aae6a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Şehir Sen Kokar (Acoustic Version)",
+      "date": "2026-07-06",
+      "url": "https://music.youtube.com/watch?v=z8DU71SSxrM",
+      "image": "https://i.ytimg.com/vi/z8DU71SSxrM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-1c2169d502c027bd77",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Lokma Aşk (Acoustic Version)",
+      "date": "2026-07-06",
+      "url": "https://music.youtube.com/watch?v=G1ug4IisIcc",
+      "image": "https://i.ytimg.com/vi/G1ug4IisIcc/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-c2adc2603236c753b9",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bak Ama Dokunma",
+      "date": "2026-07-06",
+      "url": "https://music.youtube.com/watch?v=SSAe2eFtYPE",
+      "image": "https://i.ytimg.com/vi/SSAe2eFtYPE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-4db2ef79fd95a5882d",
       "platform": "TikTok",
       "type": "video",
@@ -1898,6 +2998,17 @@
       "image": "assets/tiktok/tiktok-a1007ef89fc93ec656f6861b.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-327c418dd74c4621a4",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yolun Tozu",
+      "date": "2026-07-05",
+      "url": "https://music.youtube.com/watch?v=9aoAtiUKEZ8",
+      "image": "https://i.ytimg.com/vi/9aoAtiUKEZ8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-c39b371a861f8befc2",
@@ -2028,6 +3139,17 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-758a10932367c1f393",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Aynı Göğün Altında",
+      "date": "2026-06-30",
+      "url": "https://music.youtube.com/watch?v=QZPEO-HM1ec",
+      "image": "https://i.ytimg.com/vi/QZPEO-HM1ec/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-860bc41cf190c19180",
       "platform": "TikTok",
       "type": "video",
@@ -2063,6 +3185,17 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-9501d31d3e8859df03",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Son Defa Sarıl Bana",
+      "date": "2026-06-29",
+      "url": "https://music.youtube.com/watch?v=QVkvvuywqlk",
+      "image": "https://i.ytimg.com/vi/QVkvvuywqlk/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-11fcf3a1c500b438fe",
       "platform": "TikTok",
       "type": "video",
@@ -2096,6 +3229,28 @@
       "image": "assets/instagram/instagram-cf1465973b16e9446f.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-f1d8959a4cf6aec174",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Son Defa Sarıl Bana (Punk Rock Version )",
+      "date": "2026-06-28",
+      "url": "https://music.youtube.com/watch?v=aUafUivA5Ys",
+      "image": "https://i.ytimg.com/vi/aUafUivA5Ys/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-dbcf8479b3692be08b",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Dünya Dursa Sen Bitmezsin",
+      "date": "2026-06-28",
+      "url": "https://music.youtube.com/watch?v=6mVENnUFsp0",
+      "image": "https://i.ytimg.com/vi/6mVENnUFsp0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-575c83b72bf87058fa",
@@ -2267,6 +3422,28 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-a47ac05463b055664e",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Sensizliğe Mahkümum",
+      "date": "2026-06-22",
+      "url": "https://music.youtube.com/watch?v=1t12yzg_0HI",
+      "image": "https://i.ytimg.com/vi/1t12yzg_0HI/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-bdbc8f3881ba118960",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bu Kalp Vazgeçmiyor (Acoustic Version)",
+      "date": "2026-06-22",
+      "url": "https://music.youtube.com/watch?v=6TdtDiLsh2w",
+      "image": "https://i.ytimg.com/vi/6TdtDiLsh2w/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "spotify-album-2b6mJwIb711WL4unl1lhr9",
       "platform": "Spotify",
       "type": "album",
@@ -2278,6 +3455,28 @@
         "Sensizliğe Mahkümum"
       ],
       "kind": "Müzik yayını"
+    },
+    {
+      "id": "youtube music-9b8ac5a9faf1b2b58a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Sende Evim Var",
+      "date": "2026-06-21",
+      "url": "https://music.youtube.com/watch?v=3vUZ_nm1R0U",
+      "image": "https://i.ytimg.com/vi/3vUZ_nm1R0U/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-9d8c10b52b9278c9b9",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Güneş Gibi",
+      "date": "2026-06-21",
+      "url": "https://music.youtube.com/watch?v=JA-H8omugK4",
+      "image": "https://i.ytimg.com/vi/JA-H8omugK4/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "spotify-album-1o1se1WmdQOmKzVfZIVcTh",
@@ -2319,6 +3518,39 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-2ce4d1de81feb776ce",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yanımda Kal",
+      "date": "2026-06-20",
+      "url": "https://music.youtube.com/watch?v=8hlVl4HjAZo",
+      "image": "https://i.ytimg.com/vi/8hlVl4HjAZo/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-aba93b7b9b1edccc71",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "İzin Kaldı (Rock Version)",
+      "date": "2026-06-20",
+      "url": "https://music.youtube.com/watch?v=h53XZ6z5zWc",
+      "image": "https://i.ytimg.com/vi/h53XZ6z5zWc/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-79f2f5cab911d8dd5f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "İzin Kaldı",
+      "date": "2026-06-20",
+      "url": "https://music.youtube.com/watch?v=9j4M8zT5AYY",
+      "image": "https://i.ytimg.com/vi/9j4M8zT5AYY/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "spotify-album-4KPHNcdpCvljyylaxaws6w",
       "platform": "Spotify",
       "type": "album",
@@ -2356,6 +3588,39 @@
         "İzin Kaldı"
       ],
       "kind": "Müzik yayını"
+    },
+    {
+      "id": "youtube music-6de6103ed24fbe60c2",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Daha Baştan",
+      "date": "2026-06-19",
+      "url": "https://music.youtube.com/watch?v=gfRgBoDL_MQ",
+      "image": "https://i.ytimg.com/vi/gfRgBoDL_MQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-8259c35b4b32721140",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bahar Kokusu (Acoustic)",
+      "date": "2026-06-19",
+      "url": "https://music.youtube.com/watch?v=gzfaRVLaxJI",
+      "image": "https://i.ytimg.com/vi/gzfaRVLaxJI/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-9e501e75cf3adef180",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bahar Kokusu",
+      "date": "2026-06-19",
+      "url": "https://music.youtube.com/watch?v=LmtrsRx4mj8",
+      "image": "https://i.ytimg.com/vi/LmtrsRx4mj8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "spotify-album-5jEny5pfYpPtARNuOOFrBa",
@@ -2496,6 +3761,39 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-436950f5510d364d93",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oynadın (Rock Version)",
+      "date": "2026-06-17",
+      "url": "https://music.youtube.com/watch?v=YixW9-x1LkQ",
+      "image": "https://i.ytimg.com/vi/YixW9-x1LkQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-a68dc897376493f8d0",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oynadın (Rock Concert Version)",
+      "date": "2026-06-17",
+      "url": "https://music.youtube.com/watch?v=XJ3nL0ErKY4",
+      "image": "https://i.ytimg.com/vi/XJ3nL0ErKY4/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-871dc56713c8fe38ba",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Dar Gelir Bana Bu Dünya",
+      "date": "2026-06-17",
+      "url": "https://music.youtube.com/watch?v=9gOjI14mjNQ",
+      "image": "https://i.ytimg.com/vi/9gOjI14mjNQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "spotify-album-3mR75M9Qr9vjrSBiBbHbwx",
       "platform": "Spotify",
       "type": "album",
@@ -2533,6 +3831,28 @@
         "Dar Gelir Bana Bu Dünya"
       ],
       "kind": "Müzik yayını"
+    },
+    {
+      "id": "youtube music-479090eaf90987e754",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oynadın (Orijinal Version)",
+      "date": "2026-06-16",
+      "url": "https://music.youtube.com/watch?v=REdSB5xVuUI",
+      "image": "https://i.ytimg.com/vi/REdSB5xVuUI/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-9be546b02919f1d097",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oynadın (Disco Hit)",
+      "date": "2026-06-16",
+      "url": "https://music.youtube.com/watch?v=vYtelSr2miI",
+      "image": "https://i.ytimg.com/vi/vYtelSr2miI/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-c5c606a0d6cb99cc62",
@@ -2603,6 +3923,105 @@
       "image": "assets/instagram/instagram-7742221035fdfce0e8.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-6d500ab24a12ed9f91",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bana (Summer Dance Mix)",
+      "date": "2026-06-15",
+      "url": "https://music.youtube.com/watch?v=zDXHsjlD3Sg",
+      "image": "https://i.ytimg.com/vi/zDXHsjlD3Sg/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-4c2db6b2b14ce68a13",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bana (Remix)",
+      "date": "2026-06-15",
+      "url": "https://music.youtube.com/watch?v=lALQAW5SEiA",
+      "image": "https://i.ytimg.com/vi/lALQAW5SEiA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-a7b22862b6cbcf3bf5",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bana (Deep House Remix)",
+      "date": "2026-06-15",
+      "url": "https://music.youtube.com/watch?v=zrkkMxyrSfE",
+      "image": "https://i.ytimg.com/vi/zrkkMxyrSfE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-e2fe87e632e227f99d",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bana (Club Remix)",
+      "date": "2026-06-15",
+      "url": "https://music.youtube.com/watch?v=N-fSZf9_ew0",
+      "image": "https://i.ytimg.com/vi/N-fSZf9_ew0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-ade9d3bcf9999c2a6c",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oynadın (Summer Dance Mix )",
+      "date": "2026-06-15",
+      "url": "https://music.youtube.com/watch?v=kHo1ah7GM3c",
+      "image": "https://i.ytimg.com/vi/kHo1ah7GM3c/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-49888a93c79f552ec4",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oynadın (Punk Version)",
+      "date": "2026-06-15",
+      "url": "https://music.youtube.com/watch?v=Jq4-Ygf6heM",
+      "image": "https://i.ytimg.com/vi/Jq4-Ygf6heM/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-c7ef9d3f1c06a6dd3d",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oynadın (Hip-Hop/Rap)",
+      "date": "2026-06-15",
+      "url": "https://music.youtube.com/watch?v=7TI71w2cQuk",
+      "image": "https://i.ytimg.com/vi/7TI71w2cQuk/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-08d9d745bc8e6f50d3",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oynadın (Club Hit)",
+      "date": "2026-06-15",
+      "url": "https://music.youtube.com/watch?v=xPYcD7PvFIw",
+      "image": "https://i.ytimg.com/vi/xPYcD7PvFIw/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-25ceda90090b96f6f5",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Rolünü İyi Oynadın (Acoustic)",
+      "date": "2026-06-15",
+      "url": "https://music.youtube.com/watch?v=g9zF_ld3KF8",
+      "image": "https://i.ytimg.com/vi/g9zF_ld3KF8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-b3dd7821231f2c46a8",
@@ -2723,6 +4142,105 @@
       "image": "assets/instagram/instagram-8ddcec84168410dc11.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-3b4aecc766bc93c67a",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bana (Concert Version)",
+      "date": "2026-06-14",
+      "url": "https://music.youtube.com/watch?v=Tm7rzkvb1MA",
+      "image": "https://i.ytimg.com/vi/Tm7rzkvb1MA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-8b1ac161d814fcf12f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bana (Acoustics Version)",
+      "date": "2026-06-14",
+      "url": "https://music.youtube.com/watch?v=W7UNHIKNpU0",
+      "image": "https://i.ytimg.com/vi/W7UNHIKNpU0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-5e252bd4438565658c",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yaz Bana",
+      "date": "2026-06-14",
+      "url": "https://music.youtube.com/watch?v=oREDY2b7uZ8",
+      "image": "https://i.ytimg.com/vi/oREDY2b7uZ8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-35ca6e21364440ca33",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "İkinci Bahar",
+      "date": "2026-06-14",
+      "url": "https://music.youtube.com/watch?v=e1D6Gbk5Fxg",
+      "image": "https://i.ytimg.com/vi/e1D6Gbk5Fxg/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-90795db83802758a43",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Ezber Aşk (Uzun Version)",
+      "date": "2026-06-14",
+      "url": "https://music.youtube.com/watch?v=V4rG51QRobU",
+      "image": "https://i.ytimg.com/vi/V4rG51QRobU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-4c654019c2aef8f594",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Ezber Aşk (Remix Version)",
+      "date": "2026-06-14",
+      "url": "https://music.youtube.com/watch?v=NTwHDiAI8GY",
+      "image": "https://i.ytimg.com/vi/NTwHDiAI8GY/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-b48f0d3299f8a92708",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Ezber Aşk (Club Version)",
+      "date": "2026-06-14",
+      "url": "https://music.youtube.com/watch?v=Webw0cBhpBk",
+      "image": "https://i.ytimg.com/vi/Webw0cBhpBk/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-4a3fada6d9d3df8525",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Ezber Aşk",
+      "date": "2026-06-14",
+      "url": "https://music.youtube.com/watch?v=YyT7kk6Jk3E",
+      "image": "https://i.ytimg.com/vi/YyT7kk6Jk3E/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-f553e6433cab39ab33",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Dar Gelir Bana Bu Dünya (Acoustic Version )",
+      "date": "2026-06-14",
+      "url": "https://music.youtube.com/watch?v=3Kl1so-JaaQ",
+      "image": "https://i.ytimg.com/vi/3Kl1so-JaaQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-0bac77264543ff3efe",
@@ -2875,6 +4393,72 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-2101629e4bc65652b9",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Senden Kaçamadım (Enstrümantal)",
+      "date": "2026-06-13",
+      "url": "https://music.youtube.com/watch?v=gr7UM7g3ug4",
+      "image": "https://i.ytimg.com/vi/gr7UM7g3ug4/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-537035e8981c9e4c25",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Senden Kaçamadım (Concert Version 2)",
+      "date": "2026-06-13",
+      "url": "https://music.youtube.com/watch?v=ISqDLhWMBFE",
+      "image": "https://i.ytimg.com/vi/ISqDLhWMBFE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-ba6f1382d52001ea0c",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Senden Kaçamadım (Concert Version 1)",
+      "date": "2026-06-13",
+      "url": "https://music.youtube.com/watch?v=N6dXv6FqZyo",
+      "image": "https://i.ytimg.com/vi/N6dXv6FqZyo/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-0a4588fb3f7b4e23ca",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Senden Kaçamadım (Acoustic Concert Version )",
+      "date": "2026-06-13",
+      "url": "https://music.youtube.com/watch?v=pjFl4AnUEac",
+      "image": "https://i.ytimg.com/vi/pjFl4AnUEac/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-7db1c155b99b3b0a8d",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Senden Kaçamadım (Acoustic )",
+      "date": "2026-06-13",
+      "url": "https://music.youtube.com/watch?v=uUNJ0T-ir34",
+      "image": "https://i.ytimg.com/vi/uUNJ0T-ir34/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-2638ebbedd1d135f32",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Senden Kaçamadım",
+      "date": "2026-06-13",
+      "url": "https://music.youtube.com/watch?v=agS_kFL5iDE",
+      "image": "https://i.ytimg.com/vi/agS_kFL5iDE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-e7ddf71782bfe13a7b",
       "platform": "TikTok",
       "type": "video",
@@ -2900,6 +4484,61 @@
         "Ezber Aşk - Uzun Version"
       ],
       "kind": "Müzik yayını"
+    },
+    {
+      "id": "youtube music-0a37260ca700a47056",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Kalbim Sende Kaldı (Enstrumantal )",
+      "date": "2026-06-12",
+      "url": "https://music.youtube.com/watch?v=TeM1W-J3ayk",
+      "image": "https://i.ytimg.com/vi/TeM1W-J3ayk/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-716f3e1bb2e8956292",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Kalbim Sende Kaldı (Acoustic Version)",
+      "date": "2026-06-12",
+      "url": "https://music.youtube.com/watch?v=aIb4EgdchZ8",
+      "image": "https://i.ytimg.com/vi/aIb4EgdchZ8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-d303eda5ffcb004247",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Kalbim Sende Kaldı (Acoustic Concert Stadium)",
+      "date": "2026-06-12",
+      "url": "https://music.youtube.com/watch?v=Biqo0exN8iE",
+      "image": "https://i.ytimg.com/vi/Biqo0exN8iE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-fe9e105446026273b5",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Kalbim Sende Kaldı (Acoustic Concert )",
+      "date": "2026-06-12",
+      "url": "https://music.youtube.com/watch?v=038qkaHifbc",
+      "image": "https://i.ytimg.com/vi/038qkaHifbc/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-14138bfd11f8a276e7",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Kalbim Sende Kaldı",
+      "date": "2026-06-12",
+      "url": "https://music.youtube.com/watch?v=aEJk-yYze8U",
+      "image": "https://i.ytimg.com/vi/aEJk-yYze8U/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "spotify-album-24mtA06EEFnILQSqYsBB3o",
@@ -2935,6 +4574,83 @@
         "Kalbim Sende Kaldı - Enstrumantal"
       ],
       "kind": "Müzik yayını"
+    },
+    {
+      "id": "youtube music-63bc5f08bb27884124",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yandı Bitti Kalbim (Remix)",
+      "date": "2026-06-09",
+      "url": "https://music.youtube.com/watch?v=tStPNY0nmhs",
+      "image": "https://i.ytimg.com/vi/tStPNY0nmhs/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-3d95b9d123203cace3",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Yandı Bitti Kalbim",
+      "date": "2026-06-09",
+      "url": "https://music.youtube.com/watch?v=dSrShKzldXw",
+      "image": "https://i.ytimg.com/vi/dSrShKzldXw/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-7a343d3a1b08509af8",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Seni Çok Özlüyorum (Acoustic)",
+      "date": "2026-06-09",
+      "url": "https://music.youtube.com/watch?v=U8CMWuF2AG8",
+      "image": "https://i.ytimg.com/vi/U8CMWuF2AG8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-a4fbaad40ebe6025fe",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Küllerime Yazılmış Adın",
+      "date": "2026-06-09",
+      "url": "https://music.youtube.com/watch?v=q9CBretfbs0",
+      "image": "https://i.ytimg.com/vi/q9CBretfbs0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-e71ed08d4c33c30f8f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Küllerimden Yazılmış Adın (Acoustic Ballad)",
+      "date": "2026-06-09",
+      "url": "https://music.youtube.com/watch?v=OuMsEp3XwVU",
+      "image": "https://i.ytimg.com/vi/OuMsEp3XwVU/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-449e566015badbe8c4",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Acoustic Ballad)",
+      "date": "2026-06-09",
+      "url": "https://music.youtube.com/watch?v=ECQPnGEOwQY",
+      "image": "https://i.ytimg.com/vi/ECQPnGEOwQY/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-41b0406d1ac1de9f83",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bu Kalp Vazgeçmiyor (Punk Rock)",
+      "date": "2026-06-09",
+      "url": "https://music.youtube.com/watch?v=xATqaSOZa08",
+      "image": "https://i.ytimg.com/vi/xATqaSOZa08/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "tiktok-f8a993f14b0a387f77",
@@ -3026,6 +4742,28 @@
       "image": "assets/instagram/instagram-0fbe9009e12a2639ee.jpg",
       "songCandidate": "",
       "kind": "Video / klip"
+    },
+    {
+      "id": "youtube music-f0a62b6c89179a84b9",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Yaz Akşamı (Acoustic)",
+      "date": "2026-06-08",
+      "url": "https://music.youtube.com/watch?v=AvwxGf4Cigg",
+      "image": "https://i.ytimg.com/vi/AvwxGf4Cigg/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-dc4f6b516cb4211d4d",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bir Yaz Akşamı",
+      "date": "2026-06-08",
+      "url": "https://music.youtube.com/watch?v=1Nm8B8y1Rhc",
+      "image": "https://i.ytimg.com/vi/1Nm8B8y1Rhc/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "spotify-album-7G7oZuft7Tc99WXZI18fuT",
@@ -3163,6 +4901,39 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-e4bdb12b96b7a67a2f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "He Tabi Aşk.!",
+      "date": "2026-06-07",
+      "url": "https://music.youtube.com/watch?v=9BpGhMmekIQ",
+      "image": "https://i.ytimg.com/vi/9BpGhMmekIQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-f81a1b9622d3be2ff7",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan (Acoustic)",
+      "date": "2026-06-07",
+      "url": "https://music.youtube.com/watch?v=SELVlVAcmFA",
+      "image": "https://i.ytimg.com/vi/SELVlVAcmFA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-2b7496cfabf245f39f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Ben Çok Yoruldum Anne",
+      "date": "2026-06-07",
+      "url": "https://music.youtube.com/watch?v=TYcQgra6miE",
+      "image": "https://i.ytimg.com/vi/TYcQgra6miE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "spotify-album-7qpEO6O8gisWBcCYaxcqWe",
       "platform": "Spotify",
       "type": "album",
@@ -3233,6 +5004,50 @@
       "kind": "Video / klip"
     },
     {
+      "id": "youtube music-029bca015dcc073974",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Senden Kaçamadım",
+      "date": "2026-06-06",
+      "url": "https://music.youtube.com/watch?v=aAG4PR8xGIk",
+      "image": "https://i.ytimg.com/vi/aAG4PR8xGIk/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-3fc3a3f327a10f0b08",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geçtim O Yoldan",
+      "date": "2026-06-06",
+      "url": "https://music.youtube.com/watch?v=MZeMA3wZyl0",
+      "image": "https://i.ytimg.com/vi/MZeMA3wZyl0/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-00930bbdb05f758cfc",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Yazdım Seni",
+      "date": "2026-06-06",
+      "url": "https://music.youtube.com/watch?v=fmNvmA9C4f4",
+      "image": "https://i.ytimg.com/vi/fmNvmA9C4f4/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-9a560892d03f2fd55f",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Derdin Tükenmiyor Dünya",
+      "date": "2026-06-06",
+      "url": "https://music.youtube.com/watch?v=MxqfnFmrnpQ",
+      "image": "https://i.ytimg.com/vi/MxqfnFmrnpQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "tiktok-7867cd5b71397bf558",
       "platform": "TikTok",
       "type": "video",
@@ -3296,6 +5111,28 @@
       "kind": "Müzik yayını"
     },
     {
+      "id": "youtube music-1567112b235955a2e7",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Seni Çok Özlüyorum",
+      "date": "2026-06-04",
+      "url": "https://music.youtube.com/watch?v=aV6bR7bveCA",
+      "image": "https://i.ytimg.com/vi/aV6bR7bveCA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
+      "id": "youtube music-1dd29f49dacf853fc9",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Bu Kalp Vazgeçmiyor",
+      "date": "2026-06-04",
+      "url": "https://music.youtube.com/watch?v=WOWwIb_N0ww",
+      "image": "https://i.ytimg.com/vi/WOWwIb_N0ww/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
+    },
+    {
       "id": "spotify-album-5B6601UPrna3zxdfXy0301",
       "platform": "Spotify",
       "type": "album",
@@ -3320,6 +5157,17 @@
         "Bu Kalp Vazgeçmiyor"
       ],
       "kind": "Müzik yayını"
+    },
+    {
+      "id": "youtube music-392a367fa2a6dbbc24",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "Geceye Karışan",
+      "date": "2026-06-03",
+      "url": "https://music.youtube.com/watch?v=zARtAvHR_TQ",
+      "image": "https://i.ytimg.com/vi/zARtAvHR_TQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı"
     },
     {
       "id": "spotify-album-2MkSpbmKSptSiWvR5rNR6c",
