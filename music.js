@@ -55,7 +55,7 @@
         if (name === 'refresh_token' && (!tikTokCdn || /^rft[._]/i.test(val))) return '';
       }
       if (p === 'Spotify' && host === 'i.scdn.co' && u.pathname.startsWith('/image/')) return u.toString();
-      if (p === 'YouTube' && host === 'i.ytimg.com' && u.pathname.startsWith('/vi/')) return u.toString();
+      if (['YouTube','YouTube Music'].includes(p) && host === 'i.ytimg.com' && u.pathname.startsWith('/vi/')) return u.toString();
       if (p === 'TikTok' && tikTokCdn) return u.toString();
     } catch (_) { /* Image unavailable: keep the platform icon. */ }
     return '';
