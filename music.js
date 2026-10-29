@@ -38,12 +38,26 @@
       (kind.value === 'all' || r.type === kind.value) &&
       (!q || [r.title,r.platform,...(r.songs || []),r.songCandidate].join(' ').toLocaleLowerCase('tr').includes(q)));
   }
+  // Cover URLs are produced by the local exporter. No access tokens in browser code.
+  function safeImage(url, p) {
+    try {
+      const u = new URL(url);
+      if (u.protocol !== 'https:' || u.username || u.password ||
+          /(?:access_token|refresh_token|client_secret)=/i.test(u.search)) return '';
+      const host = u.hostname.toLowerCase();
+      if (p === 'Spotify' && host === 'i.scdn.co' && u.pathname.startsWith('/image/')) return u.toString();
+      if (p === 'YouTube' && host === 'i.ytimg.com' && u.pathname.startsWith('/vi/')) return u.toString();
+      if (p === 'TikTok' && /^p\d{1,3}(?:-[a-z0-9-]+)?\.tiktokcdn(?:-[a-z0-9-]+)?\.com$/.test(host)) return u.toString();
+    } catch (_) { /* Image unavailable: keep the platform icon. */ }
+    return '';
+  }
   function buildCard(rec) {
     const card = el('article','release-card');
     const url = safeLink(rec.url,rec.platform);
     const cover = el('div','release-cover cover-' + rec.platform.toLowerCase().replace(/[^a-z0-9]/g, '-'));
-    if(rec.image && /^https:\/\/(i\.scdn\.co|i\.ytimg\.com)\//.test(rec.image)) {
-      const pic = el('img'); pic.loading='lazy'; pic.decoding='async'; pic.src=rec.image; pic.alt='';
+    const imageUrl = safeImage(rec.image, rec.platform);
+    if(imageUrl) {
+      const pic = el('img'); pic.loading='lazy'; pic.decoding='async'; pic.src=imageUrl; pic.alt='';
       pic.onerror = () => { pic.remove(); cover.appendChild(el('span','cover-glyph',symbols[rec.platform]||'♫')); };
       cover.appendChild(pic);
     } else {
