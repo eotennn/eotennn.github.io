@@ -10,7 +10,7 @@ async function preview(r){
  stopPreview();const version=generation;
  const close=node('button','Kapat ×');close.className='btn secondary';close.style.float='right';close.onclick=stopPreview;
  const title=node('h2',r.title);title.style.cssText='font-size:22px;padding-top:52px';
- const note=node('p',r.platform==='Instagram'?'Instagram önizlemesi · Bu oynatıcıda otomatik 30 saniye sınırı uygulanamaz.':'30 saniyelik tanıtım · Başlatmak için oynatıcıdaki ▶ düğmesine basın.');note.setAttribute('role','status');
+ const note=node('p',r.platform==='Instagram'?'Instagram önizlemesi · Bu oynatıcıda otomatik 30 saniye sınırı uygulanamaz.':'30 saniyelik tanıtım başlatılıyor. Otomatik başlamazsa oynatıcıdaki ▶ düğmesine basın.');note.setAttribute('role','status');
  const host=node('div');
  const full=node('a','Tamamını '+r.platform+' üzerinde '+(r.platform==='Spotify'?'dinle':'izle')+' ↗');full.className='btn';full.href=r.url;full.target='_blank';full.rel='noopener noreferrer';full.style.marginTop='16px';
  dialog.append(close,title,note,host,full);dialog.showModal();
@@ -21,20 +21,20 @@ async function preview(r){
  const u=new URL(r.url);
  if(r.platform==='Spotify'){
   const api=await getAPI();if(version!==generation)return;
-  api.createController(host,{url:r.url,width:'100%',height:152},p=>{if(version!==generation){p.destroy();return}controller=p;p.addListener('playback_update',e=>{if(version!==generation)return;if(finished){if(!e.data.isPaused)p.pause();return}if(e.data.position>=30000){p.pause();finish()}})});
+  api.createController(host,{url:r.url,width:'100%',height:152},p=>{if(version!==generation){p.destroy();return}controller=p;p.addListener('ready',()=>{if(version===generation&&!finished)p.play()});p.addListener('playback_update',e=>{if(version!==generation)return;if(finished){if(!e.data.isPaused)p.pause();return}if(e.data.position>=30000){p.pause();finish()}})});
  }else if(r.platform==='YouTube'){
   const id=u.hostname==='youtu.be'?u.pathname.slice(1).split('/')[0]:u.searchParams.get('v')||u.pathname.split('/').filter(Boolean)[1];
   if(!/^[\w-]{11}$/.test(id||''))throw Error();
   const api=await getYT();if(version!==generation)return;
   const mount=node('div');host.append(mount);
-  const p=new api.Player(mount,{width:'100%',height:320,videoId:id,playerVars:{playsinline:1,origin:location.origin},events:{onStateChange:e=>{if(version!==generation)return;if(finished&&e.data===1)p.pauseVideo();if(e.data===0)finish('Tanıtım sona erdi. Tamamı için YouTube bağlantısını kullanın.')},onError:()=>{note.textContent='Bu video burada oynatılamıyor. YouTube bağlantısından açabilirsiniz.'}}});
+  const p=new api.Player(mount,{width:'100%',height:320,videoId:id,playerVars:{playsinline:1,autoplay:1,origin:location.origin},events:{onReady:e=>{if(version===generation&&!finished)e.target.playVideo()},onAutoplayBlocked:()=>{if(version===generation)note.textContent='Tarayıcı otomatik oynatmayı engelledi. Başlatmak için ▶ düğmesine basın.'},onStateChange:e=>{if(version!==generation)return;if(finished&&e.data===1)p.pauseVideo();if(e.data===0)finish('Tanıtım sona erdi. Tamamı için YouTube bağlantısını kullanın.')},onError:()=>{note.textContent='Bu video burada oynatılamıyor. YouTube bağlantısından açabilirsiniz.'}}});
   const timer=setInterval(()=>{if(version===generation&&!finished&&p.getCurrentTime&&p.getCurrentTime()>=30){p.pauseVideo();finish()}},200);
   cleanup=()=>{clearInterval(timer);p.destroy()};
  }else if(r.platform==='TikTok'){
   const id=u.pathname.match(/\/video\/(\d+)/)?.[1];if(!id)throw Error();
-  const f=frame('https://www.tiktok.com/player/v1/'+id+'?autoplay=0&loop=0',480);
+  const f=frame('https://www.tiktok.com/player/v1/'+id+'?autoplay=1&loop=0',480);
   const pause=()=>f.contentWindow?.postMessage({'x-tiktok-player':true,type:'pause'},'https://www.tiktok.com');
-  const listener=e=>{if(version!==generation||e.origin!=='https://www.tiktok.com'||e.source!==f.contentWindow||!e.data?.['x-tiktok-player'])return;const m=e.data;if(m.type==='onCurrentTime'&&Number(m.value?.currentTime)>=30){pause();finish()}if(m.type==='onStateChange'&&m.value===1&&finished)pause();if(m.type==='onStateChange'&&m.value===0)finish('Tanıtım sona erdi. Tamamı için TikTok bağlantısını kullanın.');if(m.type==='onPlayerError')note.textContent='Video burada oynatılamıyor. TikTok bağlantısından açabilirsiniz.'};
+  const listener=e=>{if(version!==generation||e.origin!=='https://www.tiktok.com'||e.source!==f.contentWindow||!e.data?.['x-tiktok-player'])return;const m=e.data;if(m.type==='onPlayerReady'&&!finished)f.contentWindow?.postMessage({'x-tiktok-player':true,type:'play'},'https://www.tiktok.com');if(m.type==='onCurrentTime'&&Number(m.value?.currentTime)>=30){pause();finish()}if(m.type==='onStateChange'&&m.value===1&&finished)pause();if(m.type==='onStateChange'&&m.value===0)finish('Tanıtım sona erdi. Tamamı için TikTok bağlantısını kullanın.');if(m.type==='onPlayerError')note.textContent='Video burada oynatılamıyor. TikTok bağlantısından açabilirsiniz.'};
   window.addEventListener('message',listener);cleanup=()=>{window.removeEventListener('message',listener);f.remove()};
  }else if(r.platform==='Instagram'){
   const path=u.pathname.match(/^\/(?:reel|p|tv)\/([A-Za-z0-9_-]+)\/?$/);if(!path)throw Error();
