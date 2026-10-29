@@ -47,7 +47,12 @@
       const host = u.hostname.toLowerCase();
       if (p === 'Spotify' && host === 'i.scdn.co' && u.pathname.startsWith('/image/')) return u.toString();
       if (p === 'YouTube' && host === 'i.ytimg.com' && u.pathname.startsWith('/vi/')) return u.toString();
-      if (p === 'TikTok' && /^p\d{1,3}(?:-[a-z0-9-]+)?\.tiktokcdn(?:-[a-z0-9-]+)?\.com$/.test(host)) return u.toString();
+      // TikTok's authenticated Display API returns short-lived covers from changing CDN hosts.
+      // Only permit public HTTPS image hosts; never private/local hosts or token parameters.
+      if (p === 'TikTok' && host.includes('.') && /^[a-z0-9.-]+$/.test(host) &&
+          !host.includes('..') && !/^(?:[0-9.]+|localhost)$/.test(host) &&
+          !/(?:\.localhost|\.local|\.internal|\.test|\.invalid|\.onion)$/.test(host) &&
+          !/^\[/.test(host) && !/:[0-9]+$/.test(u.host)) return u.toString();
     } catch (_) { /* Image unavailable: keep the platform icon. */ }
     return '';
   }
