@@ -58,6 +58,79 @@
     } catch (_) { /* Image unavailable: keep the platform icon. */ }
     return '';
   }
+  // Spotify oEmbed can supply official cover art without a secret API token.
+  // Request it only for visible album cards when the exported catalog has no image.
+  const spotifyJobs = [];
+  let spotifyRequests = 0;
+  const spotifyCache = new Map();
+  const spotifyObservers = new Set();
+
+  function spotifyEmbedFallback(cover, url) {
+    // Spotify sometimes returns no thumbnail_url. Its official embed is the
+    // last resort, allowing the album artwork to render without scraping.
+    if(cover.querySelector('iframe')) return;
+    const u = new URL(url);
+    if(!/^\/(album|track)\/[A-Za-z0-9]{12,32}\/?$/.test(u.pathname)) return;
+    const frame = el('iframe','spotify-cover-embed');
+    frame.src = 'https://open.spotify.com/embed' + u.pathname + '?theme=0';
+    frame.title = 'Spotify albüm önizlemesi';
+    frame.loading = 'lazy';
+    frame.allow = 'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+    frame.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none;';
+    cover.insertBefore(frame, cover.firstChild);
+  }
+
+  function spotifySetCover(cover, url, thumbnail) {
+    if(!thumbnail || !safeImage(thumbnail,'Spotify')) {
+      spotifyEmbedFallback(cover,url);
+      return;
+    }
+    const img = el('img','spotify-cover-image');
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    img.alt = 'Spotify albüm kapağı';
+    img.onload = () => {
+      const icon = cover.querySelector('.cover-glyph');
+      if(icon) icon.remove();
+    };
+    img.onerror = () => {img.remove();spotifyEmbedFallback(cover,url);};
+    cover.insertBefore(img,cover.firstChild);
+    img.src = thumbnail;
+  }
+
+  function spotifyPump() {
+    while(spotifyRequests < 3 && spotifyJobs.length) {
+      const job = spotifyJobs.shift();
+      spotifyRequests++;
+      fetch('https://open.spotify.com/oembed?url=' + encodeURIComponent(job.url),
+            {mode:'cors',credentials:'omit'})
+        .then(r => r.ok ? r.json() : null)
+        .then(data => {
+          const img = safeImage(data && data.thumbnail_url, 'Spotify');
+          spotifyCache.set(job.url,img || '');
+          spotifySetCover(job.cover, job.url, img);
+        })
+        .catch(() => {spotifySetCover(job.cover,job.url,'');})
+        .finally(() => {spotifyRequests--;spotifyPump();});
+    }
+  }
+
+  function spotifyCoverWhenVisible(cover, url) {
+    if(!/^https:\/\/open\.spotify\.com\/(?:album|track)\/[A-Za-z0-9]{12,32}\/?.*$/.test(url)) return;
+    const start = () => {
+      if(spotifyCache.has(url)) spotifySetCover(cover,url,spotifyCache.get(url));
+      else {spotifyJobs.push({cover,url});spotifyPump();}
+    };
+    if(!('IntersectionObserver' in window)) {start();return;}
+    const observer = new IntersectionObserver(entries => {
+      if(entries.some(e=>e.isIntersecting)) {
+        observer.disconnect();spotifyObservers.delete(observer);start();
+      }
+    },{rootMargin:'350px'});
+    spotifyObservers.add(observer);
+    observer.observe(cover);
+  }
+
   function buildCard(rec) {
     const card = el('article','release-card');
     const url = safeLink(rec.url,rec.platform);
@@ -70,6 +143,7 @@
     } else {
       cover.appendChild(el('span','cover-glyph',symbols[rec.platform]||'♫'));
     }
+    if(rec.platform === 'Spotify' && url && !imageUrl) spotifyCoverWhenVisible(cover,url);
     cover.appendChild(el('span','cover-type',rec.type === 'album'?'ALBÜM / SINGLE':rec.type==='video'?'VİDEO':'MÜZİK'));
     const coverAnchor = el('a','cover-link');
     if(url) { coverAnchor.href=url; coverAnchor.target='_blank'; coverAnchor.rel='noopener noreferrer';
@@ -101,6 +175,8 @@
   }
   function draw() {
     const matches = filterRecords();
+    for(const obs of spotifyObservers) obs.disconnect();
+    spotifyObservers.clear();
     area.replaceChildren();
     for(const item of matches.slice(0,count)) area.appendChild(buildCard(item));
     const shown = Math.min(count,matches.length);
