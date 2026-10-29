@@ -54,6 +54,7 @@
       }
       if (p === 'Spotify' && host === 'i.scdn.co' && u.pathname.startsWith('/image/')) return u.toString();
       if (p === 'YouTube' && host === 'i.ytimg.com' && u.pathname.startsWith('/vi/')) return u.toString();
+      if (p === 'Instagram' && host === 'scontent.cdninstagram.com' && u.pathname.startsWith('/v/')) return u.toString();
       if (p === 'TikTok' && tikTokCdn) return u.toString();
     } catch (_) { /* Image unavailable: keep the platform icon. */ }
     return '';
