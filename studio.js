@@ -46,4 +46,29 @@ async function preview(r){
  }catch{if(version===generation)note.textContent='Oynatıcı yüklenemedi. Aşağıdaki platform bağlantısından açabilirsiniz.'}
 }
 
-function select(r){panel.replaceChildren();const src=picture(r);if(src){const im=node('img');im.src=src;im.alt=r.title;panel.append(im)}panel.append(node('h3',r.title),node('p','EoTeN AI Music Production · '+r.platform));const a=node('a',r.platform+' üzerinde aç ↗');a.className='btn';a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';panel.append(a);if(['Spotify','YouTube','YouTube Music','TikTok','Instagram'].includes(r.platform)){const play=node('button',r.platform==='Instagram'?'▶ Önizlemeyi aç':'▶ 30 saniye '+(['Spotify','YouTube Music'].includes(r.platform)?'dinle':'izle'));play.className='btn';play.style.marginRight='8px';play.onclick=()=>preview(r);panel.insertBefore(play,a)}}document.querySelectorAll('[data-platform]').forEach(b=>b.addEventListener('click',()=>{const p=document.getElementById('catalog-platform');if(![...p.options].some(o=>o.value===b.dataset.platform))return;p.value=b.dataset.platform;p.dispatchEvent(new Event('change'));document.querySelectorAll('[data-platform]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))}));fetch('catalog.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{const items=d.items.filter(valid),albums=items.filter(r=>r.platform==='Spotify');select(albums.find(r=>r.title==='Seninle Tamam')||items[0]);for(const r of albums.slice(0,12)){const b=node('button');b.className='library-item';const src=picture(r);if(src){const i=node('img');i.src=src;i.alt='';i.loading='lazy';b.append(i)}const t=node('span',r.title);t.append(node('small','Albüm / Single · EoTeN'));b.append(t);b.addEventListener('click',()=>{select(r);preview(r)});list.append(b)}const grid=document.getElementById('catalog-grid');grid.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;const r=items.find(r=>r.url===a.href);if(r&&['Spotify','YouTube','YouTube Music','TikTok','Instagram'].includes(r.platform)){e.preventDefault();e.stopImmediatePropagation();select(r);preview(r)}},true);grid.addEventListener('click',e=>{const a=e.target.closest('a');if(a){const r=items.find(r=>r.url===a.href);if(r)select(r)}})}).catch(()=>{panel.textContent='Yayın ayrıntıları şu anda yüklenemedi.'})})();
+
+function rotateHero(albums){
+ const hero=document.querySelector('.showcase-hero');
+ if(!hero)return;
+ const covers=[...new Set(albums.map(picture).filter(Boolean))];
+ if(!covers.length)return;
+ let previous='';
+ try{previous=localStorage.getItem('eoten-last-hero')||''}catch{}
+ let pool=covers.filter(src=>src!==previous);
+ if(!pool.length)pool=covers.slice();
+ // Randomize once, then try another cover if an image fails to load.
+ for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
+ const attempt=()=>{
+  const src=pool.pop();if(!src)return;
+  const image=new Image();
+  image.onload=()=>{
+   hero.style.backgroundImage='linear-gradient(0deg,#201208 0%,#08080850 80%),linear-gradient(90deg,#000b,#0005),url("'+src+'")';
+   try{localStorage.setItem('eoten-last-hero',src)}catch{}
+  };
+  image.onerror=attempt;
+  image.src=src;
+ };
+ attempt();
+}
+
+function select(r){panel.replaceChildren();const src=picture(r);if(src){const im=node('img');im.src=src;im.alt=r.title;panel.append(im)}panel.append(node('h3',r.title),node('p','EoTeN AI Music Production · '+r.platform));const a=node('a',r.platform+' üzerinde aç ↗');a.className='btn';a.href=r.url;a.target='_blank';a.rel='noopener noreferrer';panel.append(a);if(['Spotify','YouTube','YouTube Music','TikTok','Instagram'].includes(r.platform)){const play=node('button',r.platform==='Instagram'?'▶ Önizlemeyi aç':'▶ 30 saniye '+(['Spotify','YouTube Music'].includes(r.platform)?'dinle':'izle'));play.className='btn';play.style.marginRight='8px';play.onclick=()=>preview(r);panel.insertBefore(play,a)}}document.querySelectorAll('[data-platform]').forEach(b=>b.addEventListener('click',()=>{const p=document.getElementById('catalog-platform');if(![...p.options].some(o=>o.value===b.dataset.platform))return;p.value=b.dataset.platform;p.dispatchEvent(new Event('change'));document.querySelectorAll('[data-platform]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))}));fetch('catalog.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{const items=d.items.filter(valid),albums=items.filter(r=>r.platform==='Spotify');rotateHero(albums);select(albums.find(r=>r.title==='Seninle Tamam')||items[0]);for(const r of albums.slice(0,12)){const b=node('button');b.className='library-item';const src=picture(r);if(src){const i=node('img');i.src=src;i.alt='';i.loading='lazy';b.append(i)}const t=node('span',r.title);t.append(node('small','Albüm / Single · EoTeN'));b.append(t);b.addEventListener('click',()=>{select(r);preview(r)});list.append(b)}const grid=document.getElementById('catalog-grid');grid.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;const r=items.find(r=>r.url===a.href);if(r&&['Spotify','YouTube','YouTube Music','TikTok','Instagram'].includes(r.platform)){e.preventDefault();e.stopImmediatePropagation();select(r);preview(r)}},true);grid.addEventListener('click',e=>{const a=e.target.closest('a');if(a){const r=items.find(r=>r.url===a.href);if(r)select(r)}})}).catch(()=>{panel.textContent='Yayın ayrıntıları şu anda yüklenemedi.'})})();
