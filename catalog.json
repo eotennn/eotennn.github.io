@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T05:54:17+00:00",
+  "generatedAt": "2026-10-31T14:35:43+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "tiktok-f9b7f2b12cdeb2131d",
+      "platform": "TikTok",
+      "type": "video",
+      "title": "https://eotennn.github.io/eoten-ai-music-production.html?utm_source=tiktok&utm_medium=social&utm_campaign=profil",
+      "date": "2026-10-31",
+      "url": "https://www.tiktok.com/@eoten_aimusicproduction/video/7702738426419744020",
+      "image": "assets/tiktok/tiktok-f9b7f2b12cdeb2131d542c78.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-10-31T14:35:42.562566Z"
+    },
     {
       "id": "tiktok-f94786b522e2364223",
       "platform": "TikTok",
