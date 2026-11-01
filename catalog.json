@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T15:16:00+00:00",
+  "generatedAt": "2026-11-01T20:34:52+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "tiktok-9f08833ad824be90be",
+      "platform": "TikTok",
+      "type": "video",
+      "title": "İki Gurur Bir Aşk Etmedi Aynı şehirde iki yabancı Aynı yağmurda ayrı sokaklar Sen bir adım atsan gelecektim Ben bir ses versem koş",
+      "date": "2026-11-01",
+      "url": "https://www.tiktok.com/@eoten_aimusicproduction/video/7703289869887458580",
+      "image": "assets/tiktok/tiktok-9f08833ad824be90be79262f.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-01T20:34:52.531344Z"
+    },
     {
       "id": "tiktok-f9b7f2b12cdeb2131d",
       "platform": "TikTok",
