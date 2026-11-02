@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-01T20:34:52+00:00",
+  "generatedAt": "2026-11-02T06:20:38+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "youtube music-f8136155980314476b",
+      "platform": "YouTube Music",
+      "type": "release",
+      "title": "İki Gurur Bir Aşk Etmedi",
+      "date": "2026-11-01",
+      "url": "https://music.youtube.com/watch?v=WhsXOo7ZbQQ",
+      "image": "https://i.ytimg.com/vi/WhsXOo7ZbQQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Müzik / şarkı",
+      "addedAt": "2026-11-02T06:20:38.554642Z"
+    },
     {
       "id": "tiktok-9f08833ad824be90be",
       "platform": "TikTok",
@@ -14,6 +26,18 @@
       "songCandidate": "",
       "kind": "Video / klip",
       "addedAt": "2026-11-01T20:34:52.531344Z"
+    },
+    {
+      "id": "spotify-album-3dnnQBI8B2yazPfpF17rpq",
+      "platform": "Spotify",
+      "type": "album",
+      "title": "İki Gurur Bir Aşk Etmedi",
+      "date": "2026-11-01",
+      "url": "https://open.spotify.com/album/3dnnQBI8B2yazPfpF17rpq",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739067a9aa3856a14a7274d559",
+      "songs": [],
+      "kind": "Müzik yayını",
+      "addedAt": "2026-11-02T06:20:38.554642Z"
     },
     {
       "id": "tiktok-f9b7f2b12cdeb2131d",
