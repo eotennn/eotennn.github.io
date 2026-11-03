@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T02:25:09+00:00",
+  "generatedAt": "2026-11-03T12:00:40+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "spotify-album-4UAomoXOadLqmlbvBloVYD",
+      "platform": "Spotify",
+      "type": "album",
+      "title": "Kim Sandın Kendini",
+      "date": "2026-11-03",
+      "url": "https://open.spotify.com/album/4UAomoXOadLqmlbvBloVYD",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734481cf638b7aa839f712e8d2",
+      "songs": [],
+      "kind": "Müzik yayını",
+      "addedAt": "2026-11-03T12:00:40.406135Z"
+    },
     {
       "id": "youtube music-f8136155980314476b",
       "platform": "YouTube Music",
