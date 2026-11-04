@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-04T00:39:53+00:00",
+  "generatedAt": "2026-11-04T12:15:38+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "tiktok-ddf2e49b476b58c3c4",
+      "platform": "TikTok",
+      "type": "video",
+      "title": "Kim Sandın Kendini? Dün seni gördüm meydanda Yine ahkâm kesiyordun El âleme yol gösterip Kendi yolun şaşırıyordun Bir elinde koca ",
+      "date": "2026-11-04",
+      "url": "https://www.tiktok.com/@eoten_aimusicproduction/video/7704177365680803092",
+      "image": "assets/tiktok/tiktok-ddf2e49b476b58c3c4aaf676.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-04T12:15:37.890281Z"
+    },
     {
       "id": "spotify-album-4UAomoXOadLqmlbvBloVYD",
       "platform": "Spotify",
