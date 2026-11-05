@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T12:29:11+00:00",
+  "generatedAt": "2026-11-05T22:05:05+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "tiktok-f945919ffcdcd8c459",
+      "platform": "TikTok",
+      "type": "video",
+      "title": "Gecenin Öte Yanı Akşam ağır ağır inerken şehre Gölgeler uzanır eski yerlere Senden kalan ne varsa susar içimde Bir tek zaman konuş",
+      "date": "2026-11-05",
+      "url": "https://www.tiktok.com/@eoten_aimusicproduction/video/7704678347489529140",
+      "image": "assets/tiktok/tiktok-f945919ffcdcd8c45972b421.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-05T22:05:04.949792Z"
+    },
     {
       "id": "spotify-album-5GBz4nYNsjuMInVjqEIqCB",
       "platform": "Spotify",
