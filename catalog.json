@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T00:55:57+00:00",
+  "generatedAt": "2026-11-05T12:29:11+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "spotify-album-5GBz4nYNsjuMInVjqEIqCB",
+      "platform": "Spotify",
+      "type": "album",
+      "title": "Gecenin Öte Yanı",
+      "date": "2026-11-05",
+      "url": "https://open.spotify.com/album/5GBz4nYNsjuMInVjqEIqCB",
+      "image": "https://i.scdn.co/image/ab67616d0000b27323566a8a0995f13caed69620",
+      "songs": [],
+      "kind": "Müzik yayını",
+      "addedAt": "2026-11-05T12:29:11.578327Z"
+    },
     {
       "id": "tiktok-ddf2e49b476b58c3c4",
       "platform": "TikTok",
