@@ -6,6 +6,7 @@ State (idempotency) lives in release tags, so re-runs are safe.
 """
 from __future__ import annotations
 
+import base64
 import glob
 import json
 import os
@@ -90,6 +91,55 @@ def has_release(video_id):
         ["gh", "release", "view", tag, "--repo", REPO],
         timeout=30, check=False,
     ).returncode == 0
+
+
+
+def queue_release(video_id):
+    """Write one idempotent, durable publishing job for a ready MP4 release."""
+    path = f"shorts-publish-queue/{video_id}.json"
+    existing = execute(["gh", "api", f"repos/{REPO}/contents/{path}",
+                        "-f", "ref=main"], timeout=30, check=False)
+    if existing.returncode == 0:
+        log(f"Publish queue already registered: {video_id}")
+        return
+    if "404" not in existing.stderr and "Not Found" not in existing.stderr:
+        log(f"Cannot check publishing queue for {video_id}: {existing.stderr[-500:]}")
+        raise RuntimeError("Publishing queue verification failed")
+
+    tag = f"eoten-auto-short-{video_id}"
+    metadata = execute(
+        ["gh", "release", "view", tag, "--repo", REPO, "--json", "name,assets,url"],
+        timeout=45
+    )
+    release = json.loads(metadata.stdout)
+    assets = [asset for asset in release.get("assets", [])
+              if asset.get("name", "").lower().endswith(".mp4")]
+    if not assets:
+        raise RuntimeError(f"No release MP4 asset for {video_id}; will not queue.")
+    asset = assets[0]
+    title = release.get("name", "").replace("EoTeN Shorts: ", "").strip()
+    title = re.sub(r"\s*\(" + re.escape(video_id) + r"\)\s*$", "", title)
+    media = (f"https://github.com/{REPO}/releases/download/{tag}/"
+             + asset["name"])
+    payload = {
+        "sourceVideoId": video_id,
+        "title": title or "EoTeN AI Music Production",
+        "releaseUrl": release.get("url", ""),
+        "mediaUrl": media,
+        "status": "pending",
+        "publisher": "Metricool YouTube Shorts",
+        "createdAt": __import__("datetime").datetime.now(
+            __import__("datetime").timezone.utc).isoformat(),
+    }
+    encoded = base64.b64encode(
+        (json.dumps(payload, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+    ).decode("ascii")
+    execute(["gh", "api", "-X", "PUT",
+             f"repos/{REPO}/contents/{path}",
+             "-f", f"message=Queue EoTeN Shorts {video_id} for automatic YouTube publication",
+             "-f", f"content={encoded}", "-f", "branch=main"],
+            timeout=60)
+    log(f"PUBLICATION_QUEUED {video_id} {media}")
 
 
 def get_metadata(video_id):
@@ -303,6 +353,7 @@ def create_release(video_id, title, output_file, cut_start, method):
         + output_file.name
     )
     log("SHORTS_READY " + link)
+    queue_release(video_id)
     return link
 
 
@@ -340,6 +391,7 @@ def main():
     failed = []
     for video_id in candidates:
         if has_release(video_id):
+            queue_release(video_id)
             log(f"Skipping already created Shorts: {video_id}")
             continue
         if attempts >= MAX_ATTEMPTS or generated >= MAX_PER_RUN:
