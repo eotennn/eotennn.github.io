@@ -11,23 +11,31 @@ jobs:
       contents: read
     steps:
       - name: Ensure ffmpeg is available
+        run: ffmpeg -version | head -n 2
+      - name: Install YouTube download tools
         run: |
-          ffmpeg -version | head -n 2
-      - name: Download original 16:9 EoTeN video
-        env:
-          SOURCE_URL: 'https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/b6ed4ec6-8f30-4c1d-abbd-c3dcc2fcb28b.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794552014&Signature=JLT684zH6kSLEYtSxwPihCmfKcmaDJ3gvkNSWhGbpO7OJ%2FztkfJSetECKaLqnrOfR1Qn4soMyA%2BSNq6gWaOpsg%2FYbWQ82pzl13C3H0f4ygGlGAWUMRlag%2Fh7fXCaM2YQnpY7E9YbDjViLi7HW4bPkKihghic3AAjQNLFufARsL2gg3aLQkPP%2FL8oG1BVxOeaUelSZeH5uJZZFoW4QBg%2ByUWM2IeLZhDckvRXh0rkErKNk4rI2mKglzn0wF4scq7xIx0LTnSWEE2oJi7pu8vB%2FgNMicnZEXo%2FP18OXc%2BZ2jmlqutMzP6ePdPK0XIeMk6EjCUGu1spXEBrFuZ57puIXg%3D%3D'
+          python3 -m pip install --user --upgrade "yt-dlp[default]"
+          node --version
+          python3 -m yt_dlp --version
+      - name: Download original EoTeN YouTube video
         run: |
-          curl --fail --location --retry 3 --silent --show-error "$SOURCE_URL" --output source.mp4
-          ffprobe -v error -show_entries format=duration:stream=width,height -of json source.mp4
-      - name: Make original 30-second chorus fit vertically with blurred top and bottom
+          python3 -m yt_dlp --verbose --no-playlist --force-ipv4 --js-runtimes node --remote-components ejs:github \
+            -f "bv*+ba/b" --merge-output-format mp4 -o "source.%(ext)s" \
+            "https://www.youtube.com/watch?v=UzGcX0cRfbg"
+          INPUT_VIDEO="$(find . -maxdepth 1 -type f -name 'source.*' | head -n 1)"
+          test -n "$INPUT_VIDEO"
+          mv "$INPUT_VIDEO" source_media
+          ffprobe -v error -show_entries format=duration:stream=width,height -of json source_media
+      - name: Make 30-second chorus with full-frame center and blurred background
         run: |
-          ffmpeg -hide_banner -y -ss 80 -i source.mp4 -t 30 \
+          ffmpeg -hide_banner -y -ss 80 -i source_media -t 30 \
             -filter_complex "[0:v]split=2[bgsrc][fgsrc];[bgsrc]scale=360:640:force_original_aspect_ratio=increase,crop=360:640,boxblur=20:2,scale=1080:1920[bg];[fgsrc]scale=1080:-2[fg];[bg][fg]overlay=x=(W-w)/2:y=(H-h)/2:shortest=1,format=yuv420p[v]" \
             -map "[v]" -map 0:a:0 -c:v libx264 -preset veryfast -crf 20 -r 30 -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart \
             "EoTeN_Seviyorsan_Incitme_Shorts_30s_Tam_Kadraj.mp4"
-      - name: Verify video size and length
+      - name: Verify size duration and streams
         run: |
-          ffprobe -v error -show_entries format=duration:stream=width,height -of json "EoTeN_Seviyorsan_Incitme_Shorts_30s_Tam_Kadraj.mp4"
+          ffprobe -v error -show_entries format=duration:stream=codec_type,width,height -of json \
+            "EoTeN_Seviyorsan_Incitme_Shorts_30s_Tam_Kadraj.mp4"
       - name: Save the Shorts MP4 as an Actions artifact
         uses: actions/upload-artifact@v4
         with:
