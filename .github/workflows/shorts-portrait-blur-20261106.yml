@@ -11,12 +11,27 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Confirm video tools
+      - name: Install required video tools
         shell: bash
         run: |
-          set -euxo pipefail
-          ffmpeg -version
-          python3 -V
+          set -e
+          echo "Ubuntu runner:" && cat /etc/os-release | head -n 3 || true
+          echo "Available tools before setup:"
+          command -v ffmpeg || true
+          command -v ffprobe || true
+          command -v python3 || true
+          if ! command -v ffmpeg >/dev/null 2>&1 || ! command -v ffprobe >/dev/null 2>&1; then
+            echo "Installing ffmpeg and ffprobe"
+            sudo apt-get update -qq
+            sudo DEBIAN_FRONTEND=noninteractive apt-get install -y ffmpeg
+          fi
+          if ! command -v python3 >/dev/null 2>&1; then
+            sudo DEBIAN_FRONTEND=noninteractive apt-get install -y python3 python3-venv
+          fi
+          echo "Video tools ready:"
+          command -v ffmpeg
+          command -v ffprobe
+          command -v python3
       - name: Download original 16:9 video with fallback
         shell: bash
         env:
