@@ -1,0 +1,70 @@
+name: EoTeN - Automatically create Shorts from new music videos
+
+on:
+  schedule:
+    # Four checks daily; times UTC. New videos are processed even when PC is off.
+    - cron: "17 2,8,14,20 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/scripts/eoten_auto_shorts.py
+      - .github/workflows/eoten-auto-shorts.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: eoten-auto-shorts
+  cancel-in-progress: false
+
+jobs:
+  create-shorts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - name: Check out EoTeN repository
+        uses: actions/checkout@v4
+
+      - name: Set up Deno for modern YouTube video extraction
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Install media tools if needed
+        shell: bash
+        run: |
+          set -e
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y ffmpeg
+          fi
+          if ! python3 -m venv "$RUNNER_TEMP/eoten-test-venv" >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y python3-venv
+          fi
+          ffmpeg -version
+          ffprobe -version
+          gh --version
+          deno --version
+          python3 -V
+
+      - name: Install YouTube downloader in isolated environment
+        shell: bash
+        run: |
+          set -e
+          python3 -m venv "$RUNNER_TEMP/eoten-venv"
+          "$RUNNER_TEMP/eoten-venv/bin/pip" install --upgrade pip "yt-dlp[default]"
+          "$RUNNER_TEMP/eoten-venv/bin/yt-dlp" --version
+
+      - name: Create up to three unprocessed Shorts and save directly downloadable MP4s
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          YT_DLP: ${{ runner.temp }}/eoten-venv/bin/yt-dlp
+          MAX_SHORTS_PER_RUN: "3"
+          MAX_VIDEO_ATTEMPTS: "7"
+        run: |
+          set -e
+          python3 .github/scripts/eoten_auto_shorts.py
