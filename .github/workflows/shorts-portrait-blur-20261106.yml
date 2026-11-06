@@ -6,37 +6,52 @@ on:
   workflow_dispatch:
 jobs:
   render:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
     permissions:
       contents: read
     steps:
-      - name: Ensure ffmpeg is available
-        run: ffmpeg -version | head -n 2
-      - name: Install YouTube download tools
+      - name: Confirm video tools
+        shell: bash
         run: |
-          python3 -m pip install --user --upgrade "yt-dlp[default]"
-          node --version
-          python3 -m yt_dlp --version
-      - name: Download original EoTeN YouTube video
+          set -euxo pipefail
+          ffmpeg -version | head -n 1
+          python3 -V
+      - name: Download original 16:9 video with fallback
+        shell: bash
+        env:
+          SOURCE_URL: 'https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/b6ed4ec6-8f30-4c1d-abbd-c3dcc2fcb28b.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794565495&Signature=aAJ7jq6QUQVmkxT10MLeiAr1sGiWUgiXCU4Tnt1lrU2%2FC9x%2F235a1ZqSQle7izXpiItMCCunGb6iiRgLNnUR19kcauHuxrtX%2BL0yZvn5wRll9di5HHzFjlC00B2SIICKCEIchaiEB%2ByQ6PZOrqSngMtFlVHQCJNvoflNySov%2Bs%2By6VX4kwUX7VxVwzgmDx3PW7ZighpL8YWxrzOItWvTMOehfU9AMImWRKA4zp91sA3wQVIXchwPrk4d%2B%2BSU0NZyzWM4ZdZB4Eh%2F6RfNyuFRdt9Bs7HITnhoD0mlCSnDChnbeLA%2BOf75y0Ehu2Cd%2FEU%2BnBftUUAT4PjgdiP4x8KvNw%3D%3D'
         run: |
-          python3 -m yt_dlp --verbose --no-playlist --force-ipv4 --js-runtimes node --remote-components ejs:github \
-            -f "bv*+ba/b" --merge-output-format mp4 -o "source.%(ext)s" \
-            "https://www.youtube.com/watch?v=UzGcX0cRfbg"
-          INPUT_VIDEO="$(find . -maxdepth 1 -type f -name 'source.*' | head -n 1)"
-          test -n "$INPUT_VIDEO"
-          mv "$INPUT_VIDEO" source_media
-          ffprobe -v error -show_entries format=duration:stream=width,height -of json source_media
-      - name: Make 30-second chorus with full-frame center and blurred background
+          set -uo pipefail
+          echo "Attempt 1: Download saved original 16:9 video."
+          if curl --fail --location --retry 2 --connect-timeout 15 --max-time 180 --silent --show-error "$SOURCE_URL" -o source.mp4 && ffprobe -v error -show_entries stream=width,height -of csv=p=0 source.mp4; then
+             echo "Direct source download succeeded"
+          else
+             echo "Direct source unavailable. Attempt 2: YouTube yt-dlp using a virtual environment"
+             rm -f source.mp4
+             python3 -m venv "$RUNNER_TEMP/yt-env" || exit 11
+             "$RUNNER_TEMP/yt-env/bin/pip" install -U "yt-dlp[default]" || exit 12
+             "$RUNNER_TEMP/yt-env/bin/yt-dlp" --no-playlist --force-ipv4 --js-runtimes node --remote-components ejs:github \
+               -f "bv*+ba/b" --merge-output-format mp4 -o "source.%(ext)s" \
+               "https://www.youtube.com/watch?v=UzGcX0cRfbg" || exit 13
+             test -f source.mp4 || exit 14
+          fi
+          echo "Source metadata:"
+          ffprobe -v error -show_entries format=duration:stream=codec_type,width,height -of json source.mp4
+      - name: Render original 30 sec centered with blurred background
+        shell: bash
         run: |
-          ffmpeg -hide_banner -y -ss 80 -i source_media -t 30 \
+          set -euxo pipefail
+          ffmpeg -hide_banner -y -ss 80 -i source.mp4 -t 30 \
             -filter_complex "[0:v]split=2[bgsrc][fgsrc];[bgsrc]scale=360:640:force_original_aspect_ratio=increase,crop=360:640,boxblur=20:2,scale=1080:1920[bg];[fgsrc]scale=1080:-2[fg];[bg][fg]overlay=x=(W-w)/2:y=(H-h)/2:shortest=1,format=yuv420p[v]" \
             -map "[v]" -map 0:a:0 -c:v libx264 -preset veryfast -crf 20 -r 30 -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart \
             "EoTeN_Seviyorsan_Incitme_Shorts_30s_Tam_Kadraj.mp4"
-      - name: Verify size duration and streams
+      - name: Verify final vertical video
+        shell: bash
         run: |
-          ffprobe -v error -show_entries format=duration:stream=codec_type,width,height -of json \
-            "EoTeN_Seviyorsan_Incitme_Shorts_30s_Tam_Kadraj.mp4"
-      - name: Save the Shorts MP4 as an Actions artifact
+          set -euo pipefail
+          ffprobe -v error -show_entries format=duration:stream=codec_type,width,height -of json "EoTeN_Seviyorsan_Incitme_Shorts_30s_Tam_Kadraj.mp4"
+      - name: Upload finished Short
         uses: actions/upload-artifact@v4
         with:
           name: EoTeN-Seviyorsan-Incitme-30s-Tam-Kadraj
