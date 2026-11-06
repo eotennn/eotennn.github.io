@@ -148,43 +148,112 @@ def media_probe(filename):
 
 
 def normalized(text):
-    text = unicodedata.normalize("NFKD", text.casefold())
+    text = unicodedata.normalize("NFKD", text.casefold().replace("ı", "i"))
     text = "".join(c for c in text if not unicodedata.combining(c))
     return re.sub(r"[^a-z0-9]+", " ", text).strip()
 
 
-def parse_subtitle_starts(folder, song_title, duration):
-    """Look for first recurring title phrase, usually in the chorus."""
-    name = re.sub(r"\s*\([^)]*\)", "", song_title)
-    title_words = [x for x in normalized(name).split() if x not in
-                   ("original", "version", "mix", "acoustics", "eoten")]
-    if len(title_words) < 2:
-        return None
-    phrase = " ".join(title_words)
-    starts = []
+def read_subtitle_cues(folder):
+    """Read timestamped Turkish VTT cues, including captions with rolling text."""
+    entries = []
+    regex = re.compile(
+        r"(?m)^(?:(\d\d):)?(\d\d):(\d\d)\.(\d\d\d)\s+-->\s*[^\n]*\n"
+    )
     for filename in folder.glob("source*.vtt"):
-        content = filename.read_text(encoding="utf-8-sig", errors="replace")
-        for match in re.finditer(
-            r"(?m)^(?:(\d\d):)?(\d\d):(\d\d)\.(\d\d\d)\s+-->[^\n]*\n(.*?)(?=\n\s*\n|\Z)",
-            content, re.DOTALL
-        ):
-            hh, mm, ss, ms, txt = match.groups()
-            start = int(hh or 0) * 3600 + int(mm) * 60 + int(ss) + int(ms) / 1000
-            text = re.sub(r"<[^>]*>", " ", txt)
-            if phrase in normalized(text) and 0.16 * duration < start < 0.60 * duration:
-                starts.append(start)
-    if starts:
-        log(f"Chorus candidate from Turkish captions: {min(starts):.1f}s")
-        return min(starts)
+        raw = filename.read_text(encoding="utf-8-sig", errors="replace")
+        markers = list(regex.finditer(raw))
+        for i, match in enumerate(markers):
+            hh, mm, ss, ms = match.groups()
+            second = int(hh or 0) * 3600 + int(mm) * 60 + int(ss) + int(ms) / 1000
+            stop = markers[i + 1].start() if i + 1 < len(markers) else len(raw)
+            fragment = raw[match.end():stop]
+            fragment = re.sub(r"<[^>]*>", " ", fragment)
+            fragment = re.sub(r"\[[^\]]*\]", " ", fragment)
+            fragment = normalized(fragment)
+            if len(fragment.split()) >= 3:
+                entries.append((second, fragment))
+    entries.sort(key=lambda item: item[0])
+    deduped = []
+    for second, fragment in entries:
+        if deduped and abs(second - deduped[-1][0]) < 2 and fragment == deduped[-1][1]:
+            continue
+        deduped.append((second, fragment))
+    return deduped
+
+
+def chorus_from_subtitles(folder, song_title, duration):
+    """Find first title lyric or repeated five-word chorus motif."""
+    cues = read_subtitle_cues(folder)
+    if not cues:
+        return None
+
+    name = re.sub(r"\s*\([^)]*\)", "", song_title)
+    title_tokens = [
+        token for token in normalized(name).split()
+        if token not in ("original", "version", "mix", "acoustics", "eoten")
+    ]
+    if len(title_tokens) >= 2:
+        title_phrase = " ".join(title_tokens)
+        for i, (second, _) in enumerate(cues):
+            if not 0.14 * duration <= second <= 0.68 * duration:
+                continue
+            nearby = " ".join(text for _, text in cues[i:i + 3])
+            if title_phrase in nearby:
+                log(f"Chorus from title lyric at {second:.1f}s.")
+                return second, "Turkish caption matching song title"
+
+    # Most choruses recur later in a song. Find repeated five-word lyric
+    # phrases at least 45 s apart, avoiding rolling-subtitle duplicates.
+    occurrences = {}
+    for second, words in cues:
+        if not 0.12 * duration <= second <= 0.89 * duration:
+            continue
+        tokens = words.split()
+        for i in range(len(tokens) - 4):
+            phrase = tuple(tokens[i:i + 5])
+            if len(set(phrase)) < 4:
+                continue
+            occurrences.setdefault(phrase, []).append(second)
+
+    candidate_weights = {}
+    for times in occurrences.values():
+        times = sorted(set(times))
+        if len(times) < 2:
+            continue
+        for first in times:
+            if not 0.14 * duration <= first <= 0.68 * duration:
+                continue
+            if any(45 <= other - first <= 240 for other in times):
+                bucket = int(first // 8)
+                candidate_weights[bucket] = candidate_weights.get(bucket, 0) + 1
+
+    if candidate_weights:
+        ranked = sorted(
+            candidate_weights.items(),
+            key=lambda item: (
+                -item[1],
+                abs(item[0] * 8 - duration * 0.32),
+            ),
+        )
+        strongest_bucket, score = ranked[0]
+        if score >= 3:
+            nearby = [sec for sec, _ in cues
+                      if int(sec // 8) == strongest_bucket]
+            second = min(nearby) if nearby else strongest_bucket * 8
+            log(f"Repeated chorus motif at {second:.1f}s ({score} matches).")
+            return second, "repeated lyric motif in Turkish captions"
+
     return None
 
 
 def first_chorus_position(folder, song_title, duration):
-    guessed = parse_subtitle_starts(folder, song_title, duration)
-    if guessed is None:
-        guessed = duration * 0.26
-        log(f"No title-bearing chorus subtitle; estimated first chorus: {guessed:.1f}s.")
-    return max(0, min(duration - 30.2, guessed - 2.0))
+    detected = chorus_from_subtitles(folder, song_title, duration)
+    if detected is None:
+        guess = duration * 0.28
+        log(f"No reliable caption-based chorus; using 28% fallback: {guess:.1f}s.")
+        return max(0, min(duration - 30.2, guess - 2.0)), "estimated first chorus"
+    detected_second, method = detected
+    return max(0, min(duration - 30.2, detected_second - 2.0)), method
 
 
 def render_clip(source_file, out_file, start):
@@ -221,7 +290,7 @@ def create_release(video_id, title, output_file, cut_start, method):
         "Original video and song audio retained. Centered full-frame video "
         "with blurred background; 9:16 (1080x1920), 30 seconds.\n"
         f"Clip start: {cut_start:.1f}s. Chorus selection: {method}.\n"
-        "Not uploaded to YouTube. Check the cut before publishing.\n"
+        "Not uploaded to YouTube; original source remains unchanged.\n"
     )
     execute([
         "gh", "release", "create", tag, str(output_file),
@@ -257,13 +326,7 @@ def process(video_id):
         if duration < 40:
             log(f"Skipping {video_id}: not long enough.")
             return False
-        subtitle_hit = parse_subtitle_starts(folder, title, duration)
-        if subtitle_hit is not None:
-            cut_start = max(0, min(duration - 30.2, subtitle_hit - 2.0))
-            method = "first matching Turkish caption"
-        else:
-            cut_start = first_chorus_position(folder, title, duration)
-            method = "estimated first chorus"
+        cut_start, method = first_chorus_position(folder, title, duration)
         output = folder / f"EoTeN_Shorts_{video_id}_30s_Tam_Kadraj.mp4"
         render_clip(original, output, cut_start)
         create_release(video_id, title, output, cut_start, method)
