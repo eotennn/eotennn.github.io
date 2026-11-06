@@ -97,7 +97,8 @@ def has_release(video_id):
 def queue_release(video_id):
     """Write one idempotent, durable publishing job for a ready MP4 release."""
     path = f"shorts-publish-queue/{video_id}.json"
-    existing = execute(["gh", "api", f"repos/{REPO}/contents/{path}",
+    existing = execute(["gh", "api", "-X", "GET",
+                        f"repos/{REPO}/contents/{path}",
                         "-f", "ref=main"], timeout=30, check=False)
     if existing.returncode == 0:
         log(f"Publish queue already registered: {video_id}")
