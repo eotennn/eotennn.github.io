@@ -15,7 +15,7 @@ jobs:
         shell: bash
         run: |
           set -euxo pipefail
-          ffmpeg -version | head -n 1
+          ffmpeg -version
           python3 -V
       - name: Download original 16:9 video with fallback
         shell: bash
