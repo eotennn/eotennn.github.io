@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 25
     permissions:
-      contents: read
+      contents: write
     steps:
       - name: Install required video tools
         shell: bash
@@ -72,3 +72,19 @@ jobs:
           name: EoTeN-Seviyorsan-Incitme-30s-Tam-Kadraj
           path: EoTeN_Seviyorsan_Incitme_Shorts_30s_Tam_Kadraj.mp4
           retention-days: 14
+      - name: Provide a direct MP4 download through GitHub Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="eoten-shorts-seviyorsan-incitme-fullframe-20261106"
+          MP4="EoTeN_Seviyorsan_Incitme_Shorts_30s_Tam_Kadraj.mp4"
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$MP4" --clobber --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create "$TAG" "$MP4" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+              --title "EoTeN - Seviyorsan Incitme Shorts tam kadraj" \
+              --notes "30 saniyelik tam kadraj Shorts videosu. 9:16; orijinal 16:9 video tamamen görünür, bulanık üst-alt arka plan."
+          fi
+          gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json assets,url
