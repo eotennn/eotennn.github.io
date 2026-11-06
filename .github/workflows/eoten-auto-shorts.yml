@@ -2,8 +2,8 @@ name: EoTeN - Automatically create Shorts from new music videos
 
 on:
   schedule:
-    # Four checks daily; times UTC. New videos are processed even when PC is off.
-    - cron: "17 2,8,14,20 * * *"
+    # Check every hour at minute 17 UTC, without needing a PC.
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches:
