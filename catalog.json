@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T15:59:11+00:00",
+  "generatedAt": "2026-11-06T21:35:41+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
     {
@@ -14,6 +14,18 @@
       "songCandidate": "",
       "kind": "Video / klip",
       "addedAt": "2026-11-06T06:57:13.475011Z"
+    },
+    {
+      "id": "tiktok-9404f4c3a26f2d9f70",
+      "platform": "TikTok",
+      "type": "video",
+      "title": "Kalbime İyi Bak Geceyi bölüp geldin bana Bir ışık düştü odama Ben kalbimi susturmuşken Adın karıştı duama Baktığın yerde bahar var",
+      "date": "2026-11-06",
+      "url": "https://www.tiktok.com/@eoten_aimusicproduction/video/7705118696460668181",
+      "image": "assets/tiktok/tiktok-9404f4c3a26f2d9f701e480a.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-06T21:35:40.491383Z"
     },
     {
       "id": "tiktok-dfa03f7ad880c05b97",
