@@ -362,6 +362,10 @@ def process(video_id):
     log(f"Processing {video_id}")
     metadata = get_metadata(video_id)
     title = metadata.get("title") or video_id
+    # A recently published Short must never become a source of another Short.
+    if metadata.get("duration") and float(metadata["duration"]) <= 180:
+        log(f"Skipping {video_id}: YouTube duration <=180s (Short-sized upload).")
+        return False
     if metadata.get("is_live") or metadata.get("live_status") in ("is_live", "is_upcoming"):
         log("Skipping livestream/upcoming.")
         return False
@@ -392,16 +396,21 @@ def main():
     failed = []
     for video_id in candidates:
         if has_release(video_id):
-            queue_release(video_id)
+            try:
+                queue_release(video_id)
+            except Exception as exc:
+                failed.append(video_id)
+                log(f"QUEUE FAILED for {video_id}: {exc}")
             log(f"Skipping already created Shorts: {video_id}")
             continue
         if attempts >= MAX_ATTEMPTS or generated >= MAX_PER_RUN:
             break
-        attempts += 1
         try:
             if process(video_id):
                 generated += 1
+                attempts += 1
         except Exception as exc:
+            attempts += 1
             failed.append(video_id)
             log(f"FAILED for {video_id}: {exc}")
     summary = f"Completed run: {generated} new Shorts, {attempts} attempted, failures: {failed}"
