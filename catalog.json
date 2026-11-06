@@ -1,8 +1,44 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T22:05:05+00:00",
+  "generatedAt": "2026-11-06T06:57:14+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "youtube-905d04fb946901d3e0",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Gecenin Öte Yanında (Slow Version) #aimusic #müzik #music #eoten_ai_music_production",
+      "date": "2026-11-06",
+      "url": "https://www.youtube.com/watch?v=JYxeey7fC_A",
+      "image": "https://i.ytimg.com/vi/JYxeey7fC_A/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-06T06:57:13.475011Z"
+    },
+    {
+      "id": "tiktok-dfa03f7ad880c05b97",
+      "platform": "TikTok",
+      "type": "video",
+      "title": "Genin Öte Yanı #eoten_ai_music_production #geceninöteyanı #keşfet #ai #yapayzeka",
+      "date": "2026-11-06",
+      "url": "https://www.tiktok.com/@eoten_aimusicproduction/video/7704939457010535701",
+      "image": "assets/tiktok/tiktok-dfa03f7ad880c05b9787b5d9.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-06T06:57:13.475011Z"
+    },
+    {
+      "id": "youtube-7628bdf82708e668fd",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Seviyorsan İncitme ❤️ | EoTeN AI Music Production #Shorts",
+      "date": "2026-11-05",
+      "url": "https://www.youtube.com/watch?v=UVf4jK7QznQ",
+      "image": "https://i.ytimg.com/vi/UVf4jK7QznQ/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-06T06:57:13.475011Z"
+    },
     {
       "id": "tiktok-f945919ffcdcd8c459",
       "platform": "TikTok",
