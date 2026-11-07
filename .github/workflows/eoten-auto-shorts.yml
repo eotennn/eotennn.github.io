@@ -2,7 +2,7 @@ name: EoTeN - Automatically create Shorts from new music videos
 
 on:
   schedule:
-    # Check every hour at minute 17 UTC, without needing a PC.
+    # Check every hour at minute 17 UTC, without needing a PC or YouTube scraping.
     - cron: "17 * * * *"
   workflow_dispatch:
   push:
@@ -11,6 +11,7 @@ on:
     paths:
       - .github/scripts/eoten_auto_shorts.py
       - .github/workflows/eoten-auto-shorts.yml
+      - .github/shorts-sources/**
 
 permissions:
   contents: write
@@ -27,11 +28,6 @@ jobs:
       - name: Check out EoTeN repository
         uses: actions/checkout@v4
 
-      - name: Set up Deno for modern YouTube video extraction
-        uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
-
       - name: Install media tools if needed
         shell: bash
         run: |
@@ -47,22 +43,12 @@ jobs:
           ffmpeg -version
           ffprobe -version
           gh --version
-          deno --version
           python3 -V
 
-      - name: Install YouTube downloader in isolated environment
-        shell: bash
-        run: |
-          set -e
-          python3 -m venv "$RUNNER_TEMP/eoten-venv"
-          "$RUNNER_TEMP/eoten-venv/bin/pip" install --upgrade pip "yt-dlp[default]"
-          "$RUNNER_TEMP/eoten-venv/bin/yt-dlp" --version
-
-      - name: Create up to three unprocessed Shorts and save directly downloadable MP4s
+      - name: Convert up to three imported original videos into full-frame Shorts
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
-          YT_DLP: ${{ runner.temp }}/eoten-venv/bin/yt-dlp
           MAX_SHORTS_PER_RUN: "3"
           MAX_VIDEO_ATTEMPTS: "7"
         run: |
