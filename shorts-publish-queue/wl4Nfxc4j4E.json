@@ -3,12 +3,15 @@
   "title": "Sana Geç Kaldım",
   "releaseUrl": "https://github.com/eotennn/eotennn.github.io/releases/tag/eoten-auto-short-wl4Nfxc4j4E",
   "mediaUrl": "https://github.com/eotennn/eotennn.github.io/releases/download/eoten-auto-short-wl4Nfxc4j4E/EoTeN_Shorts_wl4Nfxc4j4E_30s_Tam_Kadraj.mp4",
-  "status": "scheduled",
+  "status": "published",
   "publisher": "Metricool YouTube Shorts",
   "createdAt": "2026-11-07T04:55:32.639965+00:00",
   "metricoolPostId": "419670077",
   "metricoolUuid": "7712269326086785724",
   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7908864&openWithPostUuid=7712269326086785724",
   "scheduledAt": "2026-11-07T08:10:00+03:00",
-  "publishedAt": null
+  "publishedAt": null,
+  "youtubeShortsUrl": "https://www.youtube.com/shorts/s0llvpdCxwA",
+  "youtubeShortsId": "s0llvpdCxwA",
+  "publicationConfirmedBy": "Metricool PUBLISHED"
 }
