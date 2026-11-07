@@ -1,8 +1,10 @@
 {
   "videoId": "sUDiSt8GH90",
   "title": "Senden Kaçamadım",
-  "status": "importing",
+  "status": "ready",
   "mcpJobId": "job_d6a44c0e-aa73-4e41-a3a3-a8e206ef8d06",
   "importProvider": "vidIQ",
-  "originalYoutubeUrl": "https://www.youtube.com/watch?v=sUDiSt8GH90"
+  "originalYoutubeUrl": "https://www.youtube.com/watch?v=sUDiSt8GH90",
+  "uploadId": "7214571a-9d30-4280-a978-ef6856bbda03",
+  "sourceUrl": "https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/7214571a-9d30-4280-a978-ef6856bbda03.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794641317&Signature=FjeEfugqZCZiidKyIpkljzXzGkr21RruqLFiH0eD0QDY314krgx2qjHWDX8fpz0ngAkrsqM9cR8bf1EZIVTesCh4yhU3kcNzyat08sN6Pbbp0gvBP%2FSIv1iYY6nCqK5QNY39swper3L3XFZlDrDPcN2wifz1KAIMBp5CqXYh2T6v6vYt58sXfDHjUWjW3Xxk%2BJa2sjIQhPkxLqqz4%2FPzaBzL3s3i2SaqrxR2x2M9mN%2BouCLHmmvIDc2pEEto5jbDu3zME2HzlsqSbarfeGFQ8llAgvQIym1QjoVPY0kAWHnGg6sQ%2F7BQ2BbsE1e100nKpCwJ4vNQH%2FBuoq7j675X7w%3D%3D"
 }
