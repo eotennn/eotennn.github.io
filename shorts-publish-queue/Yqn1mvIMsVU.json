@@ -3,11 +3,14 @@
   "title": "Ben Öyle Demek İstemedim",
   "releaseUrl": "https://github.com/eotennn/eotennn.github.io/releases/tag/eoten-auto-short-Yqn1mvIMsVU",
   "mediaUrl": "https://github.com/eotennn/eotennn.github.io/releases/download/eoten-auto-short-Yqn1mvIMsVU/EoTeN_Shorts_Yqn1mvIMsVU_30s_Tam_Kadraj.mp4",
-  "status": "scheduled",
+  "status": "published",
   "publisher": "Metricool YouTube Shorts",
   "createdAt": "2026-11-07T09:48:18.090247+00:00",
   "metricoolPostId": "419839523",
   "metricoolUuid": "-5815807447817173327",
   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7908864&openWithPostUuid=-5815807447817173327",
-  "scheduledAt": "2026-11-07T13:57:00+03:00"
+  "scheduledAt": "2026-11-07T13:57:00+03:00",
+  "youtubeShortsUrl": "https://www.youtube.com/shorts/Snm-1Wo1La4",
+  "youtubeShortsId": "Snm-1Wo1La4",
+  "publicationConfirmedBy": "Metricool PUBLISHED"
 }
