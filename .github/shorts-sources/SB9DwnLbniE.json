@@ -1,8 +1,11 @@
 {
   "videoId": "SB9DwnLbniE",
   "title": "Geçtim O Yoldan",
-  "status": "importing",
+  "status": "ready",
   "mcpJobId": "job_9de27ce0-6152-48ea-bbc7-4f7b34604ff7",
   "importProvider": "vidIQ",
-  "originalYoutubeUrl": "https://www.youtube.com/watch?v=SB9DwnLbniE"
+  "originalYoutubeUrl": "https://www.youtube.com/watch?v=SB9DwnLbniE",
+  "uploadId": "550d41b8-ec52-47cb-8ad0-c4277fe7c518",
+  "sourceUrl": "https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/550d41b8-ec52-47cb-8ad0-c4277fe7c518.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794635467&Signature=XVaPSQuQ6Aqha1lcMpbUr1MOeQvngSd1U17SElCVmD3fkAK7sA6UoLuMnYjJWU0DvPw1o6DEQodmRx0wMbwbWoVHt3tZzxiFK%2BePgFapEV11x56y8njfAZ7T0o4E2a4s2ZhSc7f1HfhHHFUHzt1SOrJdJXQ862gMq8fXWNK%2BIJQlm6vUTf0Tzn0YFGQZ73piQokoXncqXd6Oj15sMWXJrRy9vzyPawUPJIXW2yKZgwHXUedEgDzX5Z3in6fe5lfikQU7ZIQ1JZzecmReRENQi0ylMn3GbS3XJ6LJbzCX8uPYpP0XQKjeDeByEGBN5x0h4epwKf816PV2sakWudZxbg%3D%3D",
+  "sourceDurationSeconds": 234.801
 }
