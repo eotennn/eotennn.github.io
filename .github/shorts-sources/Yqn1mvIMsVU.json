@@ -1,8 +1,11 @@
 {
   "videoId": "Yqn1mvIMsVU",
   "title": "Ben Öyle Demek İstemedim",
-  "status": "importing",
+  "status": "ready",
   "mcpJobId": "job_9442d1b6-dc74-4a36-a350-1735d4fe3303",
   "importProvider": "vidIQ",
-  "originalYoutubeUrl": "https://www.youtube.com/watch?v=Yqn1mvIMsVU"
+  "originalYoutubeUrl": "https://www.youtube.com/watch?v=Yqn1mvIMsVU",
+  "uploadId": "2f429234-78f8-42d6-a791-912f6cdebc48",
+  "sourceUrl": "https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/2f429234-78f8-42d6-a791-912f6cdebc48.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794649625&Signature=aNGeJfRylvS6R8JwSGWn%2Bczbdklip1NdSyKcqU0PULB%2FteNeWgUBSF6AkITxoeX0FXFdOXMAYU2wnmH%2BBvxmm0PsGY31V9QglYT5itYZMN3hIbwQtIJlc5CuZXPcsW%2FJPjb%2Fa%2FuHVBda8TzUiRjt661RpPQEgroKWGfG7jfuyrGBEPZa%2BmdGUVV6%2FXJZmlSTO19B3doj6NCtVzpgbywCNAIudC6D8qzDH87Ww%2FhCvlkwOF2hemW1aBIsw6YGLP4fK8TlFkeK89RjjYmeutqldEe7Bo3huvlNNFLqpFhoLdUavwZI1lBVEm1UP0AH2Vvu97OSbbj9ULreTigMLguSLg%3D%3D",
+  "sourceDurationSeconds": 376
 }
