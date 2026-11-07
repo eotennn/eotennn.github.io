@@ -3,11 +3,14 @@
   "title": "Seni Çok Özlüyorum",
   "releaseUrl": "https://github.com/eotennn/eotennn.github.io/releases/tag/eoten-auto-short-PA-NImblBaw",
   "mediaUrl": "https://github.com/eotennn/eotennn.github.io/releases/download/eoten-auto-short-PA-NImblBaw/EoTeN_Shorts_PA-NImblBaw_30s_Tam_Kadraj.mp4",
-  "status": "scheduled",
+  "status": "published",
   "publisher": "Metricool YouTube Shorts",
   "createdAt": "2026-11-07T05:52:49.022428+00:00",
   "metricoolPostId": "419839753",
   "metricoolUuid": "7039517036997987949",
   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7908864&openWithPostUuid=7039517036997987949",
-  "scheduledAt": "2026-11-07T13:59:00+03:00"
+  "scheduledAt": "2026-11-07T13:59:00+03:00",
+  "youtubeShortsUrl": "https://www.youtube.com/shorts/7ejbUkEaqg4",
+  "youtubeShortsId": "7ejbUkEaqg4",
+  "publicationConfirmedBy": "Metricool PUBLISHED"
 }
