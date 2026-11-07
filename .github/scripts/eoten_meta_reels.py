@@ -19,7 +19,7 @@ from pathlib import Path
 
 QUEUE = Path("shorts-publish-queue")
 REPO = os.getenv("GITHUB_REPOSITORY", "eotennn/eotennn.github.io")
-GRAPH_VERSION = os.getenv("META_GRAPH_API_VERSION", "v24.0")
+GRAPH_VERSION = os.getenv("META_GRAPH_API_VERSION", "v26.0")
 LIVE = os.getenv("META_REELS_LIVE", "").lower() == "true"
 FB_LIVE = os.getenv("META_FB_REELS_LIVE", "").lower() == "true"
 CUTOFF = dt.datetime.fromisoformat(os.getenv("META_CUTOFF") or "2026-11-08T00:00:00+03:00")
