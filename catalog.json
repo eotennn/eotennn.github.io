@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T06:08:58+00:00",
+  "generatedAt": "2026-11-07T14:56:26+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "youtube-1183ede7d3c1ae16ff",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Seni Çok Özlüyorum | EoTeN AI Music Production #Shorts",
+      "date": "2026-11-07",
+      "url": "https://www.youtube.com/watch?v=7ejbUkEaqg4",
+      "image": "https://i.ytimg.com/vi/7ejbUkEaqg4/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-07T14:56:26.925424Z"
+    },
     {
       "id": "youtube-152a7812ec9d1b32fe",
       "platform": "YouTube",
@@ -14,6 +26,78 @@
       "songCandidate": "",
       "kind": "Video / klip",
       "addedAt": "2026-11-07T06:08:58.007225Z"
+    },
+    {
+      "id": "youtube-5c92b0843ba0db1542",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Geçtim O Yoldan | EoTeN AI Music Production #Shorts",
+      "date": "2026-11-07",
+      "url": "https://www.youtube.com/watch?v=g9XvONM0FXc",
+      "image": "https://i.ytimg.com/vi/g9XvONM0FXc/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-07T14:56:26.925424Z"
+    },
+    {
+      "id": "youtube-b75e08d72501e2e6dd",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Ben Öyle Demek İstemedim | EoTeN AI Music Production #Shorts",
+      "date": "2026-11-07",
+      "url": "https://www.youtube.com/watch?v=Snm-1Wo1La4",
+      "image": "https://i.ytimg.com/vi/Snm-1Wo1La4/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-07T14:56:26.925424Z"
+    },
+    {
+      "id": "instagram-18e206e5829291d2f2",
+      "platform": "Instagram",
+      "type": "video",
+      "title": "Kim Sandın Kendini?",
+      "date": "2026-11-07",
+      "url": "https://www.instagram.com/reel/DfbqiQkiF1u/",
+      "image": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/893975051_1616799379384769_7564091939609356029_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=IQAeJc5P7sYQ7kNvwGwDyyw&_nc_oc=Adq4GvTUrj8wvyKjrnqFF1hMPImQ7TjFCNy3Y1bZbWGJU3ozBWQntD8rzz2HyVRQTIc&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=r1lexL_PNDQboawouvQ1bw&_nc_tpa=Q5bMBQL1SR_-CPV4gdsQY-7vP_6IeSG457VUFHe_fHv72VgxVVpGS34TOeRL8eH-q44cbqeK16poyNXSIg&oh=00_AQTBJCFQ9q7JXOn0yskZtsricf8ScLY0Vvvdbsfcl81qNw&oe=6AF4FCBE",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-07T14:56:26.925424Z"
+    },
+    {
+      "id": "instagram-5acbc8fb591d6f65fd",
+      "platform": "Instagram",
+      "type": "video",
+      "title": "İki Gurur Bir Aşk Etmedi",
+      "date": "2026-11-07",
+      "url": "https://www.instagram.com/reel/DfbpBwYCI5h/",
+      "image": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/891922809_1849393096081316_8381856182940808253_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=p_Abe_6SyuwQ7kNvwG_EuFf&_nc_oc=Adoo6uYpEP7MiAVcCMZtDVesE4f3N1ESekx6Y1E4S2lMk_gN6LiGpoi_kX7BGTsO1Kw&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=r1lexL_PNDQboawouvQ1bw&_nc_tpa=Q5bMBQJNUnsZAS9_jCR9hzMOZ0y-HEqLMFUvTT38ceCuXGgHpdndviDrvZDrGKxsb6t-EtUfID5qsi_yRw&oh=00_AQSE591JxYZg5u56oE5Jn6THY9me2uFw2uNeBUxCeaFyvw&oe=6AF518DE",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-07T14:56:26.925424Z"
+    },
+    {
+      "id": "instagram-50374ef427f9f10416",
+      "platform": "Instagram",
+      "type": "video",
+      "title": "Gecenin Öte Yanı",
+      "date": "2026-11-07",
+      "url": "https://www.instagram.com/reel/DfbslAfiz18/",
+      "image": "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/891043231_1455317923398858_2747479005384255290_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=d3ThNk-DNhcQ7kNvwFKSKv6&_nc_oc=AdonRwLVtyi-PmKm7pwrIwrIpblbs7nZPNdsqXyJ167kkGR3oFdEx0dDqj2kjoLru7A&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=r1lexL_PNDQboawouvQ1bw&_nc_tpa=Q5bMBQLNHmSxTTr8TlC1qsiQdxMWOAxc-P9mu9x0RRolB_MwrGyKoLNn2BTaiL54ES77dOXWAkqx7SXlig&oh=00_AQTzaPPLJZ7SRS4MICEj0Y76mQzf3aAEpkQxYLYG5aA0AA&oe=6AF51F30",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-07T14:56:26.925424Z"
+    },
+    {
+      "id": "instagram-ef171df2483619d4d1",
+      "platform": "Instagram",
+      "type": "video",
+      "title": "Gecenin Öte Yanı",
+      "date": "2026-11-07",
+      "url": "https://www.instagram.com/reel/DfbrqThiZCq/",
+      "image": "https://scontent-atl3-1.cdninstagram.com/v/t51.71878-15/856360739_1150493407446651_5440468396867786929_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KPNTNo9ZjtAQ7kNvwF-KfWl&_nc_oc=AdrPKXdwH88B2_6xrtbBTU8BWrnTGQXkBZRAVwcGVvlYqqnT-apDzsFwwLWcizzxqlM&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=r1lexL_PNDQboawouvQ1bw&_nc_tpa=Q5bMBQKri4LWzlRdGvQ6xtaUEY5yDxIy7NZL4NOwO1e4T06HlQBDjMiKsEyjqJE6qTJNB0HVaqbcBKx1og&oh=00_AQQuLCanTvcHr8Yj5A3uTQ4cgqz6le-RWQs5q42umd-LRA&oe=6AF50903",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-07T14:56:26.925424Z"
     },
     {
       "id": "youtube-de5cc33ca7d58044d2",
