@@ -3,11 +3,14 @@
   "title": "Geçtim O Yoldan",
   "releaseUrl": "https://github.com/eotennn/eotennn.github.io/releases/tag/eoten-auto-short-SB9DwnLbniE",
   "mediaUrl": "https://github.com/eotennn/eotennn.github.io/releases/download/eoten-auto-short-SB9DwnLbniE/EoTeN_Shorts_SB9DwnLbniE_30s_Tam_Kadraj.mp4",
-  "status": "scheduled",
+  "status": "published",
   "publisher": "Metricool YouTube Shorts",
   "createdAt": "2026-11-07T05:53:09.458515+00:00",
   "metricoolPostId": "419839787",
   "metricoolUuid": "103278552373087272",
   "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7908864&openWithPostUuid=103278552373087272",
-  "scheduledAt": "2026-11-07T14:01:00+03:00"
+  "scheduledAt": "2026-11-07T14:01:00+03:00",
+  "youtubeShortsUrl": "https://www.youtube.com/shorts/g9XvONM0FXc",
+  "youtubeShortsId": "g9XvONM0FXc",
+  "publicationConfirmedBy": "Metricool PUBLISHED"
 }
