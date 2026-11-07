@@ -1,8 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T21:35:41+00:00",
+  "generatedAt": "2026-11-07T06:08:58+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "youtube-152a7812ec9d1b32fe",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Sana Geç Kaldım ❤️ | EoTeN AI Music Production #Shorts",
+      "date": "2026-11-07",
+      "url": "https://www.youtube.com/watch?v=s0llvpdCxwA",
+      "image": "https://i.ytimg.com/vi/s0llvpdCxwA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-07T06:08:58.007225Z"
+    },
+    {
+      "id": "youtube-de5cc33ca7d58044d2",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Seviyorsan İncitme ❤️ | EoTeN AI Music Production #Shorts",
+      "date": "2026-11-06",
+      "url": "https://www.youtube.com/watch?v=pIouEExEjWA",
+      "image": "https://i.ytimg.com/vi/pIouEExEjWA/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-07T06:08:58.007225Z"
+    },
     {
       "id": "youtube-905d04fb946901d3e0",
       "platform": "YouTube",
