@@ -1,8 +1,11 @@
 {
   "videoId": "PA-NImblBaw",
   "title": "Seni Çok Özlüyorum",
-  "status": "importing",
+  "status": "ready",
   "mcpJobId": "job_c79c47e6-963d-44fd-a5a8-32e086691d4d",
   "importProvider": "vidIQ",
-  "originalYoutubeUrl": "https://www.youtube.com/watch?v=PA-NImblBaw"
+  "originalYoutubeUrl": "https://www.youtube.com/watch?v=PA-NImblBaw",
+  "uploadId": "4151c303-d188-4f23-8d78-90f6e4bcdf7a",
+  "sourceUrl": "https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/4151c303-d188-4f23-8d78-90f6e4bcdf7a.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794635462&Signature=DdnmGKQSJw1ypXBwdo8lJlwZ%2BQjhHkw3YUHnJc1YvBmV%2FF2Y%2BkOBHkochb306PyFULA5pr2LCjQreHMQRZzKT86vv%2F%2FthZZafL6V7%2BvaN1XPrnOiABfbG0ch6UnBVQeems66DvRQOSdcBin%2BQm3Cr6FxPRPQ%2F3nWhbD6%2FCyRaER1wO2x6Ao8VZsdk074uZRTlRXeQMspt5Pxp17rLBi9ovtdQZxu4EjAjFtRN8UGLlXKfNY3j55dH2UHwoaEu0uLlk0o0JPiNSflP3FE8gG896mss%2FKLFc7Nayg6gWvQgqMg%2F4ameBlSva2AxZranmYNrJvzvGYjul7wFYkhjW91vg%3D%3D",
+  "sourceDurationSeconds": 258.555
 }
