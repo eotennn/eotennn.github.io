@@ -1,8 +1,11 @@
 {
   "videoId": "cMOq8Ds_438",
   "title": "Yaz Bana",
-  "status": "importing",
+  "status": "ready",
   "mcpJobId": "job_5a7e8b87-02a5-4f10-9dfb-b1bd377e26a5",
   "importProvider": "vidIQ",
-  "originalYoutubeUrl": "https://www.youtube.com/watch?v=cMOq8Ds_438"
+  "originalYoutubeUrl": "https://www.youtube.com/watch?v=cMOq8Ds_438",
+  "uploadId": "49577b44-8a3e-454c-8122-07a7645c7907",
+  "sourceUrl": "https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/49577b44-8a3e-454c-8122-07a7645c7907.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794649634&Signature=r2BWoPmBDLa%2F50lM%2BAOcmRiPCGRKY7r1TUp%2BlJiOnSnGESwQg9PIAnU2n2mTAjw6wTrmnwqgJUY58s381J4nuRYdrcr7ftIsoXfESye0IGRBPzFHmce3iO%2BfkjoUHm2nwEpB1MrqbuM1pQyJSdtMPDaykQHjpn4b5KvL5%2BwDece2Hrc56dac5tTUuQZDqt902ie4M4ucQD%2BB28S8DxUUJNiiCUdg4q9l4Pyej0c222vnQYRA7zUM77bTwls%2BuKhGw%2BP5Kx604zycSws0A4vHVd8CEd2y6Nt6OlrwALncakZRaVZzYSMtNjBLhlOD6pv87%2F3PiA7KWvXOvzPSUUG29g%3D%3D",
+  "sourceDurationSeconds": 162
 }
