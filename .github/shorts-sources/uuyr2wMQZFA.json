@@ -1,8 +1,10 @@
 {
   "videoId": "uuyr2wMQZFA",
   "title": "Geceye Karışan",
-  "status": "importing",
+  "status": "ready",
   "mcpJobId": "job_92cdd03f-f328-42f6-b420-13969973aa73",
   "importProvider": "vidIQ",
-  "originalYoutubeUrl": "https://www.youtube.com/watch?v=uuyr2wMQZFA"
+  "originalYoutubeUrl": "https://www.youtube.com/watch?v=uuyr2wMQZFA",
+  "uploadId": "24818824-1bda-40ad-93ad-51e7abe3d838",
+  "sourceUrl": "https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/24818824-1bda-40ad-93ad-51e7abe3d838.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794641333&Signature=E%2BW%2FQVCN1L6NM18HPn6%2B%2F1KgP8bjvkGpadOdcKTZrLHyAEGyHqy4YPMfl54miAHuRFugG26NMsid%2F2v%2BrHC0VA1vvI4dIyV1zaDGoT3UbbxfftuxKQQUbysOpWIhmpJnZd3kDl5%2Bvwpp48VlbrE0rO79tPEd%2BL%2Bztuz%2FmK%2BwUqR%2B6zXA36LBSjQnlml9lYvmLQaL%2FCMdRnHNO278Y5Xj0dRB4st7wQE75TFTDGpSlcL%2F54%2FedQnLlTwra%2Bak4WFaQ8VcLAh%2FGGwA5qStC4mGt1HlGiG7OZdhb3ALElBMuK9yb0TKAWuXOuSDy95kW0ZjbXQIm0IRnlRbQqTmJk3h3w%3D%3D"
 }
