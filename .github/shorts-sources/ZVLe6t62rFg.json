@@ -1,8 +1,12 @@
 {
   "videoId": "ZVLe6t62rFg",
   "title": "Seviyorsan İncitme",
-  "status": "importing",
+  "status": "ready",
   "mcpJobId": "job_f8b947e6-e1b6-4a3e-a2b8-5be622b8e402",
   "importProvider": "vidIQ",
-  "originalYoutubeUrl": "https://www.youtube.com/watch?v=ZVLe6t62rFg"
+  "originalYoutubeUrl": "https://www.youtube.com/watch?v=ZVLe6t62rFg",
+  "uploadId": "37ed39e8-3313-4d4b-a316-6000a2bbebe9",
+  "sourceUrl": "https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/37ed39e8-3313-4d4b-a316-6000a2bbebe9.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794635455&Signature=OuXgsVb%2BNCElC%2FKeDXjaSm%2FgyxpfKye15nsX5dRSHhZf1nu9efURsxDpZjTC5JsGKyDA6v51W%2FNePzc50DI%2B36bZ3j%2FYInnd1ZlVQCckLKTJz8RSFBWjh22XXjwu5fWIBE0jbZ7KuaUWD8U1FRueoZ1gAVCE1yPbKh9ECAY84kAakckFV6aUlBh1L4wrKdCsV57Cda5LaP4JwHs%2BIOqFZMqFT4%2FzyMHUtn%2Fdy0rj0p8GGzINXXXB3Jz0qZXCvX6WJhf6IElNOadCI%2B3UmUVHahB6F6rIfuneQUkCZ8yhbW83e%2Bj8dSLFsJ6HBjnI6x5BY9xEcl73ZTejD2jw0CmulA%3D%3D",
+  "sourceDurationSeconds": 336.69,
+  "chorusStartSeconds": 80
 }
