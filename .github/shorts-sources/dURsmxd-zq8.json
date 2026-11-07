@@ -1,8 +1,10 @@
 {
   "videoId": "dURsmxd-zq8",
   "title": "Yaz Bana (Summer Dance Mix)",
-  "status": "importing",
+  "status": "ready",
   "mcpJobId": "job_f004fd4b-47d7-4e45-aac1-8eee17c35bd2",
   "importProvider": "vidIQ",
-  "originalYoutubeUrl": "https://www.youtube.com/watch?v=dURsmxd-zq8"
+  "originalYoutubeUrl": "https://www.youtube.com/watch?v=dURsmxd-zq8",
+  "uploadId": "1edfff14-7fcd-4636-823f-18e416e46a36",
+  "sourceUrl": "https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/1edfff14-7fcd-4636-823f-18e416e46a36.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794640468&Signature=aoJhMx2XOKfBIECE2af0mUZYti2vd5oXBzynUp9RixU9bJNw4NB72ftJbnBvk1XLlKtYbCjxkHqQP5njWgaH67riI4o71mRoxMbmjRJeBk0szO4u8cGEfOupa8dmoYVOiUtLuV7lyFogaDqyI%2FrEr3hXloP6O7ymG9ltSdSwqsmpD4JWFfZUmij%2FvqJn%2BYmTnlfp2nG77GODO8G5WtEGa6Rgd%2B45wpMjRV8deyJhqMEAlTjZWrjzVhKepZ%2FEcZZpbbEYsTGeC9k0xjcx0jr%2Fa%2B6j8KCVm746j8erxs8ZYyVEygaflIexP4VRMg90cjJWnC17oSOOL0L0lFXg%2B4eF8g%3D%3D"
 }
