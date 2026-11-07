@@ -1,8 +1,10 @@
 {
   "videoId": "RPFBhgngChk",
   "title": "Rolünü İyi Oynadın (Rock Version)",
-  "status": "importing",
+  "status": "ready",
   "mcpJobId": "job_3a02d304-1696-4b1d-a83c-335d5b5aa7bd",
   "importProvider": "vidIQ",
-  "originalYoutubeUrl": "https://www.youtube.com/watch?v=RPFBhgngChk"
+  "originalYoutubeUrl": "https://www.youtube.com/watch?v=RPFBhgngChk",
+  "uploadId": "2dc58f77-5601-4e6f-bbb4-97f040854914",
+  "sourceUrl": "https://storage.googleapis.com/vidiq-user-videos/1323c2c2-85e0-497b-8153-8c9d96d99fd7/2dc58f77-5601-4e6f-bbb4-97f040854914.mp4?GoogleAccessId=ai-proxy-20261001%40studious-pen-429.vid.io.iam.gserviceaccount.com&Expires=1794641316&Signature=klwpeh1nri3rtWNnMvXV14lLX0nmcNmMDng4v%2FFKlrZbvexCnKNiHNPmrqKveNCrFOSf9D2PLOf3T5P2BNMfXEZtSo2fKO9JFjRTL1RUuAFZwB9fn3nVvmN5DJrgpfwk%2BCUuOx8l2sr9BEPqfd1naoX3FgCtPsp%2BqFO79Eft%2FyZ3WrF4nD7zGsoe3DXm7FR2GPn%2BU3XakvXihRrORuo%2Bg8Z%2FDcL7msZRCGcmsuVcx3xkPj%2BkBFCjrKXAjaxkElLvgHgmSdKHm530ho8WPxYGUYlYEZzSBRFlg%2F2EblMg4IloTrIkT%2Fy8Zm3M43irTTZfvS3CbGLTCybd%2Fm6w1D0POw%3D%3D"
 }
