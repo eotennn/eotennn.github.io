@@ -27,7 +27,7 @@ jobs:
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
           META_FB_PAGE_ID: ${{ secrets.META_FB_PAGE_ID }}
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
-          META_GRAPH_API_VERSION: 'v24.0'
+          META_GRAPH_API_VERSION: 'v26.0'
           META_MAX_JOBS_PER_RUN: '1'
         run: |
           python3 -m py_compile .github/scripts/eoten_meta_reels.py
