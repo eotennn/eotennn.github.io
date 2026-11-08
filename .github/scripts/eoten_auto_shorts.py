@@ -370,11 +370,10 @@ def process(video_id):
         if not audio:
             log(f"Skipping {video_id}: source lacks original audio.")
             return False
-        if duration <= 180:
-            log(f"Skipping {video_id}: source video <= 180 seconds; not a long upload.")
-            return False
+        # vidIQ marks some 2-3 minute music uploads as long-form videos.
+        # Require enough source for a complete 30-second clip, not 180 seconds.
         if duration < 40:
-            log(f"Skipping {video_id}: not long enough.")
+            log(f"Skipping {video_id}: not long enough for a 30-second Short.")
             return False
         # If a reviewed lyric timestamp is provided, use it exactly.
         proposed = manifest.get("chorusStartSeconds")
