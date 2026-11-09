@@ -1,0 +1,28 @@
+name: EoTeN - Verify Shorts Release MP4 downloads
+on:
+  schedule:
+    - cron: "29 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "shorts-publish-queue/**"
+      - ".github/scripts/eoten_verify_shorts.py"
+      - ".github/workflows/eoten-verify-shorts.yml"
+permissions:
+  contents: write
+concurrency:
+  group: eoten-verify-shorts
+  cancel-in-progress: false
+jobs:
+  verify-release-assets:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify release assets by downloading and probing MP4
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          python3 .github/scripts/eoten_verify_shorts.py
