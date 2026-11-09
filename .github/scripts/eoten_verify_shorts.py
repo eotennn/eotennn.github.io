@@ -69,8 +69,6 @@ def main():
             if receipt_file.exists():
                 existing = api(f"repos/{REPO}/contents/{receipt_path}?ref=main")
                 payload["sha"] = existing["sha"]
-            run(["gh", "api", "-X", "PUT", f"repos/{REPO}/contents/{receipt_path}",
-                 "--input", "-"], check=True, timeout=60) if False else None
             # Send JSON on stdin using the API; no shell interpolation.
             subprocess.run(["gh", "api", "-X", "PUT", f"repos/{REPO}/contents/{receipt_path}", "--input", "-"],
                            input=json.dumps(payload), text=True, capture_output=True, check=True, timeout=60)
