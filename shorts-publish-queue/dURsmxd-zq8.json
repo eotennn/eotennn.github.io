@@ -3,7 +3,11 @@
   "title": "Yaz Bana (Summer Dance Mix)",
   "releaseUrl": "https://github.com/eotennn/eotennn.github.io/releases/tag/eoten-auto-short-dURsmxd-zq8",
   "mediaUrl": "https://github.com/eotennn/eotennn.github.io/releases/download/eoten-auto-short-dURsmxd-zq8/EoTeN_Shorts_dURsmxd-zq8_30s_Tam_Kadraj.mp4",
-  "status": "pending",
+  "status": "scheduled",
   "publisher": "Metricool YouTube Shorts",
-  "createdAt": "2026-11-08T14:54:38.468738+00:00"
+  "createdAt": "2026-11-08T14:54:38.468738+00:00",
+  "metricoolPostId": 423809275,
+  "metricoolUuid": "175632440672210347",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7908864&openWithPostUuid=175632440672210347",
+  "scheduledAt": "2026-11-11T02:32:00+03:00"
 }
