@@ -3,7 +3,11 @@
   "title": "Rolünü İyi Oynadın (Rock Version)",
   "releaseUrl": "https://github.com/eotennn/eotennn.github.io/releases/tag/eoten-auto-short-RPFBhgngChk",
   "mediaUrl": "https://github.com/eotennn/eotennn.github.io/releases/download/eoten-auto-short-RPFBhgngChk/EoTeN_Shorts_RPFBhgngChk_30s_Tam_Kadraj.mp4",
-  "status": "pending",
+  "status": "scheduled",
   "publisher": "Metricool YouTube Shorts",
-  "createdAt": "2026-11-07T07:30:18.674961+00:00"
+  "createdAt": "2026-11-07T07:30:18.674961+00:00",
+  "metricoolPostId": 423767630,
+  "metricoolUuid": "-5255952443307767478",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7908864&openWithPostUuid=-5255952443307767478",
+  "scheduledAt": "2026-11-11T01:42:00+03:00"
 }
