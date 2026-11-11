@@ -3,7 +3,11 @@
   "title": "Geceye Karışan",
   "releaseUrl": "https://github.com/eotennn/eotennn.github.io/releases/tag/eoten-auto-short-uuyr2wMQZFA",
   "mediaUrl": "https://github.com/eotennn/eotennn.github.io/releases/download/eoten-auto-short-uuyr2wMQZFA/EoTeN_Shorts_uuyr2wMQZFA_30s_Tam_Kadraj.mp4",
-  "status": "pending",
+  "status": "scheduled",
   "publisher": "Metricool YouTube Shorts",
-  "createdAt": "2026-11-07T07:30:57.925839+00:00"
+  "createdAt": "2026-11-07T07:30:57.925839+00:00",
+  "metricoolPostId": 423881396,
+  "metricoolUuid": "33250047918361316",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7908864&openWithPostUuid=33250047918361316",
+  "scheduledAt": "2026-11-11T04:22:00+03:00"
 }
