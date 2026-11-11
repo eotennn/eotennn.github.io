@@ -3,7 +3,11 @@
   "title": "Senden Kaçamadım",
   "releaseUrl": "https://github.com/eotennn/eotennn.github.io/releases/tag/eoten-auto-short-sUDiSt8GH90",
   "mediaUrl": "https://github.com/eotennn/eotennn.github.io/releases/download/eoten-auto-short-sUDiSt8GH90/EoTeN_Shorts_sUDiSt8GH90_30s_Tam_Kadraj.mp4",
-  "status": "pending",
+  "status": "scheduled",
   "publisher": "Metricool YouTube Shorts",
-  "createdAt": "2026-11-07T07:30:40.254331+00:00"
+  "createdAt": "2026-11-07T07:30:40.254331+00:00",
+  "metricoolPostId": 423881363,
+  "metricoolUuid": "-3730719652177624694",
+  "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7908864&openWithPostUuid=-3730719652177624694",
+  "scheduledAt": "2026-11-11T04:20:00+03:00"
 }
