@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-11T06:39:26+00:00",
+  "generatedAt": "2026-11-11T16:17:23+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "youtube-1ce54b046ba11b9346",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Ömrümü Sana Sakladım",
+      "date": "2026-11-11",
+      "url": "https://www.youtube.com/watch?v=BiH_1zWIP5E",
+      "image": "https://i.ytimg.com/vi/BiH_1zWIP5E/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-11T16:17:23.764812Z"
+    },
     {
       "id": "youtube-081b2ab7759d1182ba",
       "platform": "YouTube",
@@ -202,7 +214,7 @@
       "title": "Kim Sandın Kendini?",
       "date": "2026-11-07",
       "url": "https://www.instagram.com/reel/DfbqiQkiF1u/",
-      "image": "https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/893975051_1616799379384769_7564091939609356029_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0SDrDbEP8i0Q7kNvwGNnnUD&_nc_oc=Adofu7kDJHxSGcoqmenrs1si-pFUDyKjafNxfhAqsJNSwLMu1LaiJBkb5eJ3bzpeXVE&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=0hfjd8XQOMwNRMcOdZeXvQ&_nc_tpa=Q5bMBQIpgOQPkZnWMu3VtUUfCmYJXCeTV85nfLH_FmwBSyPpumlcQIpiIoI-to4C7zhzlwgXl0_ocyXO5Q&oh=00_AQQWabgvBfkneqeRkuC-8awj-gPynsmOm_iQ-RqOD39HzQ&oe=6AF9D23E",
+      "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/893975051_1616799379384769_7564091939609356029_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0SDrDbEP8i0Q7kNvwHpXfhs&_nc_oc=Adqu8x-QYflj2DYKfM09bg7R9ViC5DkeyaOH8Zjr0_uHbDPf9mNKj0xbPw-514odqJM&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=lhuJteNbu_C8L2wkO0QeRQ&_nc_tpa=Q5bMBQKOREiaJOs8a8vzE7Vk9Fw7ez95jyJwonHBZ88qzqLm7mcA-JF2CcVbNd1FZ9bDsV_hYl9GfyCKgQ&oh=00_AQRCFRfXqqA-X8BZ0NeSB_wUSA7u-XqDoxVrwZ0wr2-W8w&oe=6AFA7AFE",
       "songCandidate": "",
       "kind": "Video / klip",
       "addedAt": "2026-11-07T14:56:26.925424Z"
@@ -214,7 +226,7 @@
       "title": "İki Gurur Bir Aşk Etmedi",
       "date": "2026-11-07",
       "url": "https://www.instagram.com/reel/DfbpBwYCI5h/",
-      "image": "https://scontent-dfw6-2.cdninstagram.com/v/t51.71878-15/891922809_1849393096081316_8381856182940808253_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=y-gFeYm15KAQ7kNvwFaxxEa&_nc_oc=Adqw2thDS7UJnt8RlRsUj5GG3vNSh2PpZvVQFeGBgiN9pOoWLv6F0-Z46bsfmWWE68Q&_nc_zt=23&_nc_ht=scontent-dfw6-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=0hfjd8XQOMwNRMcOdZeXvQ&_nc_tpa=Q5bMBQIGiT1yPWoKWDGbonkpSk3n_GVpNZOx5yaN8aj9H2K1iHM-2uRcL73nFhjZAwE9ICsSoyV-EA94Dg&oh=00_AQTDkR8_XHk92_rC0cTaYQShjDreor9kMkolkzW7fO3QaA&oe=6AF9EE5E",
+      "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/891922809_1849393096081316_8381856182940808253_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=y-gFeYm15KAQ7kNvwEBtba3&_nc_oc=AdrEn2s9iUeJNtrOqQUKev5_A8UX_ocU06ZHX2VQz1WvaO4y5j1EvmWlpj1sDZm2luo&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=lhuJteNbu_C8L2wkO0QeRQ&_nc_tpa=Q5bMBQKACRBEKeZ2V2dpK2PnR8Y7Yrfo2xLKDtnY6fJBMvaJu0cMRGz8CDg1_HqFpPZsXTSdMmltE_cEMA&oh=00_AQTf-_OjMeCBLj7shO5i1zdz1x9Wy-3RDO3kYKCC_6ixFw&oe=6AFA5EDE",
       "songCandidate": "",
       "kind": "Video / klip",
       "addedAt": "2026-11-07T14:56:26.925424Z"
@@ -226,7 +238,7 @@
       "title": "Gecenin Öte Yanı",
       "date": "2026-11-07",
       "url": "https://www.instagram.com/reel/DfbslAfiz18/",
-      "image": "https://scontent-dfw5-1.cdninstagram.com/v/t51.71878-15/891043231_1455317923398858_2747479005384255290_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=E-f0AtNj4VoQ7kNvwEeXZKl&_nc_oc=AdoFkinL2Jdw7eH_8taEDIiN5ADt5gg8-kAsjfLX9vzwNZG-96YX2bv92RZJHAZI3q8&_nc_zt=23&_nc_ht=scontent-dfw5-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=0hfjd8XQOMwNRMcOdZeXvQ&_nc_tpa=Q5bMBQKXC7hc8UvfvkYs3HS0lPRqAVvAvJmMrEsBJw3vTj_oo0uqM1FNH8UawJ0NIPsDclaadyGmBiSIIA&oh=00_AQTbC7a5wgSWBNzxEJuctvSyTxKfY4Kcehs28KFkm_FJeA&oe=6AF9F4B0",
+      "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/891043231_1455317923398858_2747479005384255290_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=E-f0AtNj4VoQ7kNvwHjnxxi&_nc_oc=Adp394S79NTl-6Z6xzykSXnRR9hx29i5dWFxPcxFah9sXybD-eK5c0EwoDh1EHqFqBw&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=lhuJteNbu_C8L2wkO0QeRQ&_nc_tpa=Q5bMBQLedv1_Snq-b6IMkcSwgMItaNUIRkg8q1ZiplMxC5P-TF5YyRg6b-NW6ePMfJLGsO1P6nD58knKIw&oh=00_AQQ1GuoWNtXxTv6_w6m39FAmvpS_Ag5aa6l12QPB0jJT8Q&oe=6AFA6530",
       "songCandidate": "",
       "kind": "Video / klip",
       "addedAt": "2026-11-07T14:56:26.925424Z"
@@ -238,7 +250,7 @@
       "title": "Gecenin Öte Yanı",
       "date": "2026-11-07",
       "url": "https://www.instagram.com/reel/DfbrqThiZCq/",
-      "image": "https://scontent-dfw5-2.cdninstagram.com/v/t51.71878-15/856360739_1150493407446651_5440468396867786929_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Xt4Zkfw9KagQ7kNvwGApTpE&_nc_oc=AdoxSSu259mP1JShx3p2e2dnH8uyRaVDCmLP-rU6EPNi-iub7dIZ32-gKlA8AN1fD34&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=0hfjd8XQOMwNRMcOdZeXvQ&_nc_tpa=Q5bMBQJ7z14WVnZOezr9bhgeHa3LctQub3JjZzitv6CkkUf_XW4p4rRYJvdwt6M8BoI9BaWtD7OQCP4Q1A&oh=00_AQS9YRNn69WUZcMAkGAbaC1m1KN2d8X051fnK1gJ4fi1FA&oe=6AF9DE83",
+      "image": "https://scontent-sjc6-1.cdninstagram.com/v/t51.71878-15/856360739_1150493407446651_5440468396867786929_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=cZABHAwXNycQ7kNvwGCpUZh&_nc_oc=AdqxX9OoGBwdqU1GelO6_XyalyobR5poP3ySX9GMxCJ9GBJWu5m0mcwfvjE7S3PcAfE&_nc_zt=23&_nc_ht=scontent-sjc6-1.cdninstagram.com&edm=AFF3FJ0EAAAA&_nc_gid=lhuJteNbu_C8L2wkO0QeRQ&_nc_tpa=Q5bMBQLYknFuFEYX7jzKku2hvje16zQRHYVutxxOyrjM5eiRlpUi3OeWQIRfnyOgsGuGO0HzKCIQ3wFlSA&oh=00_AQRaZEKYgQwWWPZAKV6BTZxPMZ409WwV8-QTspXNICu9wQ&oe=6AFA4F03",
       "songCandidate": "",
       "kind": "Video / klip",
       "addedAt": "2026-11-07T14:56:26.925424Z"
