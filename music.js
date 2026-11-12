@@ -41,6 +41,8 @@
   // Cover URLs are produced by the local exporter. No access tokens in browser code.
   function safeImage(url, p) {
     if (p === 'Instagram' && /^assets\/instagram\/instagram-[0-9a-f]{14,64}\.(?:jpg|png|webp)$/i.test(String(url || ''))) return url;
+    // Instagram CDN URLs are deliberately not embedded: they expire and can be blocked.
+    // A scheduled GitHub workflow archives thumbnails to assets/instagram instead.
     if (p === 'TikTok' && /^assets\/tiktok\/tiktok-[0-9a-f]{14,64}\.jpg$/i.test(String(url || ''))) return url;
     try {
       const u = new URL(url);
