@@ -1,8 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T22:00:38+00:00",
+  "generatedAt": "2026-11-14T06:38:34+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "tiktok-4befaf09f1e3103e9e",
+      "platform": "TikTok",
+      "type": "video",
+      "title": "Gölgene Sarıldım Bir akşam düştü gözlerinden içime Sanki dünya sustu o an sessizce Ben seni değil kendimi kaybettim Aşk dediğin bi",
+      "date": "2026-11-13",
+      "url": "https://www.tiktok.com/@eoten_aimusicproduction/video/7707784005025910036",
+      "image": "assets/tiktok/tiktok-4befaf09f1e3103e9e704ec0.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-14T06:38:34.204082Z"
+    },
+    {
+      "id": "spotify-album-1tq295dMsD2hBPY6k0EfqH",
+      "platform": "Spotify",
+      "type": "album",
+      "title": "Gölgene Sarıldım (F. Vokal Version)",
+      "date": "2026-11-13",
+      "url": "https://open.spotify.com/album/1tq295dMsD2hBPY6k0EfqH",
+      "image": "https://i.scdn.co/image/ab67616d0000b273869e79f4152fbd23c0ec4f1d",
+      "songs": [],
+      "kind": "Müzik yayını",
+      "addedAt": "2026-11-14T06:38:34.204082Z"
+    },
     {
       "id": "youtube-1ce54b046ba11b9346",
       "platform": "YouTube",
