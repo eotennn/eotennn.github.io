@@ -1,8 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T06:38:34+00:00",
+  "generatedAt": "2026-11-14T15:10:26+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "youtube-dfd61f215f80c7786a",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Gölgene Sarıldım | EoTeN AI Music Production #Shorts",
+      "date": "2026-11-14",
+      "url": "https://www.youtube.com/watch?v=N8GMGZFIjrk",
+      "image": "https://i.ytimg.com/vi/N8GMGZFIjrk/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-14T15:10:26.417425Z"
+    },
+    {
+      "id": "youtube-a324516dea45342f2a",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Gölgene Sarıldım",
+      "date": "2026-11-14",
+      "url": "https://www.youtube.com/watch?v=O4I0xhpi06M",
+      "image": "https://i.ytimg.com/vi/O4I0xhpi06M/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-14T15:10:26.417425Z"
+    },
     {
       "id": "tiktok-4befaf09f1e3103e9e",
       "platform": "TikTok",
