@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T20:46:39+00:00",
+  "generatedAt": "2026-11-15T06:45:04+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
     {
@@ -26,6 +26,30 @@
       "songCandidate": "",
       "kind": "Video / klip",
       "addedAt": "2026-11-14T15:10:26.417425Z"
+    },
+    {
+      "id": "youtube-db928aa45ae82852aa",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "Geçtim OYoldan | EoTeN AI Music Production #Shorts",
+      "date": "2026-11-14",
+      "url": "https://www.youtube.com/watch?v=Bra1uBnW3bE",
+      "image": "https://i.ytimg.com/vi/Bra1uBnW3bE/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-15T06:45:04.055981Z"
+    },
+    {
+      "id": "spotify-album-6Tunoa3NzQPkMpTpziH29j",
+      "platform": "Spotify",
+      "type": "album",
+      "title": "Geçtim O Yoldan (M. Vokal Version)",
+      "date": "2026-11-14",
+      "url": "https://open.spotify.com/album/6Tunoa3NzQPkMpTpziH29j",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f6696d3ccc6d5d36dda16a15",
+      "songs": [],
+      "kind": "Müzik yayını",
+      "addedAt": "2026-11-15T06:45:04.055981Z"
     },
     {
       "id": "tiktok-4befaf09f1e3103e9e",
