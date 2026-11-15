@@ -1,8 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-15T15:42:28+00:00",
+  "generatedAt": "2026-11-15T21:05:29+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "tiktok-216de3ef6fb2f88d68",
+      "platform": "TikTok",
+      "type": "video",
+      "title": "Geçtim O Yoldan Kırıldım ama söylemedim Gururum sustu, kalbim değil Aynı sokak, başka yüzler Sen gittin, ben hâlâ buradayım Gecele",
+      "date": "2026-11-15",
+      "url": "https://www.tiktok.com/@eoten_aimusicproduction/video/7708460881234922773",
+      "image": "assets/tiktok/tiktok-216de3ef6fb2f88d68dbdf85.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-15T21:05:28.733418Z"
+    },
     {
       "id": "youtube-dfd61f215f80c7786a",
       "platform": "YouTube",
