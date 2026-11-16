@@ -1,8 +1,32 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-16T06:44:13+00:00",
+  "generatedAt": "2026-11-16T18:39:33+00:00",
   "notice": "Onceki yetkili katalog taramalarinin ozetidir; anlik yayin ve ses dogrulamasi degildir.",
   "items": [
+    {
+      "id": "youtube-f47b27be77f8b532c1",
+      "platform": "YouTube",
+      "type": "video",
+      "title": "🎵 GEÇTİM O YOLDAN | EoTeN AI Music Production",
+      "date": "2026-11-16",
+      "url": "https://www.youtube.com/watch?v=s6IjfulU1S8",
+      "image": "https://i.ytimg.com/vi/s6IjfulU1S8/hqdefault.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-16T18:39:32.715114Z"
+    },
+    {
+      "id": "tiktok-6fefa00dcc4183f7ed",
+      "platform": "TikTok",
+      "type": "video",
+      "title": "🎵 GEÇTİM O YOLDAN | EoTeN AI Music Production 🎸 Geçmişin ruhundan doğan yepyeni şarkılar... “Geçtim O Yoldan”, bir ayrılığın ardın",
+      "date": "2026-11-16",
+      "url": "https://www.tiktok.com/@eoten_aimusicproduction/video/7708765361310731540",
+      "image": "assets/tiktok/tiktok-6fefa00dcc4183f7ed3f7346.jpg",
+      "songCandidate": "",
+      "kind": "Video / klip",
+      "addedAt": "2026-11-16T18:39:32.715114Z"
+    },
     {
       "id": "tiktok-216de3ef6fb2f88d68",
       "platform": "TikTok",
