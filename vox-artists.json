@@ -277,13 +277,13 @@
       "palette": "#b96d4e",
       "images": [
         {
-          "src": "assets/vox/f1/f1-portre.webp",
-          "title": "VØX-F1 · Resmî yakın plan portre",
+          "src": "assets/vox/f1/f1-portre-v2.webp",
+          "title": "VØX-F1 · Yeni resmî yakın plan portre",
           "type": "Karakter fotoğrafı"
         },
         {
-          "src": "assets/vox/f1/f1-kart-v2.webp",
-          "title": "VØX-F1 · Resmî dört görünümlü karakter tanıtım kartı",
+          "src": "assets/vox/f1/f1-kart-v3.webp",
+          "title": "VØX-F1 · Güncellenmiş dört görünümlü tanıtım kartı",
           "type": "Karakter kartı"
         },
         {
@@ -292,8 +292,8 @@
           "type": "ön görünüm"
         },
         {
-          "src": "assets/vox/f1/f1-arka-v2.webp",
-          "title": "VØX-F1 · Tam boy arka görünüm",
+          "src": "assets/vox/f1/f1-arka-v3.webp",
+          "title": "VØX-F1 · Düzeltilmiş tam boy arka görünüm",
           "type": "arka görünüm"
         },
         {
@@ -327,17 +327,17 @@
           "type": "Alternatif kombin B · Sol"
         }
       ],
-      "heroImage": "assets/vox/f1/f1-portre.webp",
+      "heroImage": "assets/vox/f1/f1-portre-v2.webp",
       "views": {
         "front": "assets/vox/f1/f1-on-v2.webp",
-        "back": "assets/vox/f1/f1-arka-v2.webp",
+        "back": "assets/vox/f1/f1-arka-v3.webp",
         "right": "assets/vox/f1/f1-sag-v2.webp",
         "left": "assets/vox/f1/f1-sol-v2.webp"
       },
       "gallery": [
         {
-          "src": "assets/vox/f1/f1-kart-v2.webp",
-          "title": "VØX-F1 · Resmî dört görünümlü karakter tanıtım kartı",
+          "src": "assets/vox/f1/f1-kart-v3.webp",
+          "title": "VØX-F1 · Güncellenmiş dört görünümlü tanıtım kartı",
           "type": "Karakter kartı"
         },
         {
