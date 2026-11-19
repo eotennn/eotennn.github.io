@@ -23,7 +23,7 @@
           "type": "Spotify kapağı"
         },
         {
-          "src": "assets/vox/m1/m1-portre.webp",
+          "src": "assets/vox/m1/m1-portre-v2.webp",
           "title": "VØX-M1 · Resmî yakın plan portre",
           "type": "Karakter fotoğrafı"
         },
@@ -83,7 +83,7 @@
           "type": "Alternatif kombin"
         }
       ],
-      "heroImage": "assets/vox/m1/m1-portre.webp",
+      "heroImage": "assets/vox/m1/m1-portre-v2.webp",
       "views": {
         "front": "assets/vox/m1/m1-on.webp",
         "back": "assets/vox/m1/m1-arka.webp",
