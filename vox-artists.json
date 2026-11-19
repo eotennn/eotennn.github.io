@@ -22,6 +22,25 @@
           "title": "Geçtim O Yoldan · Spotify kapağı",
           "type": "Spotify kapağı"
         }
+      ],
+      "heroImage": null,
+      "views": {
+        "front": null,
+        "back": null,
+        "right": null,
+        "left": null
+      },
+      "gallery": [
+        {
+          "src": "https://i.ytimg.com/vi/s6IjfulU1S8/hqdefault.jpg",
+          "title": "Geçtim O Yoldan · video kapağı",
+          "type": "Yayın görseli"
+        },
+        {
+          "src": "https://i.scdn.co/image/ab67616d0000b273f6696d3ccc6d5d36dda16a15",
+          "title": "Geçtim O Yoldan · Spotify kapağı",
+          "type": "Spotify kapağı"
+        }
       ]
     },
     {
@@ -45,6 +64,25 @@
           "title": "Küllerime Yazılmış Adın · yayın görseli",
           "type": "Yayın görseli"
         }
+      ],
+      "heroImage": null,
+      "views": {
+        "front": null,
+        "back": null,
+        "right": null,
+        "left": null
+      },
+      "gallery": [
+        {
+          "src": "https://i.scdn.co/image/ab67616d0000b273e7b84c4633b1ea30f1159b38",
+          "title": "Küllerime Yazılmış Adın · Spotify kapağı",
+          "type": "Spotify kapağı"
+        },
+        {
+          "src": "https://i.ytimg.com/vi/q9CBretfbs0/hqdefault.jpg",
+          "title": "Küllerime Yazılmış Adın · yayın görseli",
+          "type": "Yayın görseli"
+        }
       ]
     },
     {
@@ -57,7 +95,15 @@
       "summary": "Kızıl bandana, doğal dalgalı koyu saçlar ve nostaljik bir bohem ifade. Romantik retro folk hikâyeleri için tasarlanan sanal sanatçı.",
       "appearance": "Kızıl desenli bandana, dantel bluz, püsküllü süet yelek, çiçekli etek ve vintage takılar.",
       "palette": "#b96d4e",
-      "images": []
+      "images": [],
+      "heroImage": null,
+      "views": {
+        "front": null,
+        "back": null,
+        "right": null,
+        "left": null
+      },
+      "gallery": []
     },
     {
       "id": "F2",
@@ -110,6 +156,35 @@
           "title": "VØX-F2 · Dört görünümlü tanıtım kartı",
           "type": "Karakter kartı"
         }
+      ],
+      "heroImage": "assets/vox/f2/f2-portre.webp",
+      "views": {
+        "front": "assets/vox/f2/f2-on.webp",
+        "back": null,
+        "right": "assets/vox/f2/f2-sag.webp",
+        "left": "assets/vox/f2/f2-sol.webp"
+      },
+      "gallery": [
+        {
+          "src": "assets/vox/f2/f2-portre-sol.webp",
+          "title": "VØX-F2 · Yakın sol profil",
+          "type": "Yakın portre"
+        },
+        {
+          "src": "assets/vox/f2/f2-portre-sag.webp",
+          "title": "VØX-F2 · Yakın sağ profil",
+          "type": "Yakın portre"
+        },
+        {
+          "src": "assets/vox/f2/f2-uc-gorunum.webp",
+          "title": "VØX-F2 · Üç açılı yüz referansı",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-tanitim-karti.webp",
+          "title": "VØX-F2 · Dört görünümlü tanıtım kartı",
+          "type": "Karakter kartı"
+        }
       ]
     },
     {
@@ -123,6 +198,25 @@
       "appearance": "Kahverengi süet ceket, dantel bluz, mini etek veya bohem kombin, retro botlar.",
       "palette": "#d08c60",
       "images": [
+        {
+          "src": "https://i.ytimg.com/vi/wl4Nfxc4j4E/hqdefault.jpg",
+          "title": "Sana Geç Kaldım · yayın kapağı",
+          "type": "Yayın görseli"
+        },
+        {
+          "src": "https://i.ytimg.com/vi/s0llvpdCxwA/hqdefault.jpg",
+          "title": "Sana Geç Kaldım · kısa video kapağı",
+          "type": "Yayın görseli"
+        }
+      ],
+      "heroImage": null,
+      "views": {
+        "front": null,
+        "back": null,
+        "right": null,
+        "left": null
+      },
+      "gallery": [
         {
           "src": "https://i.ytimg.com/vi/wl4Nfxc4j4E/hqdefault.jpg",
           "title": "Sana Geç Kaldım · yayın kapağı",
@@ -151,6 +245,20 @@
           "title": "Adını Yazdım Kalbime · video görseli",
           "type": "Yayın görseli"
         }
+      ],
+      "heroImage": null,
+      "views": {
+        "front": null,
+        "back": null,
+        "right": null,
+        "left": null
+      },
+      "gallery": [
+        {
+          "src": "assets/tiktok/tiktok-0c48ec6fae2fc793dd5936d7.jpg",
+          "title": "Adını Yazdım Kalbime · video görseli",
+          "type": "Yayın görseli"
+        }
       ]
     },
     {
@@ -163,7 +271,27 @@
       "summary": "Uzun dalgalı kızıl saçları, pembe halka küpeleri ve canlı sahne estetiğiyle modern pop-rock karakteri.",
       "appearance": "Pembe saten elbise veya yazlık üst, zarif topuklular, açık tonlu modern kombinler.",
       "palette": "#e87da4",
-      "images": []
+      "images": [],
+      "heroImage": null,
+      "views": {
+        "front": null,
+        "back": null,
+        "right": null,
+        "left": null
+      },
+      "gallery": []
     }
-  ]
+  ],
+  "schema": 2,
+  "galleryStandard": {
+    "hero": "yakın plan karakter portresi",
+    "viewOrder": [
+      "front",
+      "back",
+      "right",
+      "left"
+    ],
+    "missingImage": "Görsel bekleniyor; başka karakter veya yanlış açı kullanılmaz",
+    "spotify": "Yalnızca vox-mapping.json dosyasında eşleştirilmiş gerçek Spotify yayınları"
+  }
 }
