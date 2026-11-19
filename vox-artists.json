@@ -461,10 +461,10 @@
       "palette": "#a92d55",
       "heroImage": "assets/vox/f3/f3-portre.webp",
       "views": {
-        "front": "assets/vox/f3/f3-on-v2.webp",
-        "back": "assets/vox/f3/f3-arka-v2.webp",
-        "right": "assets/vox/f3/f3-sag-v2.webp",
-        "left": "assets/vox/f3/f3-sol-v2.webp"
+        "front": "assets/vox/f3/f3-on-v3.webp",
+        "back": "assets/vox/f3/f3-arka-v3.webp",
+        "right": "assets/vox/f3/f3-sag-v3.webp",
+        "left": "assets/vox/f3/f3-sol-v3.webp"
       },
       "images": [
         {
@@ -473,104 +473,104 @@
           "type": "Karakter fotoğrafı"
         },
         {
-          "src": "assets/vox/f3/f3-on-v2.webp",
+          "src": "assets/vox/f3/f3-on-v3.webp",
           "title": "VØX-F3 · Tam boy ön görünüm",
           "type": "ön görünüm"
         },
         {
-          "src": "assets/vox/f3/f3-arka-v2.webp",
+          "src": "assets/vox/f3/f3-arka-v3.webp",
           "title": "VØX-F3 · Tam boy arka görünüm",
           "type": "arka görünüm"
         },
         {
-          "src": "assets/vox/f3/f3-sag-v2.webp",
+          "src": "assets/vox/f3/f3-sag-v3.webp",
           "title": "VØX-F3 · Tam boy sağ profil",
           "type": "sağ görünüm"
         },
         {
-          "src": "assets/vox/f3/f3-sol-v2.webp",
+          "src": "assets/vox/f3/f3-sol-v3.webp",
           "title": "VØX-F3 · Tam boy sol profil",
           "type": "sol görünüm"
         },
         {
-          "src": "assets/vox/f3/f3-look-c-back-v2.webp",
+          "src": "assets/vox/f3/f3-look-c-back-v3.webp",
           "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Arka",
           "type": "Alternatif kombin C · Arka"
         },
         {
-          "src": "assets/vox/f3/f3-look-c-front-v2.webp",
+          "src": "assets/vox/f3/f3-look-c-front-v3.webp",
           "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Ön",
           "type": "Alternatif kombin C · Ön"
         },
         {
-          "src": "assets/vox/f3/f3-look-c-left-v2.webp",
+          "src": "assets/vox/f3/f3-look-c-left-v3.webp",
           "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Sol profil",
           "type": "Alternatif kombin C · Sol"
         },
         {
-          "src": "assets/vox/f3/f3-look-c-right-v2.webp",
+          "src": "assets/vox/f3/f3-look-c-right-v3.webp",
           "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Sağ profil",
           "type": "Alternatif kombin C · Sağ"
         },
         {
-          "src": "assets/vox/f3/f3-look-d-back-v2.webp",
+          "src": "assets/vox/f3/f3-look-d-back-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Arka",
           "type": "Alternatif kombin D · Arka"
         },
         {
-          "src": "assets/vox/f3/f3-look-d-front-v2.webp",
+          "src": "assets/vox/f3/f3-look-d-front-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Ön",
           "type": "Alternatif kombin D · Ön"
         },
         {
-          "src": "assets/vox/f3/f3-look-d-left-v2.webp",
+          "src": "assets/vox/f3/f3-look-d-left-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sol profil",
           "type": "Alternatif kombin D · Sol"
         },
         {
-          "src": "assets/vox/f3/f3-look-d-right-v2.webp",
+          "src": "assets/vox/f3/f3-look-d-right-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sağ profil",
           "type": "Alternatif kombin D · Sağ"
         }
       ],
       "gallery": [
         {
-          "src": "assets/vox/f3/f3-look-c-back-v2.webp",
+          "src": "assets/vox/f3/f3-look-c-back-v3.webp",
           "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Arka",
           "type": "Alternatif kombin C · Arka"
         },
         {
-          "src": "assets/vox/f3/f3-look-c-front-v2.webp",
+          "src": "assets/vox/f3/f3-look-c-front-v3.webp",
           "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Ön",
           "type": "Alternatif kombin C · Ön"
         },
         {
-          "src": "assets/vox/f3/f3-look-c-left-v2.webp",
+          "src": "assets/vox/f3/f3-look-c-left-v3.webp",
           "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Sol profil",
           "type": "Alternatif kombin C · Sol"
         },
         {
-          "src": "assets/vox/f3/f3-look-c-right-v2.webp",
+          "src": "assets/vox/f3/f3-look-c-right-v3.webp",
           "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Sağ profil",
           "type": "Alternatif kombin C · Sağ"
         },
         {
-          "src": "assets/vox/f3/f3-look-d-back-v2.webp",
+          "src": "assets/vox/f3/f3-look-d-back-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Arka",
           "type": "Alternatif kombin D · Arka"
         },
         {
-          "src": "assets/vox/f3/f3-look-d-front-v2.webp",
+          "src": "assets/vox/f3/f3-look-d-front-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Ön",
           "type": "Alternatif kombin D · Ön"
         },
         {
-          "src": "assets/vox/f3/f3-look-d-left-v2.webp",
+          "src": "assets/vox/f3/f3-look-d-left-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sol profil",
           "type": "Alternatif kombin D · Sol"
         },
         {
-          "src": "assets/vox/f3/f3-look-d-right-v2.webp",
+          "src": "assets/vox/f3/f3-look-d-right-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sağ profil",
           "type": "Alternatif kombin D · Sağ"
         }
