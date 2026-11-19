@@ -473,6 +473,11 @@
           "type": "Karakter fotoğrafı"
         },
         {
+          "src": "assets/vox/f3/f3-tanitim-karti-v3.webp",
+          "title": "VØX-F3 · Karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        },
+        {
           "src": "assets/vox/f3/f3-on-v3.webp",
           "title": "VØX-F3 · Tam boy ön görünüm",
           "type": "ön görünüm"
@@ -534,6 +539,11 @@
         }
       ],
       "gallery": [
+        {
+          "src": "assets/vox/f3/f3-tanitim-karti-v3.webp",
+          "title": "VØX-F3 · Karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        },
         {
           "src": "assets/vox/f3/f3-look-c-back-v3.webp",
           "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Arka",
