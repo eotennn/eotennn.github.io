@@ -1,7 +1,6 @@
 (()=>{'use strict';
 const code=(document.body.dataset.vox||'').toUpperCase();
-const allowed=new Set(['M1','M2','F1','F2','F5','F6','F7']);
-if(!allowed.has(code))return;
+if(!/^[MF][1-9][0-9]?$/.test(code))return;
 let activeController=null,activeHost=null,activeStatus=null,playVersion=0,apiPromise=null,apiObject=null;
 const $=id=>document.getElementById(id);
 function node(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=String(txt);return e}
@@ -60,12 +59,12 @@ if(distinct.length){
  more.append(grid);gallery.append(more);
 }
 const roster=$('other-artists');roster.replaceChildren();
-['M1','M2','F1','F2','F5','F6','F7'].filter(id=>id!==code).forEach(id=>{
+(window.voxProfileIds||['M1','M2','F1','F2','F5','F6','F7']).filter(id=>id!==code).forEach(id=>{
  const a=node('a','','VØX-'+id);a.href='vox-'+id.toLowerCase()+'.html';roster.append(a)
 });
 }
 function oneRelease(rec){const box=node('article','release');const head=node('div','release-head');const img=node('img');img.alt='';img.loading='lazy';img.src=/^https:\/\/i\.scdn\.co\/image\/[a-z0-9]+$/i.test(rec.image||'')?rec.image:'assets/eoten-brand-logo.svg';const titles=node('div');titles.append(node('div','release-title',rec.title),node('div','release-date',rec.date||'Spotify yayını'));head.append(img,titles);const actions=node('div','release-actions');const btn=node('button','play','▶ Kısa dinle');btn.type='button';const link=node('a','open','Spotify’da tamamını aç ↗');link.href=rec.spotify.url;link.target='_blank';link.rel='noopener noreferrer';const host=node('div','player');const status=node('p','status');status.setAttribute('role','status');btn.addEventListener('click',()=>play(rec,host,status));actions.append(btn,link);box.append(head,actions,host,status);return box}
 async function loadMusic(){const out=$('song-grid');try{const [cr,mr]=await Promise.all([fetch('catalog.json',{cache:'no-store'}),fetch('vox-mapping.json',{cache:'no-store'})]);if(!cr.ok||!mr.ok)throw Error('İndirme hatası');const catalog=await cr.json(),mapping=await mr.json();const all=(catalog.items||[]).filter(r=>r.platform==='Spotify').map(r=>({...r,spotify:safeSpotify(r.url)})).filter(r=>r.spotify);const keys=new Set((mapping.assignments||[]).filter(m=>m.artist===code).map(m=>m.spotifyType+':'+m.spotifyId));const matched=all.filter(r=>keys.has(r.spotify.kind+':'+r.spotify.id)).sort((a,b)=>Date.parse(b.addedAt||b.date||'')-Date.parse(a.addedAt||a.date||''));out.replaceChildren();$('track-status').textContent=matched.length?matched.length+' eşleştirilmiş Spotify yayını · Resmî oynatıcı':"Henüz doğrulanmış Spotify–VØX şarkı eşleşmesi bulunmuyor.";if(matched.length){matched.forEach(x=>out.append(oneRelease(x)))}else{out.append(node('div','empty','Bu sanatçıya henüz doğrulanmamış şarkıları bağlamıyoruz. Spotify’da yayımlanan diğer EoTeN eserleri için genel müzik kataloğunu ziyaret edin.'))}}catch(e){$('track-status').textContent='Spotify kayıtları şu anda yüklenemedi.';out.replaceChildren(node('div','empty','Spotify verileri yüklenemedi. Biraz sonra tekrar deneyebilirsiniz.'))}}
-async function init(){try{const r=await fetch('vox-artists.json',{cache:'no-store'});if(!r.ok)throw Error('Karakter kimlikleri yüklenemedi');const x=await r.json();const p=(x.profiles||[]).find(a=>a.id===code);if(!p)throw Error('Karakter bulunamadı');renderIdentity(p)}catch{$('title').textContent='VØX-'+code;$('intro').textContent='Karakter bilgileri şu anda yüklenemiyor.'}await loadMusic()}
+async function init(){try{const r=await fetch('vox-artists.json',{cache:'no-store'});if(!r.ok)throw Error('Karakter kimlikleri yüklenemedi');const x=await r.json();window.voxProfileIds=(x.profiles||[]).map(a=>a.id).filter(id=>/^[MF][1-9][0-9]?$/.test(id));const p=(x.profiles||[]).find(a=>a.id===code);if(!p)throw Error('Karakter bulunamadı');renderIdentity(p)}catch{$('title').textContent='VØX-'+code;$('intro').textContent='Karakter bilgileri şu anda yüklenemiyor.'}await loadMusic()}
 window.addEventListener('pagehide',stop);init();
 })();
