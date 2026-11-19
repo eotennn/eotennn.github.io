@@ -450,6 +450,52 @@
       ]
     },
     {
+      "id": "F3",
+      "name": "VØX-F3",
+      "role": "Kadın vokal · solist",
+      "style": "1990’lar Türkçe pop · melodik pop",
+      "vocal": "Sıcak, hafif buğulu mezzo-alto; doğal ve duygulu yorum",
+      "age": "25–30",
+      "summary": "90’ların melodik Türkçe pop estetiğini taşıyan, duygulu vokali ve şehirli sahne duruşuyla öne çıkan EoTeN sanal sanatçısı.",
+      "appearance": "Çene hizasında, koyu kahverengi asimetrik bixie bob; mürdüm boğazlı üst, siyah-krem çizgili kısa hırka, açık mavi yüksek bel kot ve siyah bağcıklı bot.",
+      "palette": "#a92d55",
+      "heroImage": "assets/vox/f3/f3-portre.webp",
+      "views": {
+        "front": "assets/vox/f3/f3-on.webp",
+        "back": "assets/vox/f3/f3-arka.webp",
+        "right": "assets/vox/f3/f3-sag.webp",
+        "left": "assets/vox/f3/f3-sol.webp"
+      },
+      "images": [
+        {
+          "src": "assets/vox/f3/f3-portre.webp",
+          "title": "VØX-F3 · Yakın plan portre",
+          "type": "Karakter fotoğrafı"
+        },
+        {
+          "src": "assets/vox/f3/f3-on.webp",
+          "title": "VØX-F3 · Tam boy ön görünüm",
+          "type": "ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-arka.webp",
+          "title": "VØX-F3 · Tam boy arka görünüm",
+          "type": "arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-sag.webp",
+          "title": "VØX-F3 · Tam boy sağ profil",
+          "type": "sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-sol.webp",
+          "title": "VØX-F3 · Tam boy sol profil",
+          "type": "sol görünüm"
+        }
+      ],
+      "gallery": []
+    },
+    {
       "id": "F5",
       "name": "VØX-F5",
       "role": "Kadın vokal · folk-pop",
