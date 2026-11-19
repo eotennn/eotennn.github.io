@@ -1,0 +1,37 @@
+name: EoTeN VØX - New artist pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'vox-artists.json'
+      - 'scripts/generate_vox_pages.py'
+      - '.github/workflows/vox-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: eoten-vox-pages
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Validate and generate missing artist pages
+        run: python3 scripts/generate_vox_pages.py
+      - name: Publish generated pages if any
+        run: |
+          git add -- 'vox-*.html'
+          if git diff --cached --quiet; then
+            echo "No new artist page required"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(vox): publish pages for new artists"
+          git push
