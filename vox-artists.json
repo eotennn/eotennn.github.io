@@ -211,10 +211,10 @@
       ],
       "heroImage": "assets/vox/f2/f2-portre.webp",
       "views": {
-        "front": "assets/vox/f2/f2-on.webp",
+        "front": null,
         "back": "assets/vox/f2/f2-arka.webp",
-        "right": "assets/vox/f2/f2-sag.webp",
-        "left": "assets/vox/f2/f2-sol.webp"
+        "right": null,
+        "left": null
       },
       "gallery": [
         {
