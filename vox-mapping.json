@@ -10,6 +10,14 @@
       "catalogId": "spotify-album-6Tunoa3NzQPkMpTpziH29j",
       "title": "Geçtim O Yoldan (M. Vokal Version)",
       "basis": "Kullanıcının VØX-M1 için belirlediği Geçtim O Yoldan erkek vokal referansı."
+    },
+    {
+      "artist": "M2",
+      "spotifyId": "4krU6MyxZ0Tm0tpa055A8T",
+      "spotifyType": "album",
+      "catalogId": "spotify-album-4krU6MyxZ0Tm0tpa055A8T",
+      "title": "Küllerime Yazılmış Adın",
+      "basis": "Kullanıcı tarafından VØX-M2 olarak etiketlenen aynı adlı albüm kapağı ve Spotify katalog eşleşmesi."
     }
   ]
 }
