@@ -28,7 +28,7 @@
           "type": "Karakter fotoğrafı"
         },
         {
-          "src": "assets/vox/m1/m1-kart.webp",
+          "src": "assets/vox/m1/m1-kart-v2.webp",
           "title": "VØX-M1 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
         },
@@ -92,7 +92,7 @@
       },
       "gallery": [
         {
-          "src": "assets/vox/m1/m1-kart.webp",
+          "src": "assets/vox/m1/m1-kart-v2.webp",
           "title": "VØX-M1 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
         },
