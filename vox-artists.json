@@ -160,46 +160,61 @@
           "type": "Yayın görseli"
         },
         {
-          "src": "assets/vox/m2/m2-portre.webp",
+          "src": "assets/vox/m2/m2-portre-v2.webp",
           "title": "VØX-M2 · Resmî yakın plan portre",
           "type": "Karakter fotoğrafı"
         },
         {
-          "src": "assets/vox/m2/m2-kart.webp",
+          "src": "assets/vox/m2/m2-kart-v2.webp",
           "title": "VØX-M2 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
         },
         {
-          "src": "assets/vox/m2/m2-on.webp",
+          "src": "assets/vox/m2/m2-on-v2.webp",
           "title": "VØX-M2 · Tam boy ön görünüm",
           "type": "ön görünüm"
         },
         {
-          "src": "assets/vox/m2/m2-arka.webp",
+          "src": "assets/vox/m2/m2-arka-v2.webp",
           "title": "VØX-M2 · Tam boy arka görünüm",
           "type": "arka görünüm"
         },
         {
-          "src": "assets/vox/m2/m2-sag.webp",
+          "src": "assets/vox/m2/m2-sag-v2.webp",
           "title": "VØX-M2 · Tam boy sağ görünüm",
           "type": "sağ görünüm"
         },
         {
-          "src": "assets/vox/m2/m2-sol.webp",
+          "src": "assets/vox/m2/m2-sol-v2.webp",
           "title": "VØX-M2 · Tam boy sol görünüm",
           "type": "sol görünüm"
+        },
+        {
+          "src": "assets/vox/m2/m2-alternatif-kombinler-v2.webp",
+          "title": "VØX-M2 · Alternatif kombinler — şal ve zümrüt kadife",
+          "type": "Alternatif kombinler"
+        },
+        {
+          "src": "assets/vox/m2/m2-kombin-b-on-v2.webp",
+          "title": "VØX-M2 · Alternatif kombin B — Zümrüt kadife ön görünüm",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m2/m2-kombin-b-sag-v2.webp",
+          "title": "VØX-M2 · Alternatif kombin B — Zümrüt kadife yan görünüm",
+          "type": "Alternatif kombin"
         }
       ],
-      "heroImage": "assets/vox/m2/m2-portre.webp",
+      "heroImage": "assets/vox/m2/m2-portre-v2.webp",
       "views": {
-        "front": "assets/vox/m2/m2-on.webp",
-        "back": "assets/vox/m2/m2-arka.webp",
-        "right": "assets/vox/m2/m2-sag.webp",
-        "left": "assets/vox/m2/m2-sol.webp"
+        "front": "assets/vox/m2/m2-on-v2.webp",
+        "back": "assets/vox/m2/m2-arka-v2.webp",
+        "right": "assets/vox/m2/m2-sag-v2.webp",
+        "left": "assets/vox/m2/m2-sol-v2.webp"
       },
       "gallery": [
         {
-          "src": "assets/vox/m2/m2-kart.webp",
+          "src": "assets/vox/m2/m2-kart-v2.webp",
           "title": "VØX-M2 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
         },
@@ -212,6 +227,21 @@
           "src": "https://i.ytimg.com/vi/q9CBretfbs0/hqdefault.jpg",
           "title": "Küllerime Yazılmış Adın · yayın görseli",
           "type": "Yayın görseli"
+        },
+        {
+          "src": "assets/vox/m2/m2-alternatif-kombinler-v2.webp",
+          "title": "VØX-M2 · Alternatif kombinler — şal ve zümrüt kadife",
+          "type": "Alternatif kombinler"
+        },
+        {
+          "src": "assets/vox/m2/m2-kombin-b-on-v2.webp",
+          "title": "VØX-M2 · Alternatif kombin B — Zümrüt kadife ön görünüm",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m2/m2-kombin-b-sag-v2.webp",
+          "title": "VØX-M2 · Alternatif kombin B — Zümrüt kadife yan görünüm",
+          "type": "Alternatif kombin"
         }
       ]
     },
