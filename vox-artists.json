@@ -370,12 +370,12 @@
       "vocal": "Sıcak alto / mezzo-alto",
       "age": "25–32",
       "summary": "Amber camlı ince çerçeveli retro gözlükleri, dalgalı koyu kestane saçları ve sakin, nostaljik karakteriyle ayırt edilir.",
-      "appearance": "Krem dantel bluz, püsküllü süet yelek, kahverengi kadife İspanyol paça, büyük kemer tokası.",
+      "appearance": "İmza görünüm: krem dantel bluz, püsküllü süet yelek, koyu kahve İspanyol paça, büyük kemer tokası ve amber retro gözlük. Alternatiflerde 70’ler denim ve deri rock kombinleri.",
       "palette": "#997054",
       "images": [
         {
-          "src": "assets/vox/f2/f2-portre.webp",
-          "title": "VØX-F2 · Resmî yakın portre",
+          "src": "assets/vox/f2/f2-portre-guncel.webp",
+          "title": "VØX-F2 · Güncel yakın plan yüz portresi",
           "type": "Karakter fotoğrafı"
         },
         {
@@ -417,9 +417,59 @@
           "src": "assets/vox/f2/f2-arka.webp",
           "title": "VØX-F2 · Tam boy arka görünüm",
           "type": "arka görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-portre-yandan.webp",
+          "title": "VØX-F2 · Dantel görünümünde yakın sağ profil",
+          "type": "Yakın portre"
+        },
+        {
+          "src": "assets/vox/f2/f2-portre-profil.webp",
+          "title": "VØX-F2 · Dantel görünümünde yakın sol profil",
+          "type": "Yakın portre"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-kombin-karti.webp",
+          "title": "VØX-F2 · 70’ler denim kombin kartı · ön, sağ, sol",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-on.webp",
+          "title": "VØX-F2 · 70’ler denim kombin · ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-sag.webp",
+          "title": "VØX-F2 · 70’ler denim kombin · sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-sol.webp",
+          "title": "VØX-F2 · 70’ler denim kombin · sol",
+          "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-deri-kombin-karti.webp",
+          "title": "VØX-F2 · Deri rock kombin kartı · ön, sağ, sol",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-deri-on.webp",
+          "title": "VØX-F2 · Deri rock kombin · ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-deri-sag.webp",
+          "title": "VØX-F2 · Deri rock kombin · sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-deri-sol.webp",
+          "title": "VØX-F2 · Deri rock kombin · sol",
+          "type": "Alternatif kombin · sol görünüm"
         }
       ],
-      "heroImage": "assets/vox/f2/f2-portre.webp",
+      "heroImage": "assets/vox/f2/f2-portre-guncel.webp",
       "views": {
         "front": "assets/vox/f2/f2-on.webp",
         "back": "assets/vox/f2/f2-arka.webp",
@@ -446,6 +496,56 @@
           "src": "assets/vox/f2/f2-tanitim-karti.webp",
           "title": "VØX-F2 · Dört görünümlü tanıtım kartı",
           "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-portre-yandan.webp",
+          "title": "VØX-F2 · Dantel görünümünde yakın sağ profil",
+          "type": "Yakın portre"
+        },
+        {
+          "src": "assets/vox/f2/f2-portre-profil.webp",
+          "title": "VØX-F2 · Dantel görünümünde yakın sol profil",
+          "type": "Yakın portre"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-kombin-karti.webp",
+          "title": "VØX-F2 · 70’ler denim kombin kartı · ön, sağ, sol",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-on.webp",
+          "title": "VØX-F2 · 70’ler denim kombin · ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-sag.webp",
+          "title": "VØX-F2 · 70’ler denim kombin · sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-sol.webp",
+          "title": "VØX-F2 · 70’ler denim kombin · sol",
+          "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-deri-kombin-karti.webp",
+          "title": "VØX-F2 · Deri rock kombin kartı · ön, sağ, sol",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-deri-on.webp",
+          "title": "VØX-F2 · Deri rock kombin · ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-deri-sag.webp",
+          "title": "VØX-F2 · Deri rock kombin · sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-deri-sol.webp",
+          "title": "VØX-F2 · Deri rock kombin · sol",
+          "type": "Alternatif kombin · sol görünüm"
         }
       ]
     },
