@@ -160,12 +160,12 @@
           "type": "Yayın görseli"
         },
         {
-          "src": "assets/vox/m2/m2-portre-v2.webp",
+          "src": "assets/vox/m2/m2-portre-v3.webp",
           "title": "VØX-M2 · Resmî yakın plan portre",
           "type": "Karakter fotoğrafı"
         },
         {
-          "src": "assets/vox/m2/m2-kart-v3.webp",
+          "src": "assets/vox/m2/m2-kart-v4.webp",
           "title": "VØX-M2 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
         },
@@ -215,7 +215,7 @@
           "type": "Alternatif kombin B · Arka"
         }
       ],
-      "heroImage": "assets/vox/m2/m2-portre-v2.webp",
+      "heroImage": "assets/vox/m2/m2-portre-v3.webp",
       "views": {
         "front": "assets/vox/m2/m2-on-v2.webp",
         "back": "assets/vox/m2/m2-arka-v2.webp",
@@ -224,7 +224,7 @@
       },
       "gallery": [
         {
-          "src": "assets/vox/m2/m2-kart-v3.webp",
+          "src": "assets/vox/m2/m2-kart-v4.webp",
           "title": "VØX-M2 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
         },
