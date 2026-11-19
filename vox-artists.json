@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "M1",
+      "name": "VØX-M1",
+      "role": "Erkek vokal · ana solist",
+      "style": "1960–70'ler Anadolu psychedelic rock",
+      "vocal": "Sıcak, hafif pürüzlü derin bariton",
+      "age": "25–35",
+      "summary": "EoTeN’in retro Anadolu rock kimliğinin karakteri. Hacimli kıvırcık koyu kahverengi saçları, belirgin bıyığı ve 70’lerin sahne estetiği ile tanınır.",
+      "appearance": "Bordo kadife ceket, turuncu-kırmızı desenli gömlek, koyu İspanyol paça pantolon, kahverengi bot.",
+      "palette": "#bb754e",
+      "images": [
+        {
+          "src": "https://i.ytimg.com/vi/s6IjfulU1S8/hqdefault.jpg",
+          "title": "Geçtim O Yoldan · video kapağı",
+          "type": "Yayın görseli"
+        },
+        {
+          "src": "https://i.scdn.co/image/ab67616d0000b273f6696d3ccc6d5d36dda16a15",
+          "title": "Geçtim O Yoldan · Spotify kapağı",
+          "type": "Spotify kapağı"
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "VØX-M2",
+      "role": "Erkek vokal · retro rock",
+      "style": "1970'ler Anadolu rock · duygusal rock",
+      "vocal": "Derin bariton, hafif rasp, sıcak ifade",
+      "age": "25–35",
+      "summary": "Kıvırcık koyu saçları, sakalı, siyah gömleği ve desenli kırmızı şalıyla daha karanlık, duygusal retro rock anlatıcısı.",
+      "appearance": "Siyah gömlek, toprak tonlarında kadife veya süet ceket, desenli kırmızı şal ve retro aksesuarlar.",
+      "palette": "#b67d54",
+      "images": [
+        {
+          "src": "https://i.scdn.co/image/ab67616d0000b273e7b84c4633b1ea30f1159b38",
+          "title": "Küllerime Yazılmış Adın · Spotify kapağı",
+          "type": "Spotify kapağı"
+        },
+        {
+          "src": "https://i.ytimg.com/vi/q9CBretfbs0/hqdefault.jpg",
+          "title": "Küllerime Yazılmış Adın · yayın görseli",
+          "type": "Yayın görseli"
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "name": "VØX-F1",
+      "role": "Kadın vokal · retro folk",
+      "style": "1960–70'ler Türkçe pop · folk rock",
+      "vocal": "Duygulu kadın vokal · alt seslerde sıcak ton",
+      "age": "24–32",
+      "summary": "Kızıl bandana, doğal dalgalı koyu saçlar ve nostaljik bir bohem ifade. Romantik retro folk hikâyeleri için tasarlanan sanal sanatçı.",
+      "appearance": "Kızıl desenli bandana, dantel bluz, püsküllü süet yelek, çiçekli etek ve vintage takılar.",
+      "palette": "#b96d4e",
+      "images": []
+    },
+    {
+      "id": "F2",
+      "name": "VØX-F2",
+      "role": "Kadın vokal · retro",
+      "style": "1970'ler bohem rock · melankolik pop",
+      "vocal": "Sıcak alto / mezzo-alto",
+      "age": "25–32",
+      "summary": "Amber camlı ince çerçeveli retro gözlükleri, dalgalı koyu kestane saçları ve sakin, nostaljik karakteriyle ayırt edilir.",
+      "appearance": "Krem dantel bluz, püsküllü süet yelek, kahverengi kadife İspanyol paça, büyük kemer tokası.",
+      "palette": "#997054",
+      "images": []
+    },
+    {
+      "id": "F5",
+      "name": "VØX-F5",
+      "role": "Kadın vokal · folk-pop",
+      "style": "1970'ler folk-pop · Anadolu rock",
+      "vocal": "Sıcak, duygusal mezzo-alto",
+      "age": "25–30",
+      "summary": "Hacimli kestane dalgalı saç, halka küpeler ve sıcak vintage renklerle romantik 70’ler vokal karakteri.",
+      "appearance": "Kahverengi süet ceket, dantel bluz, mini etek veya bohem kombin, retro botlar.",
+      "palette": "#d08c60",
+      "images": [
+        {
+          "src": "https://i.ytimg.com/vi/wl4Nfxc4j4E/hqdefault.jpg",
+          "title": "Sana Geç Kaldım · yayın kapağı",
+          "type": "Yayın görseli"
+        },
+        {
+          "src": "https://i.ytimg.com/vi/s0llvpdCxwA/hqdefault.jpg",
+          "title": "Sana Geç Kaldım · kısa video kapağı",
+          "type": "Yayın görseli"
+        }
+      ]
+    },
+    {
+      "id": "F6",
+      "name": "VØX-F6",
+      "role": "Kadın vokal · punk rock",
+      "style": "Punk rock · alternative rock",
+      "vocal": "Güçlü alto / kontralto",
+      "age": "24–32",
+      "summary": "Koyu ve dağınık dalgalı saçlar, halka küpeler, siyah deri, kırmızı ekose ve enerjik, özgür karakter kimliği.",
+      "appearance": "Siyah deri ceket, kırmızı-siyah ekose mini etek, file çorap, metal aksesuarlar ve siyah postal.",
+      "palette": "#df547a",
+      "images": [
+        {
+          "src": "assets/tiktok/tiktok-0c48ec6fae2fc793dd5936d7.jpg",
+          "title": "Adını Yazdım Kalbime · video görseli",
+          "type": "Yayın görseli"
+        }
+      ]
+    },
+    {
+      "id": "F7",
+      "name": "VØX-F7",
+      "role": "Kadın vokal · pop-rock",
+      "style": "Modern pop-rock",
+      "vocal": "Mezzo-soprano · güçlü, duygulu",
+      "age": "24–32",
+      "summary": "Uzun dalgalı kızıl saçları, pembe halka küpeleri ve canlı sahne estetiğiyle modern pop-rock karakteri.",
+      "appearance": "Pembe saten elbise veya yazlık üst, zarif topuklular, açık tonlu modern kombinler.",
+      "palette": "#e87da4",
+      "images": []
+    }
+  ]
+}
