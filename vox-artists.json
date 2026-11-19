@@ -51,6 +51,36 @@
           "src": "assets/vox/m1/m1-sol.webp",
           "title": "VØX-M1 · Tam boy sol görünüm",
           "type": "sol görünüm"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-a.webp",
+          "title": "VØX-M1 · Alternatif kombin A — Püsküllü süet sahne ceketi",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-b.webp",
+          "title": "VØX-M1 · Alternatif kombin B — İşlemeli koyu kadife",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-c.webp",
+          "title": "VØX-M1 · Alternatif kombin C — Siyah işlemeli kadife",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-d.webp",
+          "title": "VØX-M1 · Alternatif kombin D — Uzun koyu palto ve desenli atkı",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-e.webp",
+          "title": "VØX-M1 · Alternatif kombin E — Siyah deri ceket ve zincir detayları",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-f.webp",
+          "title": "VØX-M1 · Alternatif kombin F — Camel püsküllü süet",
+          "type": "Alternatif kombin"
         }
       ],
       "heroImage": "assets/vox/m1/m1-portre.webp",
@@ -75,6 +105,36 @@
           "src": "https://i.scdn.co/image/ab67616d0000b273f6696d3ccc6d5d36dda16a15",
           "title": "Geçtim O Yoldan · Spotify kapağı",
           "type": "Spotify kapağı"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-a.webp",
+          "title": "VØX-M1 · Alternatif kombin A — Püsküllü süet sahne ceketi",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-b.webp",
+          "title": "VØX-M1 · Alternatif kombin B — İşlemeli koyu kadife",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-c.webp",
+          "title": "VØX-M1 · Alternatif kombin C — Siyah işlemeli kadife",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-d.webp",
+          "title": "VØX-M1 · Alternatif kombin D — Uzun koyu palto ve desenli atkı",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-e.webp",
+          "title": "VØX-M1 · Alternatif kombin E — Siyah deri ceket ve zincir detayları",
+          "type": "Alternatif kombin"
+        },
+        {
+          "src": "assets/vox/m1/m1-kombin-f.webp",
+          "title": "VØX-M1 · Alternatif kombin F — Camel püsküllü süet",
+          "type": "Alternatif kombin"
         }
       ]
     },
