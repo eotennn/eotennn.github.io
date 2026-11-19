@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "updated": "2026-11-19",
+  "description": "VØX sanatçı kimliği ile GitHub catalog.json dosyasındaki Spotify yayınlarının kanıta dayalı eşleştirmesi. Sadece bu listede açıkça belirtilen yayınlar sanatçı bölümlerinde gösterilir.",
+  "assignments": [
+    {
+      "artist": "M1",
+      "spotifyId": "6Tunoa3NzQPkMpTpziH29j",
+      "spotifyType": "album",
+      "catalogId": "spotify-album-6Tunoa3NzQPkMpTpziH29j",
+      "title": "Geçtim O Yoldan (M. Vokal Version)",
+      "basis": "Kullanıcının VØX-M1 için belirlediği Geçtim O Yoldan erkek vokal referansı."
+    }
+  ]
+}
