@@ -69,7 +69,48 @@
       "summary": "Amber camlı ince çerçeveli retro gözlükleri, dalgalı koyu kestane saçları ve sakin, nostaljik karakteriyle ayırt edilir.",
       "appearance": "Krem dantel bluz, püsküllü süet yelek, kahverengi kadife İspanyol paça, büyük kemer tokası.",
       "palette": "#997054",
-      "images": []
+      "images": [
+        {
+          "src": "assets/vox/f2/f2-portre.webp",
+          "title": "VØX-F2 · Resmî yakın portre",
+          "type": "Karakter fotoğrafı"
+        },
+        {
+          "src": "assets/vox/f2/f2-on.webp",
+          "title": "VØX-F2 · Tam boy ön görünüm",
+          "type": "Ön görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-sag.webp",
+          "title": "VØX-F2 · Tam boy sağ profil",
+          "type": "Sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-sol.webp",
+          "title": "VØX-F2 · Tam boy sol profil",
+          "type": "Sol görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-portre-sol.webp",
+          "title": "VØX-F2 · Yakın sol profil",
+          "type": "Yakın portre"
+        },
+        {
+          "src": "assets/vox/f2/f2-portre-sag.webp",
+          "title": "VØX-F2 · Yakın sağ profil",
+          "type": "Yakın portre"
+        },
+        {
+          "src": "assets/vox/f2/f2-uc-gorunum.webp",
+          "title": "VØX-F2 · Üç açılı yüz referansı",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-tanitim-karti.webp",
+          "title": "VØX-F2 · Dört görünümlü tanıtım kartı",
+          "type": "Karakter kartı"
+        }
+      ]
     },
     {
       "id": "F5",
