@@ -21,9 +21,19 @@
           "src": "https://i.scdn.co/image/ab67616d0000b273f6696d3ccc6d5d36dda16a15",
           "title": "Geçtim O Yoldan · Spotify kapağı",
           "type": "Spotify kapağı"
+        },
+        {
+          "src": "assets/vox/m1/m1-portre.webp",
+          "title": "VØX-M1 · Resmî yakın plan portre",
+          "type": "Karakter fotoğrafı"
+        },
+        {
+          "src": "assets/vox/m1/m1-kart.webp",
+          "title": "VØX-M1 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
         }
       ],
-      "heroImage": null,
+      "heroImage": "assets/vox/m1/m1-portre.webp",
       "views": {
         "front": null,
         "back": null,
@@ -31,6 +41,11 @@
         "left": null
       },
       "gallery": [
+        {
+          "src": "assets/vox/m1/m1-kart.webp",
+          "title": "VØX-M1 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        },
         {
           "src": "https://i.ytimg.com/vi/s6IjfulU1S8/hqdefault.jpg",
           "title": "Geçtim O Yoldan · video kapağı",
@@ -63,9 +78,19 @@
           "src": "https://i.ytimg.com/vi/q9CBretfbs0/hqdefault.jpg",
           "title": "Küllerime Yazılmış Adın · yayın görseli",
           "type": "Yayın görseli"
+        },
+        {
+          "src": "assets/vox/m2/m2-portre.webp",
+          "title": "VØX-M2 · Resmî yakın plan portre",
+          "type": "Karakter fotoğrafı"
+        },
+        {
+          "src": "assets/vox/m2/m2-kart.webp",
+          "title": "VØX-M2 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
         }
       ],
-      "heroImage": null,
+      "heroImage": "assets/vox/m2/m2-portre.webp",
       "views": {
         "front": null,
         "back": null,
@@ -73,6 +98,11 @@
         "left": null
       },
       "gallery": [
+        {
+          "src": "assets/vox/m2/m2-kart.webp",
+          "title": "VØX-M2 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        },
         {
           "src": "https://i.scdn.co/image/ab67616d0000b273e7b84c4633b1ea30f1159b38",
           "title": "Küllerime Yazılmış Adın · Spotify kapağı",
@@ -95,15 +125,32 @@
       "summary": "Kızıl bandana, doğal dalgalı koyu saçlar ve nostaljik bir bohem ifade. Romantik retro folk hikâyeleri için tasarlanan sanal sanatçı.",
       "appearance": "Kızıl desenli bandana, dantel bluz, püsküllü süet yelek, çiçekli etek ve vintage takılar.",
       "palette": "#b96d4e",
-      "images": [],
-      "heroImage": null,
+      "images": [
+        {
+          "src": "assets/vox/f1/f1-portre.webp",
+          "title": "VØX-F1 · Resmî yakın plan portre",
+          "type": "Karakter fotoğrafı"
+        },
+        {
+          "src": "assets/vox/f1/f1-kart.webp",
+          "title": "VØX-F1 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        }
+      ],
+      "heroImage": "assets/vox/f1/f1-portre.webp",
       "views": {
         "front": null,
         "back": null,
         "right": null,
         "left": null
       },
-      "gallery": []
+      "gallery": [
+        {
+          "src": "assets/vox/f1/f1-kart.webp",
+          "title": "VØX-F1 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        }
+      ]
     },
     {
       "id": "F2",
@@ -155,12 +202,17 @@
           "src": "assets/vox/f2/f2-tanitim-karti.webp",
           "title": "VØX-F2 · Dört görünümlü tanıtım kartı",
           "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-arka.webp",
+          "title": "VØX-F2 · Bağımsız tam boy arka görünüm",
+          "type": "Arka görünüm"
         }
       ],
       "heroImage": "assets/vox/f2/f2-portre.webp",
       "views": {
         "front": "assets/vox/f2/f2-on.webp",
-        "back": null,
+        "back": "assets/vox/f2/f2-arka.webp",
         "right": "assets/vox/f2/f2-sag.webp",
         "left": "assets/vox/f2/f2-sol.webp"
       },
@@ -207,14 +259,34 @@
           "src": "https://i.ytimg.com/vi/s0llvpdCxwA/hqdefault.jpg",
           "title": "Sana Geç Kaldım · kısa video kapağı",
           "type": "Yayın görseli"
+        },
+        {
+          "src": "assets/vox/f5/f5-portre.webp",
+          "title": "VØX-F5 · Resmî yakın plan portre",
+          "type": "Karakter fotoğrafı"
+        },
+        {
+          "src": "assets/vox/f5/f5-on.webp",
+          "title": "VØX-F5 · Tam boy Ön görünüm",
+          "type": "Ön görünüm"
+        },
+        {
+          "src": "assets/vox/f5/f5-sag.webp",
+          "title": "VØX-F5 · Tam boy Sağ görünüm",
+          "type": "Sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f5/f5-sol.webp",
+          "title": "VØX-F5 · Tam boy Sol görünüm",
+          "type": "Sol görünüm"
         }
       ],
-      "heroImage": null,
+      "heroImage": "assets/vox/f5/f5-portre.webp",
       "views": {
-        "front": null,
+        "front": "assets/vox/f5/f5-on.webp",
         "back": null,
-        "right": null,
-        "left": null
+        "right": "assets/vox/f5/f5-sag.webp",
+        "left": "assets/vox/f5/f5-sol.webp"
       },
       "gallery": [
         {
@@ -244,16 +316,46 @@
           "src": "assets/tiktok/tiktok-0c48ec6fae2fc793dd5936d7.jpg",
           "title": "Adını Yazdım Kalbime · video görseli",
           "type": "Yayın görseli"
+        },
+        {
+          "src": "assets/vox/f6/f6-portre.webp",
+          "title": "VØX-F6 · Resmî yakın plan portre",
+          "type": "Karakter fotoğrafı"
+        },
+        {
+          "src": "assets/vox/f6/f6-on.webp",
+          "title": "VØX-F6 · Tam boy Ön görünüm",
+          "type": "Ön görünüm"
+        },
+        {
+          "src": "assets/vox/f6/f6-sag.webp",
+          "title": "VØX-F6 · Tam boy Sağ görünüm",
+          "type": "Sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f6/f6-sol.webp",
+          "title": "VØX-F6 · Tam boy Sol görünüm",
+          "type": "Sol görünüm"
+        },
+        {
+          "src": "assets/vox/f6/f6-tanitim.webp",
+          "title": "VØX-F6 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
         }
       ],
-      "heroImage": null,
+      "heroImage": "assets/vox/f6/f6-portre.webp",
       "views": {
-        "front": null,
+        "front": "assets/vox/f6/f6-on.webp",
         "back": null,
-        "right": null,
-        "left": null
+        "right": "assets/vox/f6/f6-sag.webp",
+        "left": "assets/vox/f6/f6-sol.webp"
       },
       "gallery": [
+        {
+          "src": "assets/vox/f6/f6-tanitim.webp",
+          "title": "VØX-F6 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        },
         {
           "src": "assets/tiktok/tiktok-0c48ec6fae2fc793dd5936d7.jpg",
           "title": "Adını Yazdım Kalbime · video görseli",
@@ -271,15 +373,32 @@
       "summary": "Uzun dalgalı kızıl saçları, pembe halka küpeleri ve canlı sahne estetiğiyle modern pop-rock karakteri.",
       "appearance": "Pembe saten elbise veya yazlık üst, zarif topuklular, açık tonlu modern kombinler.",
       "palette": "#e87da4",
-      "images": [],
-      "heroImage": null,
+      "images": [
+        {
+          "src": "assets/vox/f7/f7-portre.webp",
+          "title": "VØX-F7 · Resmî yakın plan portre",
+          "type": "Karakter fotoğrafı"
+        },
+        {
+          "src": "assets/vox/f7/f7-kart.webp",
+          "title": "VØX-F7 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        }
+      ],
+      "heroImage": "assets/vox/f7/f7-portre.webp",
       "views": {
         "front": null,
         "back": null,
         "right": null,
         "left": null
       },
-      "gallery": []
+      "gallery": [
+        {
+          "src": "assets/vox/f7/f7-kart.webp",
+          "title": "VØX-F7 · Resmî karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        }
+      ]
     }
   ],
   "schema": 2,
