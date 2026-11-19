@@ -195,14 +195,24 @@
           "type": "Alternatif kombinler"
         },
         {
-          "src": "assets/vox/m2/m2-kombin-b-on-v2.webp",
-          "title": "VØX-M2 · Alternatif kombin B — Zümrüt kadife ön görünüm",
-          "type": "Alternatif kombin"
+          "src": "assets/vox/m2/m2-kombin-b-on-v3.webp",
+          "title": "VØX-M2 · Zümrüt kadife kombin — Ön görünüm",
+          "type": "Alternatif kombin B · Ön"
         },
         {
-          "src": "assets/vox/m2/m2-kombin-b-sag-v2.webp",
-          "title": "VØX-M2 · Alternatif kombin B — Zümrüt kadife yan görünüm",
-          "type": "Alternatif kombin"
+          "src": "assets/vox/m2/m2-kombin-b-sag-v3.webp",
+          "title": "VØX-M2 · Zümrüt kadife kombin — Sağ görünüm",
+          "type": "Alternatif kombin B · Sağ"
+        },
+        {
+          "src": "assets/vox/m2/m2-kombin-b-sol-v3.webp",
+          "title": "VØX-M2 · Zümrüt kadife kombin — Sol görünüm",
+          "type": "Alternatif kombin B · Sol"
+        },
+        {
+          "src": "assets/vox/m2/m2-kombin-b-arka-v3.webp",
+          "title": "VØX-M2 · Zümrüt kadife kombin — Arka görünüm",
+          "type": "Alternatif kombin B · Arka"
         }
       ],
       "heroImage": "assets/vox/m2/m2-portre-v2.webp",
@@ -234,14 +244,24 @@
           "type": "Alternatif kombinler"
         },
         {
-          "src": "assets/vox/m2/m2-kombin-b-on-v2.webp",
-          "title": "VØX-M2 · Alternatif kombin B — Zümrüt kadife ön görünüm",
-          "type": "Alternatif kombin"
+          "src": "assets/vox/m2/m2-kombin-b-on-v3.webp",
+          "title": "VØX-M2 · Zümrüt kadife kombin — Ön görünüm",
+          "type": "Alternatif kombin B · Ön"
         },
         {
-          "src": "assets/vox/m2/m2-kombin-b-sag-v2.webp",
-          "title": "VØX-M2 · Alternatif kombin B — Zümrüt kadife yan görünüm",
-          "type": "Alternatif kombin"
+          "src": "assets/vox/m2/m2-kombin-b-sag-v3.webp",
+          "title": "VØX-M2 · Zümrüt kadife kombin — Sağ görünüm",
+          "type": "Alternatif kombin B · Sağ"
+        },
+        {
+          "src": "assets/vox/m2/m2-kombin-b-sol-v3.webp",
+          "title": "VØX-M2 · Zümrüt kadife kombin — Sol görünüm",
+          "type": "Alternatif kombin B · Sol"
+        },
+        {
+          "src": "assets/vox/m2/m2-kombin-b-arka-v3.webp",
+          "title": "VØX-M2 · Zümrüt kadife kombin — Arka görünüm",
+          "type": "Alternatif kombin B · Arka"
         }
       ]
     },
