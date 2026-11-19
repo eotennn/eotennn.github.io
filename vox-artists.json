@@ -31,14 +31,34 @@
           "src": "assets/vox/m1/m1-kart.webp",
           "title": "VØX-M1 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/m1/m1-on.webp",
+          "title": "VØX-M1 · Tam boy ön görünüm",
+          "type": "ön görünüm"
+        },
+        {
+          "src": "assets/vox/m1/m1-arka.webp",
+          "title": "VØX-M1 · Tam boy arka görünüm",
+          "type": "arka görünüm"
+        },
+        {
+          "src": "assets/vox/m1/m1-sag.webp",
+          "title": "VØX-M1 · Tam boy sağ görünüm",
+          "type": "sağ görünüm"
+        },
+        {
+          "src": "assets/vox/m1/m1-sol.webp",
+          "title": "VØX-M1 · Tam boy sol görünüm",
+          "type": "sol görünüm"
         }
       ],
       "heroImage": "assets/vox/m1/m1-portre.webp",
       "views": {
-        "front": null,
-        "back": null,
-        "right": null,
-        "left": null
+        "front": "assets/vox/m1/m1-on.webp",
+        "back": "assets/vox/m1/m1-arka.webp",
+        "right": "assets/vox/m1/m1-sag.webp",
+        "left": "assets/vox/m1/m1-sol.webp"
       },
       "gallery": [
         {
@@ -88,14 +108,34 @@
           "src": "assets/vox/m2/m2-kart.webp",
           "title": "VØX-M2 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/m2/m2-on.webp",
+          "title": "VØX-M2 · Tam boy ön görünüm",
+          "type": "ön görünüm"
+        },
+        {
+          "src": "assets/vox/m2/m2-arka.webp",
+          "title": "VØX-M2 · Tam boy arka görünüm",
+          "type": "arka görünüm"
+        },
+        {
+          "src": "assets/vox/m2/m2-sag.webp",
+          "title": "VØX-M2 · Tam boy sağ görünüm",
+          "type": "sağ görünüm"
+        },
+        {
+          "src": "assets/vox/m2/m2-sol.webp",
+          "title": "VØX-M2 · Tam boy sol görünüm",
+          "type": "sol görünüm"
         }
       ],
       "heroImage": "assets/vox/m2/m2-portre.webp",
       "views": {
-        "front": null,
-        "back": null,
-        "right": null,
-        "left": null
+        "front": "assets/vox/m2/m2-on.webp",
+        "back": "assets/vox/m2/m2-arka.webp",
+        "right": "assets/vox/m2/m2-sag.webp",
+        "left": "assets/vox/m2/m2-sol.webp"
       },
       "gallery": [
         {
@@ -135,14 +175,34 @@
           "src": "assets/vox/f1/f1-kart.webp",
           "title": "VØX-F1 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f1/f1-on.webp",
+          "title": "VØX-F1 · Tam boy ön görünüm",
+          "type": "ön görünüm"
+        },
+        {
+          "src": "assets/vox/f1/f1-arka.webp",
+          "title": "VØX-F1 · Tam boy arka görünüm",
+          "type": "arka görünüm"
+        },
+        {
+          "src": "assets/vox/f1/f1-sag.webp",
+          "title": "VØX-F1 · Tam boy sağ görünüm",
+          "type": "sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f1/f1-sol.webp",
+          "title": "VØX-F1 · Tam boy sol görünüm",
+          "type": "sol görünüm"
         }
       ],
       "heroImage": "assets/vox/f1/f1-portre.webp",
       "views": {
-        "front": null,
-        "back": null,
-        "right": null,
-        "left": null
+        "front": "assets/vox/f1/f1-on.webp",
+        "back": "assets/vox/f1/f1-arka.webp",
+        "right": "assets/vox/f1/f1-sag.webp",
+        "left": "assets/vox/f1/f1-sol.webp"
       },
       "gallery": [
         {
@@ -171,17 +231,17 @@
         {
           "src": "assets/vox/f2/f2-on.webp",
           "title": "VØX-F2 · Tam boy ön görünüm",
-          "type": "Ön görünüm"
+          "type": "ön görünüm"
         },
         {
           "src": "assets/vox/f2/f2-sag.webp",
-          "title": "VØX-F2 · Tam boy sağ profil",
-          "type": "Sağ görünüm"
+          "title": "VØX-F2 · Tam boy sağ görünüm",
+          "type": "sağ görünüm"
         },
         {
           "src": "assets/vox/f2/f2-sol.webp",
-          "title": "VØX-F2 · Tam boy sol profil",
-          "type": "Sol görünüm"
+          "title": "VØX-F2 · Tam boy sol görünüm",
+          "type": "sol görünüm"
         },
         {
           "src": "assets/vox/f2/f2-portre-sol.webp",
@@ -205,16 +265,16 @@
         },
         {
           "src": "assets/vox/f2/f2-arka.webp",
-          "title": "VØX-F2 · Bağımsız tam boy arka görünüm",
-          "type": "Arka görünüm"
+          "title": "VØX-F2 · Tam boy arka görünüm",
+          "type": "arka görünüm"
         }
       ],
       "heroImage": "assets/vox/f2/f2-portre.webp",
       "views": {
-        "front": null,
+        "front": "assets/vox/f2/f2-on.webp",
         "back": "assets/vox/f2/f2-arka.webp",
-        "right": null,
-        "left": null
+        "right": "assets/vox/f2/f2-sag.webp",
+        "left": "assets/vox/f2/f2-sol.webp"
       },
       "gallery": [
         {
@@ -279,12 +339,17 @@
           "src": "assets/vox/f5/f5-sol.webp",
           "title": "VØX-F5 · Tam boy Sol görünüm",
           "type": "Sol görünüm"
+        },
+        {
+          "src": "assets/vox/f5/f5-arka.webp",
+          "title": "VØX-F5 · Tam boy arka görünüm",
+          "type": "arka görünüm"
         }
       ],
       "heroImage": "assets/vox/f5/f5-portre.webp",
       "views": {
         "front": "assets/vox/f5/f5-on.webp",
-        "back": null,
+        "back": "assets/vox/f5/f5-arka.webp",
         "right": "assets/vox/f5/f5-sag.webp",
         "left": "assets/vox/f5/f5-sol.webp"
       },
@@ -341,12 +406,17 @@
           "src": "assets/vox/f6/f6-tanitim.webp",
           "title": "VØX-F6 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f6/f6-arka.webp",
+          "title": "VØX-F6 · Tam boy arka görünüm",
+          "type": "arka görünüm"
         }
       ],
       "heroImage": "assets/vox/f6/f6-portre.webp",
       "views": {
         "front": "assets/vox/f6/f6-on.webp",
-        "back": null,
+        "back": "assets/vox/f6/f6-arka.webp",
         "right": "assets/vox/f6/f6-sag.webp",
         "left": "assets/vox/f6/f6-sol.webp"
       },
@@ -383,14 +453,34 @@
           "src": "assets/vox/f7/f7-kart.webp",
           "title": "VØX-F7 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f7/f7-on.webp",
+          "title": "VØX-F7 · Tam boy ön görünüm",
+          "type": "ön görünüm"
+        },
+        {
+          "src": "assets/vox/f7/f7-arka.webp",
+          "title": "VØX-F7 · Tam boy arka görünüm",
+          "type": "arka görünüm"
+        },
+        {
+          "src": "assets/vox/f7/f7-sag.webp",
+          "title": "VØX-F7 · Tam boy sağ görünüm",
+          "type": "sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f7/f7-sol.webp",
+          "title": "VØX-F7 · Tam boy sol görünüm",
+          "type": "sol görünüm"
         }
       ],
       "heroImage": "assets/vox/f7/f7-portre.webp",
       "views": {
-        "front": null,
-        "back": null,
-        "right": null,
-        "left": null
+        "front": "assets/vox/f7/f7-on.webp",
+        "back": "assets/vox/f7/f7-arka.webp",
+        "right": "assets/vox/f7/f7-sag.webp",
+        "left": "assets/vox/f7/f7-sol.webp"
       },
       "gallery": [
         {
