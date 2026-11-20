@@ -1108,7 +1108,7 @@
       "vocal": "Mezzo-soprano · güçlü, duygulu",
       "age": "24–32",
       "summary": "Uzun dalgalı kızıl saçları, pembe halka küpeleri ve canlı sahne estetiğiyle modern pop-rock karakteri.",
-      "appearance": "Pembe saten elbise veya yazlık üst, zarif topuklular, açık tonlu modern kombinler.",
+      "appearance": "Modern pop-rock sahne stili; pembe saten görünüm ve siyah punk kombin alternatifleri.",
       "palette": "#e87da4",
       "images": [
         {
@@ -1154,6 +1154,46 @@
           "src": "assets/vox/f7/f7-kart.webp",
           "title": "VØX-F7 · Resmî karakter tanıtım kartı",
           "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f7/f7-punk-etek-on.webp",
+          "title": "VØX-F7 · Ekose mini etek kombini · Ön görünüm",
+          "type": "Punk kombin · Ekose mini etek"
+        },
+        {
+          "src": "assets/vox/f7/f7-punk-etek-arka.webp",
+          "title": "VØX-F7 · Ekose mini etek kombini · Arka görünüm",
+          "type": "Punk kombin · Ekose mini etek"
+        },
+        {
+          "src": "assets/vox/f7/f7-punk-etek-sag.webp",
+          "title": "VØX-F7 · Ekose mini etek kombini · Sağ görünüm",
+          "type": "Punk kombin · Ekose mini etek"
+        },
+        {
+          "src": "assets/vox/f7/f7-punk-etek-sol.webp",
+          "title": "VØX-F7 · Ekose mini etek kombini · Sol görünüm",
+          "type": "Punk kombin · Ekose mini etek"
+        },
+        {
+          "src": "assets/vox/f7/f7-punk-sort-on.webp",
+          "title": "VØX-F7 · Ekose gömlekli şort kombini · Ön görünüm",
+          "type": "Punk kombin · Ekose gömlekli şort"
+        },
+        {
+          "src": "assets/vox/f7/f7-punk-sort-arka.webp",
+          "title": "VØX-F7 · Ekose gömlekli şort kombini · Arka görünüm",
+          "type": "Punk kombin · Ekose gömlekli şort"
+        },
+        {
+          "src": "assets/vox/f7/f7-punk-sort-sag.webp",
+          "title": "VØX-F7 · Ekose gömlekli şort kombini · Sağ görünüm",
+          "type": "Punk kombin · Ekose gömlekli şort"
+        },
+        {
+          "src": "assets/vox/f7/f7-punk-sort-sol.webp",
+          "title": "VØX-F7 · Ekose gömlekli şort kombini · Sol görünüm",
+          "type": "Punk kombin · Ekose gömlekli şort"
         }
       ]
     }
