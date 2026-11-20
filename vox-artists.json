@@ -677,7 +677,7 @@
       "vocal": "Sıcak, hafif buğulu mezzo-alto; doğal ve duygulu yorum",
       "age": "25–30",
       "summary": "90’ların melodik Türkçe pop estetiğini taşıyan, duygulu vokali ve şehirli sahne duruşuyla öne çıkan EoTeN sanal sanatçısı.",
-      "appearance": "Çene hizasında, koyu kahverengi asimetrik bixie bob; mürdüm boğazlı üst, siyah-krem çizgili kısa hırka, açık mavi yüksek bel kot ve siyah bağcıklı bot.",
+      "appearance": "Çene hizasında, koyu kahverengi asimetrik bixie bob; mürdüm boğazlı üst, siyah-krem çizgili kısa hırka, açık mavi yüksek bel kot ve siyah bağcıklı bot. Yeni alternatifler: renk bloklu ceket ve sarı mini etek; bordo bomber ceket ve koyu kot.",
       "palette": "#a92d55",
       "heroImage": "assets/vox/f3/f3-portre.webp",
       "views": {
@@ -756,6 +756,46 @@
           "src": "assets/vox/f3/f3-look-d-right-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sağ profil",
           "type": "Alternatif kombin D · Sağ"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-geometrik-on.webp",
+          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-geometrik-arka.webp",
+          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Arka",
+          "type": "Alternatif kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-geometrik-sag.webp",
+          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-geometrik-sol.webp",
+          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Sol",
+          "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-bordo-on.webp",
+          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-bordo-arka.webp",
+          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Arka",
+          "type": "Alternatif kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-bordo-sag.webp",
+          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-bordo-sol.webp",
+          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Sol",
+          "type": "Alternatif kombin · sol görünüm"
         }
       ],
       "gallery": [
@@ -803,6 +843,46 @@
           "src": "assets/vox/f3/f3-look-d-right-v3.webp",
           "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sağ profil",
           "type": "Alternatif kombin D · Sağ"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-geometrik-on.webp",
+          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-geometrik-arka.webp",
+          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Arka",
+          "type": "Alternatif kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-geometrik-sag.webp",
+          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-geometrik-sol.webp",
+          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Sol",
+          "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-bordo-on.webp",
+          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-bordo-arka.webp",
+          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Arka",
+          "type": "Alternatif kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-bordo-sag.webp",
+          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-kombin-bordo-sol.webp",
+          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Sol",
+          "type": "Alternatif kombin · sol görünüm"
         }
       ]
     },
