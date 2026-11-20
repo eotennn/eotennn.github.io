@@ -467,6 +467,66 @@
           "src": "assets/vox/f2/f2-deri-sol.webp",
           "title": "VØX-F2 · Deri rock kombin · sol",
           "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-4gorunum.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · Dört görünüm",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-on.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-arka.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · arka",
+          "type": "Alternatif kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-sag.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-sol.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · sol",
+          "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-4gorunum.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · Dört görünüm",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-on.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-arka.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · arka",
+          "type": "Alternatif kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-sag.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-sol.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · sol",
+          "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-4gorunum.webp",
+          "title": "VØX-F2 · Look C · Deri ceket ve İspanyol paça denim · Dört görünüm",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-arka.webp",
+          "title": "VØX-F2 · Look C · Deri ceket ve İspanyol paça denim · arka",
+          "type": "Alternatif kombin · arka görünüm"
         }
       ],
       "heroImage": "assets/vox/f2/f2-portre-guncel.webp",
@@ -546,6 +606,66 @@
           "src": "assets/vox/f2/f2-deri-sol.webp",
           "title": "VØX-F2 · Deri rock kombin · sol",
           "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-4gorunum.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · Dört görünüm",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-on.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-arka.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · arka",
+          "type": "Alternatif kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-sag.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-mini-sol.webp",
+          "title": "VØX-F2 · Look A · Mini etek ve püsküllü yelek · sol",
+          "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-4gorunum.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · Dört görünüm",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-on.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · ön",
+          "type": "Alternatif kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-arka.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · arka",
+          "type": "Alternatif kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-sag.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · sağ",
+          "type": "Alternatif kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-midi-sol.webp",
+          "title": "VØX-F2 · Look B · Desenli 70’ler midi etek · sol",
+          "type": "Alternatif kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-4gorunum.webp",
+          "title": "VØX-F2 · Look C · Deri ceket ve İspanyol paça denim · Dört görünüm",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/f2/f2-denim-arka.webp",
+          "title": "VØX-F2 · Look C · Deri ceket ve İspanyol paça denim · arka",
+          "type": "Alternatif kombin · arka görünüm"
         }
       ]
     },
