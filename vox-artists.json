@@ -836,6 +836,106 @@
           "src": "assets/vox/f3/f3-kombin-teal-sol.webp",
           "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · sol",
           "type": "Kostüm görünümü"
+        },
+        {
+          "src": "assets/vox/f3/f3-hiphop-on.webp",
+          "title": "VØX-F3 · Hip-hop — Varsity ceket, baskılı üst ve bol kargo pantolon · Ön",
+          "type": "Hip-hop kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-hiphop-arka.webp",
+          "title": "VØX-F3 · Hip-hop — Varsity ceket, baskılı üst ve bol kargo pantolon · Arka",
+          "type": "Hip-hop kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-hiphop-sag.webp",
+          "title": "VØX-F3 · Hip-hop — Varsity ceket, baskılı üst ve bol kargo pantolon · Sağ",
+          "type": "Hip-hop kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-hiphop-sol.webp",
+          "title": "VØX-F3 · Hip-hop — Varsity ceket, baskılı üst ve bol kargo pantolon · Sol",
+          "type": "Hip-hop kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-rock-on.webp",
+          "title": "VØX-F3 · Klasik rock — Denim yelek, baskılı tişört ve yırtık jean · Ön",
+          "type": "Klasik rock kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-rock-arka.webp",
+          "title": "VØX-F3 · Klasik rock — Denim yelek, baskılı tişört ve yırtık jean · Arka",
+          "type": "Klasik rock kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-rock-sag.webp",
+          "title": "VØX-F3 · Klasik rock — Denim yelek, baskılı tişört ve yırtık jean · Sağ",
+          "type": "Klasik rock kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-rock-sol.webp",
+          "title": "VØX-F3 · Klasik rock — Denim yelek, baskılı tişört ve yırtık jean · Sol",
+          "type": "Klasik rock kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-punk-on.webp",
+          "title": "VØX-F3 · Punk-rock — Zımbalı ceket, kırmızı ekose etek ve file çorap · Ön",
+          "type": "Punk-rock kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-punk-arka.webp",
+          "title": "VØX-F3 · Punk-rock — Zımbalı ceket, kırmızı ekose etek ve file çorap · Arka",
+          "type": "Punk-rock kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-punk-sag.webp",
+          "title": "VØX-F3 · Punk-rock — Zımbalı ceket, kırmızı ekose etek ve file çorap · Sağ",
+          "type": "Punk-rock kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-punk-sol.webp",
+          "title": "VØX-F3 · Punk-rock — Zımbalı ceket, kırmızı ekose etek ve file çorap · Sol",
+          "type": "Punk-rock kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-pop-on.webp",
+          "title": "VØX-F3 · Pop — Kobalt mavi ve macenta sahne takımı · Ön",
+          "type": "Pop kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-pop-arka.webp",
+          "title": "VØX-F3 · Pop — Kobalt mavi ve macenta sahne takımı · Arka",
+          "type": "Pop kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-pop-sag.webp",
+          "title": "VØX-F3 · Pop — Kobalt mavi ve macenta sahne takımı · Sağ",
+          "type": "Pop kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-pop-sol.webp",
+          "title": "VØX-F3 · Pop — Kobalt mavi ve macenta sahne takımı · Sol",
+          "type": "Pop kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-retro-on.webp",
+          "title": "VØX-F3 · Retro-pop füzyon — Turuncu süet ceket ve petrol yeşili İspanyol paça pantolon · Ön",
+          "type": "Retro-pop füzyon kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-retro-arka.webp",
+          "title": "VØX-F3 · Retro-pop füzyon — Turuncu süet ceket ve petrol yeşili İspanyol paça pantolon · Arka",
+          "type": "Retro-pop füzyon kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-retro-sag.webp",
+          "title": "VØX-F3 · Retro-pop füzyon — Turuncu süet ceket ve petrol yeşili İspanyol paça pantolon · Sağ",
+          "type": "Retro-pop füzyon kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-retro-sol.webp",
+          "title": "VØX-F3 · Retro-pop füzyon — Turuncu süet ceket ve petrol yeşili İspanyol paça pantolon · Sol",
+          "type": "Retro-pop füzyon kombin · sol görünüm"
         }
       ],
       "gallery": [
@@ -963,6 +1063,106 @@
           "src": "assets/vox/f3/f3-kombin-teal-sol.webp",
           "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · sol",
           "type": "Kostüm görünümü"
+        },
+        {
+          "src": "assets/vox/f3/f3-hiphop-on.webp",
+          "title": "VØX-F3 · Hip-hop — Varsity ceket, baskılı üst ve bol kargo pantolon · Ön",
+          "type": "Hip-hop kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-hiphop-arka.webp",
+          "title": "VØX-F3 · Hip-hop — Varsity ceket, baskılı üst ve bol kargo pantolon · Arka",
+          "type": "Hip-hop kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-hiphop-sag.webp",
+          "title": "VØX-F3 · Hip-hop — Varsity ceket, baskılı üst ve bol kargo pantolon · Sağ",
+          "type": "Hip-hop kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-hiphop-sol.webp",
+          "title": "VØX-F3 · Hip-hop — Varsity ceket, baskılı üst ve bol kargo pantolon · Sol",
+          "type": "Hip-hop kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-rock-on.webp",
+          "title": "VØX-F3 · Klasik rock — Denim yelek, baskılı tişört ve yırtık jean · Ön",
+          "type": "Klasik rock kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-rock-arka.webp",
+          "title": "VØX-F3 · Klasik rock — Denim yelek, baskılı tişört ve yırtık jean · Arka",
+          "type": "Klasik rock kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-rock-sag.webp",
+          "title": "VØX-F3 · Klasik rock — Denim yelek, baskılı tişört ve yırtık jean · Sağ",
+          "type": "Klasik rock kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-rock-sol.webp",
+          "title": "VØX-F3 · Klasik rock — Denim yelek, baskılı tişört ve yırtık jean · Sol",
+          "type": "Klasik rock kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-punk-on.webp",
+          "title": "VØX-F3 · Punk-rock — Zımbalı ceket, kırmızı ekose etek ve file çorap · Ön",
+          "type": "Punk-rock kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-punk-arka.webp",
+          "title": "VØX-F3 · Punk-rock — Zımbalı ceket, kırmızı ekose etek ve file çorap · Arka",
+          "type": "Punk-rock kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-punk-sag.webp",
+          "title": "VØX-F3 · Punk-rock — Zımbalı ceket, kırmızı ekose etek ve file çorap · Sağ",
+          "type": "Punk-rock kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-punk-sol.webp",
+          "title": "VØX-F3 · Punk-rock — Zımbalı ceket, kırmızı ekose etek ve file çorap · Sol",
+          "type": "Punk-rock kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-pop-on.webp",
+          "title": "VØX-F3 · Pop — Kobalt mavi ve macenta sahne takımı · Ön",
+          "type": "Pop kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-pop-arka.webp",
+          "title": "VØX-F3 · Pop — Kobalt mavi ve macenta sahne takımı · Arka",
+          "type": "Pop kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-pop-sag.webp",
+          "title": "VØX-F3 · Pop — Kobalt mavi ve macenta sahne takımı · Sağ",
+          "type": "Pop kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-pop-sol.webp",
+          "title": "VØX-F3 · Pop — Kobalt mavi ve macenta sahne takımı · Sol",
+          "type": "Pop kombin · sol görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-retro-on.webp",
+          "title": "VØX-F3 · Retro-pop füzyon — Turuncu süet ceket ve petrol yeşili İspanyol paça pantolon · Ön",
+          "type": "Retro-pop füzyon kombin · ön görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-retro-arka.webp",
+          "title": "VØX-F3 · Retro-pop füzyon — Turuncu süet ceket ve petrol yeşili İspanyol paça pantolon · Arka",
+          "type": "Retro-pop füzyon kombin · arka görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-retro-sag.webp",
+          "title": "VØX-F3 · Retro-pop füzyon — Turuncu süet ceket ve petrol yeşili İspanyol paça pantolon · Sağ",
+          "type": "Retro-pop füzyon kombin · sağ görünüm"
+        },
+        {
+          "src": "assets/vox/f3/f3-retro-sol.webp",
+          "title": "VØX-F3 · Retro-pop füzyon — Turuncu süet ceket ve petrol yeşili İspanyol paça pantolon · Sol",
+          "type": "Retro-pop füzyon kombin · sol görünüm"
         }
       ]
     },
