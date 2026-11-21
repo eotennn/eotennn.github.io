@@ -56,10 +56,22 @@ if(code==='F3'){
  const groups=new Map();
  distinct.filter(i=>i.outfitSet).forEach(i=>{if(!groups.has(i.outfitSet))groups.set(i.outfitSet,[]);groups.get(i.outfitSet).push(i)});
  for(const items of groups.values()){
-  items.sort((a,b)=>(a.viewOrder??0)-(b.viewOrder??0));
-  const section=node('section','extras-section f3-outfit-section');section.append(node('h3','views-title',items[0].outfitTitle||items[0].type));
+  const ordered=items.slice().sort((a,b)=>{
+   if(Boolean(a.isComposite)!==Boolean(b.isComposite))return a.isComposite?-1:1;
+   return (a.viewOrder??0)-(b.viewOrder??0);
+  });
+  const section=node('section','extras-section f3-outfit-section');section.append(node('h3','views-title',ordered[0].outfitTitle||ordered[0].type));
+  const makeFigure=(i,composite=false)=>{
+   const fig=node('figure',composite?'frame wide f3-outfit-composite':'frame');
+   const link=node('a','gallery-link');link.href=i.url;link.target='_blank';link.rel='noopener noreferrer';link.title=i.title+' · büyüt';
+   const img=node('img');img.src=i.url;img.loading='lazy';img.alt=i.title;
+   img.onerror=()=>{fig.replaceChildren(node('figcaption','',i.title+' görseli yüklenemedi.'))};
+   link.append(img);const cap=node('figcaption');cap.append(node('strong','',i.title),node('br'),node('small',i.type+' · Büyütmek için dokunun'));fig.append(link,cap);return fig;
+  };
+  const composite=ordered.find(i=>i.isComposite);
+  if(composite)section.append(makeFigure(composite,true));
   const grid=node('div','f3-outfit-grid');
-  items.forEach(i=>{const fig=node('figure','frame');const link=node('a','gallery-link');link.href=i.url;link.target='_blank';link.rel='noopener noreferrer';link.title=i.title+' · büyüt';const img=node('img');img.src=i.url;img.loading='lazy';img.alt=i.title;img.onerror=()=>{fig.replaceChildren(node('figcaption','',i.title+' görseli yüklenemedi.'))};link.append(img);const cap=node('figcaption');cap.append(node('strong','',i.title),node('br'),node('small',i.type+' · Büyütmek için dokunun'));fig.append(link,cap);grid.append(fig)});
+  ordered.filter(i=>!i.isComposite).forEach(i=>grid.append(makeFigure(i)));
   section.append(grid);gallery.append(section);
  }
 }else if(distinct.length){
