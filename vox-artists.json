@@ -677,165 +677,20 @@
       "vocal": "Sıcak, hafif buğulu mezzo-alto; doğal ve duygulu yorum",
       "age": "25–30",
       "summary": "90’ların melodik Türkçe pop estetiğini taşıyan, duygulu vokali ve şehirli sahne duruşuyla öne çıkan EoTeN sanal sanatçısı.",
-      "appearance": "Kısa bob ana görünümüne ek olarak, alternatif kostümlerde omuz hizası hacimli dalgalı saç ve uzun katlı, perde kahküllü saç stilleri. Yüz kimliği ve doğal vücut oranları tüm görünümlerde tutarlıdır.",
+      "appearance": "Uzun koyu dalgalı saç, sıcak zeytin ten, belirgin göz makyajı ve doğal dengeli vücut oranları; bu yüz kimliği beş farklı hip-hop, rock, punk-rock, pop ve retro-pop kombininde korunur.",
       "palette": "#a92d55",
-      "heroImage": "assets/vox/f3/f3-portre.webp",
+      "heroImage": "assets/vox/f3/f3-profile-portrait-hq.webp",
       "views": {
-        "front": "assets/vox/f3/f3-on-v3.webp",
-        "back": "assets/vox/f3/f3-arka-v3.webp",
-        "right": "assets/vox/f3/f3-sag-v3.webp",
-        "left": "assets/vox/f3/f3-sol-v3.webp"
+        "front": "assets/vox/f3/f3-hiphop-on.webp",
+        "back": "assets/vox/f3/f3-hiphop-arka.webp",
+        "right": "assets/vox/f3/f3-hiphop-sag.webp",
+        "left": "assets/vox/f3/f3-hiphop-sol.webp"
       },
       "images": [
         {
-          "src": "assets/vox/f3/f3-portre.webp",
-          "title": "VØX-F3 · Yakın plan portre",
-          "type": "Karakter fotoğrafı"
-        },
-        {
-          "src": "assets/vox/f3/f3-tanitim-karti-v8.webp",
-          "title": "VØX-F3 · Standart karakter tanıtım kartı",
-          "type": "Karakter kartı"
-        },
-        {
-          "src": "assets/vox/f3/f3-on-v3.webp",
-          "title": "VØX-F3 · Tam boy ön görünüm",
-          "type": "ön görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-arka-v3.webp",
-          "title": "VØX-F3 · Tam boy arka görünüm",
-          "type": "arka görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-sag-v3.webp",
-          "title": "VØX-F3 · Tam boy sağ profil",
-          "type": "sağ görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-sol-v3.webp",
-          "title": "VØX-F3 · Tam boy sol profil",
-          "type": "sol görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-c-back-v3.webp",
-          "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Arka",
-          "type": "Alternatif kombin C · Arka"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-c-front-v3.webp",
-          "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Ön",
-          "type": "Alternatif kombin C · Ön"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-c-left-v3.webp",
-          "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Sol profil",
-          "type": "Alternatif kombin C · Sol"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-c-right-v3.webp",
-          "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Sağ profil",
-          "type": "Alternatif kombin C · Sağ"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-d-back-v3.webp",
-          "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Arka",
-          "type": "Alternatif kombin D · Arka"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-d-front-v3.webp",
-          "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Ön",
-          "type": "Alternatif kombin D · Ön"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-d-left-v3.webp",
-          "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sol profil",
-          "type": "Alternatif kombin D · Sol"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-d-right-v3.webp",
-          "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sağ profil",
-          "type": "Alternatif kombin D · Sağ"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-geometrik-on.webp",
-          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Ön",
-          "type": "Alternatif kombin · ön görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-geometrik-arka.webp",
-          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Arka",
-          "type": "Alternatif kombin · arka görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-geometrik-sag.webp",
-          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Sağ",
-          "type": "Alternatif kombin · sağ görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-geometrik-sol.webp",
-          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Sol",
-          "type": "Alternatif kombin · sol görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-bordo-on.webp",
-          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Ön",
-          "type": "Alternatif kombin · ön görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-bordo-arka.webp",
-          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Arka",
-          "type": "Alternatif kombin · arka görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-bordo-sag.webp",
-          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Sağ",
-          "type": "Alternatif kombin · sağ görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-bordo-sol.webp",
-          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Sol",
-          "type": "Alternatif kombin · sol görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-suet-on.webp",
-          "title": "VØX-F3 · Püsküllü süet ceket, çiçekli bluz ve koyu İspanyol paça kot · ön",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-suet-arka.webp",
-          "title": "VØX-F3 · Püsküllü süet ceket, çiçekli bluz ve koyu İspanyol paça kot · arka",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-suet-sag.webp",
-          "title": "VØX-F3 · Püsküllü süet ceket, çiçekli bluz ve koyu İspanyol paça kot · sağ",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-suet-sol.webp",
-          "title": "VØX-F3 · Püsküllü süet ceket, çiçekli bluz ve koyu İspanyol paça kot · sol",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-teal-on.webp",
-          "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · ön",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-teal-arka.webp",
-          "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · arka",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-teal-sag.webp",
-          "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · sağ",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-teal-sol.webp",
-          "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · sol",
-          "type": "Kostüm görünümü"
+          "src": "assets/vox/f3/f3-profile-portrait-hq.webp",
+          "title": "VØX-F3 · Yeni profil portresi",
+          "type": "Profil fotoğrafı"
         },
         {
           "src": "assets/vox/f3/f3-hiphop-on.webp",
@@ -940,129 +795,9 @@
       ],
       "gallery": [
         {
-          "src": "assets/vox/f3/f3-tanitim-karti-v8.webp",
-          "title": "VØX-F3 · Standart karakter tanıtım kartı",
-          "type": "Karakter kartı"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-c-back-v3.webp",
-          "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Arka",
-          "type": "Alternatif kombin C · Arka"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-c-front-v3.webp",
-          "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Ön",
-          "type": "Alternatif kombin C · Ön"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-c-left-v3.webp",
-          "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Sol profil",
-          "type": "Alternatif kombin C · Sol"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-c-right-v3.webp",
-          "title": "VØX-F3 · Zümrüt saten ve siyah bol paça — Sağ profil",
-          "type": "Alternatif kombin C · Sağ"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-d-back-v3.webp",
-          "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Arka",
-          "type": "Alternatif kombin D · Arka"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-d-front-v3.webp",
-          "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Ön",
-          "type": "Alternatif kombin D · Ön"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-d-left-v3.webp",
-          "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sol profil",
-          "type": "Alternatif kombin D · Sol"
-        },
-        {
-          "src": "assets/vox/f3/f3-look-d-right-v3.webp",
-          "title": "VØX-F3 · Ekose etek ve kısa siyah yelek — Sağ profil",
-          "type": "Alternatif kombin D · Sağ"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-geometrik-on.webp",
-          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Ön",
-          "type": "Alternatif kombin · ön görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-geometrik-arka.webp",
-          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Arka",
-          "type": "Alternatif kombin · arka görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-geometrik-sag.webp",
-          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Sağ",
-          "type": "Alternatif kombin · sağ görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-geometrik-sol.webp",
-          "title": "VØX-F3 · Geometrik renk bloklu ceket ve sarı mini etek — Sol",
-          "type": "Alternatif kombin · sol görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-bordo-on.webp",
-          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Ön",
-          "type": "Alternatif kombin · ön görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-bordo-arka.webp",
-          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Arka",
-          "type": "Alternatif kombin · arka görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-bordo-sag.webp",
-          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Sağ",
-          "type": "Alternatif kombin · sağ görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-bordo-sol.webp",
-          "title": "VØX-F3 · Bordo bomber ceket ve koyu kot — Sol",
-          "type": "Alternatif kombin · sol görünüm"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-suet-on.webp",
-          "title": "VØX-F3 · Püsküllü süet ceket, çiçekli bluz ve koyu İspanyol paça kot · ön",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-suet-arka.webp",
-          "title": "VØX-F3 · Püsküllü süet ceket, çiçekli bluz ve koyu İspanyol paça kot · arka",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-suet-sag.webp",
-          "title": "VØX-F3 · Püsküllü süet ceket, çiçekli bluz ve koyu İspanyol paça kot · sağ",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-suet-sol.webp",
-          "title": "VØX-F3 · Püsküllü süet ceket, çiçekli bluz ve koyu İspanyol paça kot · sol",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-teal-on.webp",
-          "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · ön",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-teal-arka.webp",
-          "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · arka",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-teal-sag.webp",
-          "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · sağ",
-          "type": "Kostüm görünümü"
-        },
-        {
-          "src": "assets/vox/f3/f3-kombin-teal-sol.webp",
-          "title": "VØX-F3 · Teal kısa ceket, krem saten bluz ve camel midi etek · sol",
-          "type": "Kostüm görünümü"
+          "src": "assets/vox/f3/f3-profile-portrait-hq.webp",
+          "title": "VØX-F3 · Yeni profil portresi",
+          "type": "Profil fotoğrafı"
         },
         {
           "src": "assets/vox/f3/f3-hiphop-on.webp",
