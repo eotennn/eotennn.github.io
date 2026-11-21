@@ -679,7 +679,7 @@
       "summary": "90’ların melodik Türkçe pop estetiğini taşıyan, duygulu vokali ve şehirli sahne duruşuyla öne çıkan EoTeN sanal sanatçısı.",
       "appearance": "Uzun koyu dalgalı saç, sıcak zeytin ten, belirgin göz makyajı ve doğal dengeli vücut oranları; bu yüz kimliği beş farklı hip-hop, rock, punk-rock, pop ve retro-pop kombininde korunur.",
       "palette": "#a92d55",
-      "heroImage": "assets/vox/f3/f3-profile-portrait-hq.webp",
+      "heroImage": "assets/vox/f3/f3-profile-portrait-hq.webp?v=2",
       "views": {
         "front": "assets/vox/f3/f3-hiphop-on.webp",
         "back": "assets/vox/f3/f3-hiphop-arka.webp",
@@ -688,7 +688,7 @@
       },
       "images": [
         {
-          "src": "assets/vox/f3/f3-profile-portrait-hq.webp",
+          "src": "assets/vox/f3/f3-profile-portrait-hq.webp?v=2",
           "title": "VØX-F3 · Yeni profil portresi",
           "type": "Profil fotoğrafı"
         },
@@ -795,7 +795,7 @@
       ],
       "gallery": [
         {
-          "src": "assets/vox/f3/f3-profile-portrait-hq.webp",
+          "src": "assets/vox/f3/f3-profile-portrait-hq.webp?v=2",
           "title": "VØX-F3 · Yeni profil portresi",
           "type": "Profil fotoğrafı"
         },
