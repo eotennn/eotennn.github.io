@@ -45,7 +45,24 @@ order.forEach(([key,label])=>{
 section.append(heading,hint,row);gallery.append(section);
 const extras=(p.gallery||p.images||[]).map(i=>({...i,url:safeImage(i.src)})).filter(i=>i.url&&!Object.values(views).includes(i.src));
 const seen=new Set();const distinct=extras.filter(i=>{if(seen.has(i.url))return false;seen.add(i.url);return true});
-if(distinct.length){
+if(code==='F3'){
+ const portraits=distinct.filter(i=>i.type==='Profil fotoğrafı'||/profile-portrait/i.test(i.src));
+ if(portraits.length){
+  const section=node('section','extras-section f3-portrait-section');section.append(node('h3','views-title','Yakın Plan Profil Portresi'));
+  const grid=node('div','extra-grid f3-portrait-grid');
+  portraits.forEach(i=>{const fig=node('figure','frame');const link=node('a','gallery-link');link.href=i.url;link.target='_blank';link.rel='noopener noreferrer';link.title=i.title+' · büyüt';const img=node('img');img.src=i.url;img.loading='lazy';img.alt=i.title;img.onerror=()=>{fig.replaceChildren(node('figcaption','',i.title+' görseli yüklenemedi.'))};link.append(img);const cap=node('figcaption');cap.append(node('strong','',i.title),node('br'),node('small','Profil fotoğrafı · Büyütmek için dokunun'));fig.append(link,cap);grid.append(fig)});
+  section.append(grid);gallery.append(section);
+ }
+ const groups=new Map();
+ distinct.filter(i=>i.outfitSet).forEach(i=>{if(!groups.has(i.outfitSet))groups.set(i.outfitSet,[]);groups.get(i.outfitSet).push(i)});
+ for(const items of groups.values()){
+  items.sort((a,b)=>(a.viewOrder??0)-(b.viewOrder??0));
+  const section=node('section','extras-section f3-outfit-section');section.append(node('h3','views-title',items[0].outfitTitle||items[0].type));
+  const grid=node('div','f3-outfit-grid');
+  items.forEach(i=>{const fig=node('figure','frame');const link=node('a','gallery-link');link.href=i.url;link.target='_blank';link.rel='noopener noreferrer';link.title=i.title+' · büyüt';const img=node('img');img.src=i.url;img.loading='lazy';img.alt=i.title;img.onerror=()=>{fig.replaceChildren(node('figcaption','',i.title+' görseli yüklenemedi.'))};link.append(img);const cap=node('figcaption');cap.append(node('strong','',i.title),node('br'),node('small',i.type+' · Büyütmek için dokunun'));fig.append(link,cap);grid.append(fig)});
+  section.append(grid);gallery.append(section);
+ }
+}else if(distinct.length){
  const more=node('section','extras-section');more.append(node('h3','views-title','Portreler, Tanıtım Kartları ve Diğer Görseller'));
  const grid=node('div','extra-grid');
  distinct.forEach(i=>{

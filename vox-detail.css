@@ -37,3 +37,5 @@ footer{border-top:1px solid #785443;padding:25px 0;color:#bbaca2;font-size:12px}
 .extras-section{margin-top:12px}
 @media(max-width:760px){.view-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.view-missing{min-height:220px}.extra-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:430px){.view-grid{gap:8px}.view-missing{min-height:190px}.view-frame .view-caption{font-size:13px}.extra-grid{grid-template-columns:1fr}}
+
+.f3-outfit-section{margin-top:24px}.f3-outfit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.f3-outfit-grid .frame{margin:0}.f3-outfit-grid .frame img{aspect-ratio:3/4;object-fit:contain}@media(max-width:760px){.f3-outfit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:430px){.f3-outfit-grid{grid-template-columns:1fr}}
