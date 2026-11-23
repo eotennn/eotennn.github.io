@@ -9,7 +9,11 @@
       "spotifyType": "album",
       "catalogId": "spotify-album-6Tunoa3NzQPkMpTpziH29j",
       "title": "Geçtim O Yoldan (M. Vokal Version)",
-      "basis": "Kullanıcının VØX-M1 için belirlediği Geçtim O Yoldan erkek vokal referansı."
+      "basis": "Kullanıcının VØX-M1 için belirlediği Geçtim O Yoldan erkek vokal referansı.",
+      "spotifyArtists": [
+        "EoTeN AI Music Production",
+        "VØX-M1"
+      ]
     },
     {
       "artist": "M2",
