@@ -2016,6 +2016,63 @@
           "type": "Punk kombin · Ekose gömlekli şort"
         }
       ]
+    },
+    {
+      "id": "M5",
+      "name": "VØX-M5",
+      "role": "Erkek vokal · rock solist",
+      "style": "Modern Türkçe rock · pop-rock",
+      "vocal": "Sıcak, hafif pürüzlü orta bariton",
+      "age": "30–35",
+      "summary": "Kıvırcık koyu saçları, belirgin bıyığı ve kısa sakalıyla tanınan; siyah deri ceketli, karizmatik modern rock karakteri.",
+      "appearance": "Hacimli koyu kıvırcık saç, belirgin bıyık ve kısa sakal; siyah deri ceket, siyah gömlek, koyu düz kesim jean ve siyah botlar.",
+      "palette": "#b98555",
+      "heroImage": "assets/vox/m5/m5-portre.webp",
+      "views": {
+        "front": "assets/vox/m5/m5-on.webp",
+        "back": "assets/vox/m5/m5-arka.webp",
+        "right": "assets/vox/m5/m5-sag.webp",
+        "left": "assets/vox/m5/m5-sol.webp"
+      },
+      "images": [
+        {
+          "src": "assets/vox/m5/m5-portre.webp",
+          "title": "VØX-M5 · Resmî yakın plan portre",
+          "type": "Karakter fotoğrafı"
+        },
+        {
+          "src": "assets/vox/m5/m5-tanitim-karti.webp",
+          "title": "VØX-M5 · Dört yönlü karakter tanıtım kartı",
+          "type": "Karakter kartı"
+        },
+        {
+          "src": "assets/vox/m5/m5-on.webp",
+          "title": "VØX-M5 · Tam boy ön görünüm",
+          "type": "Ön görünüm"
+        },
+        {
+          "src": "assets/vox/m5/m5-arka.webp",
+          "title": "VØX-M5 · Tam boy arka görünüm",
+          "type": "Arka görünüm"
+        },
+        {
+          "src": "assets/vox/m5/m5-sag.webp",
+          "title": "VØX-M5 · Tam boy sağ görünüm",
+          "type": "Sağ görünüm"
+        },
+        {
+          "src": "assets/vox/m5/m5-sol.webp",
+          "title": "VØX-M5 · Tam boy sol görünüm",
+          "type": "Sol görünüm"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "assets/vox/m5/m5-tanitim-karti.webp",
+          "title": "VØX-M5 · Dört yönlü resmî tanıtım kartı",
+          "type": "Karakter kartı"
+        }
+      ]
     }
   ],
   "schema": 2,
